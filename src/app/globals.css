@@ -53,12 +53,14 @@
   --glass-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-[data-theme='gradient'] {
-  --bg-primary: #1e1b4b;
-  /* Indigo 950 */
-  --bg-secondary: #312e81;
-  --foreground: #ffffff;
-  --text-muted: #c7d2fe;
+/* Universal box-sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
@@ -67,6 +69,7 @@ body {
   margin: 0;
   font-family: var(--font-manrope), system-ui, sans-serif;
   overflow-x: hidden;
+  width: 100%;
   -webkit-font-smoothing: antialiased;
   position: relative;
 }

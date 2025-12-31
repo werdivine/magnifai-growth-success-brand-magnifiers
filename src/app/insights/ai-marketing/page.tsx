@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowLeft, Clock, User, Share2, Bookmark } from 'lucide-react';
 
 export default function AIMarketingArticle() {
@@ -47,6 +48,24 @@ export default function AIMarketingArticle() {
                     }}>
                         How AI is Revolutionizing Small Business Marketing in 2025
                     </h1>
+
+                    {/* Featured Image */}
+                    <div style={{
+                        position: 'relative',
+                        width: '100%',
+                        height: '400px',
+                        borderRadius: '1rem',
+                        overflow: 'hidden',
+                        marginBottom: '2rem'
+                    }}>
+                        <Image
+                            src="/images/blog-ai-marketing.jpg"
+                            alt="AI Marketing visualization with neural networks and growth charts"
+                            fill
+                            style={{ objectFit: 'cover' }}
+                            priority
+                        />
+                    </div>
 
                     {/* Meta */}
                     <div style={{

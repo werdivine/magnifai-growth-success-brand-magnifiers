@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowLeft, Clock, User, Share2, Bookmark } from 'lucide-react';
 
 export default function AutomationGuideArticle() {
@@ -43,6 +44,24 @@ export default function AutomationGuideArticle() {
                     }}>
                         The Complete Guide to Social Media Automation in 2025
                     </h1>
+
+                    {/* Featured Image */}
+                    <div style={{
+                        position: 'relative',
+                        width: '100%',
+                        height: '400px',
+                        borderRadius: '1rem',
+                        overflow: 'hidden',
+                        marginBottom: '2rem'
+                    }}>
+                        <Image
+                            src="/images/blog-automation-guide.jpg"
+                            alt="Social media automation workflow with connected nodes and digital processes"
+                            fill
+                            style={{ objectFit: 'cover' }}
+                            priority
+                        />
+                    </div>
 
                     <div style={{
                         display: 'flex',
