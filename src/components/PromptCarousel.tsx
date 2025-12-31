@@ -21,17 +21,13 @@ export default function PromptCarousel() {
             </div>
 
             <div className={styles.carouselContainer}>
-                {PROMPTS.map((prompt, i) => (
+                {PROMPTS.map((prompt) => (
                     <div
                         key={prompt.id}
                         className={styles.card}
                         style={{
                             background: `linear-gradient(145deg, rgba(255,255,255,0.1), rgba(0,0,0,0.2))`,
                             boxShadow: `0 20px 50px -10px ${prompt.color}40`,
-                            transform: i === 0 ? 'scale(1.1)' : 'scale(0.9)',
-                            zIndex: i === 0 ? 10 : 5 - i,
-                            left: i === 0 ? '50%' : (i === 1 ? '70%' : (i === 2 ? '30%' : '50%')),
-                            opacity: i === 0 ? 1 : 0.7,
                         }}
                     >
                         <div>

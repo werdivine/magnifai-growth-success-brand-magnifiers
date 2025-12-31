@@ -110,6 +110,110 @@
     box-shadow: var(--elevation-2);
 }
 
+/* Scroll State */
+.header.scrolled {
+    background: rgba(10, 10, 11, 0.98);
+    backdrop-filter: blur(32px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Light Theme Header */
+[data-theme='light'] .header {
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom-color: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='light'] .header.scrolled {
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='light'] .link {
+    color: #64748b;
+}
+
+[data-theme='light'] .link:hover {
+    color: #020617;
+}
+
+[data-theme='light'] .logoText {
+    color: #020617;
+}
+
+[data-theme='light'] .loginBtn {
+    color: #020617;
+}
+
+[data-theme='light'] .loginBtn:hover {
+    color: var(--primary);
+}
+
+[data-theme='light'] .submitBtn {
+    background: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #020617;
+}
+
+[data-theme='light'] .submitBtn:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile Menu Button */
+.mobileMenuBtn {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: transform 0.2s;
+}
+
+.mobileMenuBtn:hover {
+    transform: scale(1.1);
+}
+
+[data-theme='light'] .mobileMenuBtn {
+    color: #020617;
+}
+
+/* Mobile Menu */
+.mobileMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--bg-primary);
+    border-bottom: 1px solid var(--glass-border);
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.mobileMenu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: color 0.2s;
+}
+
+.mobileMenu a:hover {
+    color: var(--primary);
+}
+
+[data-theme='light'] .mobileMenu {
+    background: #fff;
+}
+
+[data-theme='light'] .mobileMenu a {
+    color: #020617;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     .container {
@@ -141,6 +245,11 @@
     .submitBtn {
         display: none;
     }
+
+    /* Show mobile menu button */
+    .mobileMenuBtn {
+        display: block;
+    }
 }
 
 @media (max-width: 480px) {
@@ -163,5 +272,15 @@
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+    }
+}
+
+@media (min-width: 769px) {
+    .mobileMenuBtn {
+        display: none !important;
+    }
+
+    .mobileMenu {
+        display: none !important;
     }
 }
