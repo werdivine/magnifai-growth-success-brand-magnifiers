@@ -24,9 +24,12 @@ export default function Header() {
             <div className={styles.container}>
                 <Link href="/" className={styles.logo}>
                     <div className={styles.logoIcon}>
-                        <Image src="/images/logo-icon.png" alt="WeMagnifAI" fill style={{ objectFit: 'contain' }} />
+                        <Image src="/images/logo-v2.png" alt="WeMagnifAI" fill style={{ objectFit: 'contain' }} />
                     </div>
-                    <span className={styles.logoText}>WeMagnifAI</span>
+                    <div>
+                        <span className={styles.logoText}>WeMagnifAI</span>
+                        <span className={styles.logoTagline}>The AI Growth Engine</span>
+                    </div>
                 </Link>
 
                 <nav className={styles.nav}>

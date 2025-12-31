@@ -7,12 +7,12 @@ import Image from 'next/image';
 import styles from './PromptCarousel.module.css';
 
 const PROMPTS = [
-    { id: 1, title: 'Strategic Planning Agent', color: '#6366f1', type: 'Strategy', image: '/images/prompt-strategic.jpg' },
-    { id: 2, title: 'React Component Architect', color: '#ec4899', type: 'Coding', image: '/images/prompt-react.jpg' },
-    { id: 3, title: 'Viral Hook Generator', color: '#10b981', type: 'Marketing', image: '/images/prompt-viral.jpg' },
-    { id: 4, title: 'SaaS Pricing Optimizer', color: '#f59e0b', type: 'Sales', image: '/images/prompt-saas.jpg' },
-    { id: 5, title: 'Email Responder AI', color: '#14b8a6', type: 'Productivity', image: '/images/prompt-email.jpg' },
-    { id: 6, title: 'Hiring Assistant', color: '#8b5cf6', type: 'HR', image: '/images/prompt-hiring.jpg' },
+    { id: 1, title: 'Strategic Planning Agent', color: '#6366f1', type: 'Strategy', image: '/images/card-strategy.png' },
+    { id: 2, title: 'React Component Architect', color: '#ec4899', type: 'Coding', image: '/images/card-react.png' },
+    { id: 3, title: 'Viral Hook Generator', color: '#10b981', type: 'Marketing', image: '/images/card-viral.png' },
+    { id: 4, title: 'SaaS Pricing Optimizer', color: '#f59e0b', type: 'Sales', image: '/images/card-strategy.png' },
+    { id: 5, title: 'Email Responder AI', color: '#14b8a6', type: 'Productivity', image: '/images/card-viral.png' },
+    { id: 6, title: 'Hiring Assistant', color: '#8b5cf6', type: 'HR', image: '/images/card-strategy.png' },
 ];
 
 export default function PromptCarousel() {
