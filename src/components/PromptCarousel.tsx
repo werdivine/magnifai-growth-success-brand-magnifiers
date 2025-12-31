@@ -25,8 +25,9 @@ export default function PromptCarousel() {
 
             <div className={styles.carouselContainer}>
                 {PROMPTS.map((prompt) => (
-                    <div
+                    <Link
                         key={prompt.id}
+                        href={`/prompts`}
                         className={styles.card}
                         style={{
                             boxShadow: `0 20px 50px -10px ${prompt.color}40`,
@@ -37,7 +38,9 @@ export default function PromptCarousel() {
                                 src={prompt.image}
                                 alt={prompt.title}
                                 fill
-                                style={{ objectFit: 'cover' }}
+                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                style={{ objectFit: 'cover', objectPosition: 'center' }}
+                                quality={90}
                             />
                             <div className={styles.cardOverlay}></div>
                         </div>
@@ -63,7 +66,7 @@ export default function PromptCarousel() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
 

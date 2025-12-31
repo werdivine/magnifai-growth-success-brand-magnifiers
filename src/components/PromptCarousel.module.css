@@ -49,6 +49,11 @@
     transition: transform 0.3s ease, opacity 0.3s ease;
     will-change: transform, opacity;
     overflow: hidden;
+    text-decoration: none;
+    /* For Link element */
+    color: inherit;
+    /* For Link element */
+    cursor: pointer;
 }
 
 .cardImage {
@@ -66,7 +71,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.85) 100%);
     z-index: 1;
 }
 
