@@ -1,0 +1,55 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+}
+
+.heading {
+    font-size: 4rem;
+    line-height: 1;
+    color: #000;
+    margin-bottom: 2rem;
+    letter-spacing: -0.03em;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+    text-decoration-color: #ef4444;
+    text-decoration-thickness: 4px;
+}
+
+.lead {
+    font-size: 1.5rem;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.card {
+    padding: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-family: var(--font-manrope);
+    color: #000;
+    font-size: 1.25rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.card p {
+    color: #64748b;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+}

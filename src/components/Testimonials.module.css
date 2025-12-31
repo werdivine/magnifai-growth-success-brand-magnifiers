@@ -1,0 +1,57 @@
+.section {
+    padding: 6rem 2rem;
+    background: black;
+}
+
+.scroller {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    padding-bottom: 2rem;
+    /* Hide scrollbar */
+    scrollbar-width: none;
+}
+
+.scroller::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    min-width: 350px;
+    background: #0f172a;
+    border: 1px solid #1e293b;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.text {
+    color: #cbd5e1;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #64748b, #94a3b8);
+}
+
+.name {
+    color: white;
+    font-weight: 700;
+    display: block;
+}
+
+.role {
+    color: #64748b;
+    font-size: 0.875rem;
+}

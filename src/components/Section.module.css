@@ -1,0 +1,42 @@
+.section {
+    width: 100%;
+    padding: 6rem 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Dark Theme (Default) */
+.section[data-theme='dark'] {
+    background-color: #0A0A0B;
+    color: #f8fafc;
+}
+
+/* Light Theme - High Contrast for Readability */
+.section[data-theme='light'] {
+    background-color: #ffffff;
+    color: #0f172a;
+}
+
+.section[data-theme='light'] h1,
+.section[data-theme='light'] h2,
+.section[data-theme='light'] h3,
+.section[data-theme='light'] h4 {
+    color: #0f172a;
+}
+
+.section[data-theme='light'] p {
+    color: #334155;
+}
+
+/* Gradient Theme */
+.section[data-theme='gradient'] {
+    background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #4338ca 100%);
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}

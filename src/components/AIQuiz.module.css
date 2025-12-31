@@ -1,0 +1,180 @@
+.section {
+    padding: 5rem 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(18, 18, 20, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1.5rem;
+    padding: 3rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.eyebrow {
+    color: #6366f1;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-family: var(--font-playfair);
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.75rem;
+}
+
+.subtitle {
+    color: #94a3b8;
+    font-size: 1rem;
+}
+
+.progressBar {
+    width: 100%;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 999px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.progressFill {
+    height: 100%;
+    background: linear-gradient(90deg, #6366f1 0%, #ec4899 100%);
+    border-radius: 999px;
+    transition: width 0.3s ease;
+}
+
+.question {
+    margin-bottom: 2rem;
+}
+
+.questionText {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.option {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
+    padding: 1rem 1.25rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.option:hover {
+    border-color: #6366f1;
+    background: rgba(99, 102, 241, 0.1);
+}
+
+.optionSelected {
+    border-color: #6366f1;
+    background: rgba(99, 102, 241, 0.2);
+}
+
+.result {
+    text-align: center;
+}
+
+.scoreCircle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #6366f1 0%, #ec4899 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+}
+
+.scoreNumber {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.scoreLabel {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.scoreDescription {
+    color: #94a3b8;
+    margin-bottom: 2rem;
+}
+
+.emailGate {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+}
+
+.emailGate p {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.emailForm {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.emailInput {
+    flex: 1;
+    padding: 0.875rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 1rem;
+}
+
+.emailInput:focus {
+    outline: none;
+    border-color: #6366f1;
+}
+
+.submitBtn {
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    color: #fff;
+    padding: 0.875rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.submitBtn:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 640px) {
+    .emailForm {
+        flex-direction: column;
+    }
+}

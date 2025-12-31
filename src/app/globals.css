@@ -1,0 +1,132 @@
+:root {
+  /* Deep LUX Color System */
+  --bg-primary: #0A0A0B;
+  /* Deep Charcoal */
+  --bg-secondary: #121214;
+  /* Depth Layer */
+  --bg-tertiary: #18181b;
+  /* Card Background */
+
+  --foreground: #f8fafc;
+  --text-muted: #94a3b8;
+
+  --primary: #6366f1;
+  /* Electric Indigo */
+  --primary-glow: rgba(99, 102, 241, 0.4);
+  --secondary: #ec4899;
+  /* Pink Glitch */
+  --secondary-glow: rgba(236, 72, 153, 0.4);
+
+  /* Heavy Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.15);
+  /* Thicker, more visible */
+  --glass-blur: 24px;
+  /* Deep blur */
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+
+  /* Cinematic Depth */
+  --elevation-1: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --elevation-2: 0 8px 24px rgba(0, 0, 0, 0.4);
+  --elevation-3: 0 16px 48px rgba(0, 0, 0, 0.5);
+
+  /* Noise Texture (Optional overlay) */
+  --noise: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
+}
+
+/* --- THEME VARIATIONS --- */
+
+[data-theme='light'] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  /* Slate 50 */
+  --bg-tertiary: #f1f5f9;
+  /* Slate 100 */
+
+  --foreground: #020617;
+  /* Slate 950 */
+  --text-muted: #475569;
+  /* Slate 600 */
+
+  --glass-bg: rgba(255, 255, 255, 0.6);
+  --glass-border: rgba(0, 0, 0, 0.08);
+  --glass-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme='gradient'] {
+  --bg-primary: #1e1b4b;
+  /* Indigo 950 */
+  --bg-secondary: #312e81;
+  --foreground: #ffffff;
+  --text-muted: #c7d2fe;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--foreground);
+  margin: 0;
+  font-family: var(--font-manrope), system-ui, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-playfair), serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Ambient Cinematic Glow */
+body::before {
+  content: '';
+  position: fixed;
+  top: -20%;
+  left: -20%;
+  width: 140%;
+  height: 140%;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(99, 102, 241, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(236, 72, 153, 0.08) 0%, transparent 40%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Noise Overlay - Reduced for performance */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: var(--noise);
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.15;
+  mix-blend-mode: overlay;
+  will-change: opacity;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

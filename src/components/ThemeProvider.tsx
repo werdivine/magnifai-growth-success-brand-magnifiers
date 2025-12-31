@@ -1,0 +1,63 @@
+'use client';
+
+import React, { createContext, useContext, useEffect, useState } from 'react';
+
+type Theme = 'dark' | 'light';
+
+interface ThemeContextType {
+    theme: Theme;
+    toggleTheme: () => void;
+}
+
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
+
+export function ThemeProvider({ children }: { children: React.ReactNode }) {
+    const [theme, setTheme] = useState<Theme>('dark');
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        // 1. Check local storage
+        const savedTheme = localStorage.getItem('theme') as Theme | null;
+
+        if (savedTheme) {
+            setTheme(savedTheme);
+        } else {
+            // 2. Check system preference
+            const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            setTheme(systemPrefersDark ? 'dark' : 'light');
+        }
+        setMounted(true);
+    }, []);
+
+    useEffect(() => {
+        if (!mounted) return;
+
+        // Update DOM
+        document.body.setAttribute('data-theme', theme);
+        // Persist
+        localStorage.setItem('theme', theme);
+    }, [theme, mounted]);
+
+    const toggleTheme = () => {
+        setTheme(prev => prev === 'dark' ? 'light' : 'dark');
+    };
+
+    // Prevent hydration mismatch by rendering nothing until mounted on client
+    // OR render a placeholder. For themes, rendering children is usually fine 
+    // but we might get a flash of wrong theme. 
+    // To prevent flash, we render children but the effect above handles the attribute quickly.
+
+    return (
+        <ThemeContext.Provider value={{ theme, toggleTheme }}>
+            {children}
+        </ThemeContext.Provider>
+    );
+}
+
+export function useTheme() {
+    const context = useContext(ThemeContext);
+    if (context === undefined) {
+        throw new Error('useTheme must be used within a ThemeProvider');
+    }
+    return context;
+}

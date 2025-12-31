@@ -1,0 +1,85 @@
+.container {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    backdrop-filter: blur(var(--glass-blur));
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    color: #94a3b8;
+    margin-bottom: 1.5rem;
+}
+
+.searchBox {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.input {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    color: #fff;
+    outline: none;
+}
+
+.searchBtn {
+    background: var(--secondary);
+    border: none;
+    padding: 0 1rem;
+    border-radius: 0.75rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.keyword {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.kd {
+    color: #4ade80;
+    /* Green for easy */
+    font-weight: 600;
+}
+
+.blur {
+    filter: blur(4px);
+    opacity: 0.5;
+    user-select: none;
+}
+
+.unlockBtn {
+    width: 100%;
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+.ctaBlock {
+    padding: 4rem 2rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    margin: 2rem auto;
+    max-width: 900px;
+}
+
+/* Variant: Audit */
+.audit {
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+}
+
+/* Variant: Consultation */
+.consultation {
+    background: linear-gradient(135deg, #ec4899 0%, #f472b6 100%);
+}
+
+/* Variant: Newsletter */
+.newsletter {
+    background: linear-gradient(135deg, #10b981 0%, #34d399 100%);
+}
+
+.headline {
+    font-size: 2.5rem;
+    font-family: var(--font-playfair);
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+.subtext {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ctaButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #fff;
+    color: #0f172a;
+    padding: 1rem 2.5rem;
+    border-radius: 0.75rem;
+    font-weight: 700;
+    font-size: 1.125rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.ctaButton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.emailForm {
+    display: flex;
+    gap: 0.75rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.emailInput {
+    flex: 1;
+    padding: 1rem 1.5rem;
+    border-radius: 0.75rem;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1rem;
+}
+
+.emailInput::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.emailInput:focus {
+    outline: none;
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 640px) {
+    .headline {
+        font-size: 1.75rem;
+    }
+
+    .emailForm {
+        flex-direction: column;
+    }
+}

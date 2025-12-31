@@ -1,0 +1,284 @@
+/* HERO SPLIT LAYOUT */
+.heroGrid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 4rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.heroContent {
+    text-align: left;
+}
+
+.heroFormWrapper {
+    animation: slideUp 0.8s ease-out 0.2s backwards;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 999px;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.pulsingDot {
+    width: 8px;
+    height: 8px;
+    background: #34d399;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #34d399;
+    animation: pulse 2s infinite;
+}
+
+.trustStrip {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #64748b;
+    font-size: 0.9rem;
+}
+
+.logoRow {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    opacity: 0.6;
+}
+
+.logoBox {
+    font-weight: 800;
+    font-family: var(--font-playfair);
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+/* SECTION UTILS */
+.sectionTitleCenter {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: var(--font-playfair);
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 1024px) {
+    .heroGrid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .heroContent {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .trustStrip {
+        display: none;
+    }
+}
+
+/* --- PREVIOUS STYLES BELOW (MERGED) --- */
+
+.main {
+    min-height: 100vh;
+    background-color: var(--bg-primary);
+    overflow: hidden;
+}
+
+.heroSection {
+    position: relative;
+    padding: 8rem 2rem 6rem;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.glowOrb1 {
+    position: absolute;
+    top: -20%;
+    left: -10%;
+    width: 600px;
+    height: 600px;
+    background: var(--primary-glow);
+    filter: blur(120px);
+    z-index: 0;
+    opacity: 0.4;
+}
+
+.glowOrb2 {
+    position: absolute;
+    bottom: 0;
+    right: -10%;
+    width: 500px;
+    height: 500px;
+    background: var(--secondary-glow);
+    filter: blur(100px);
+    z-index: 0;
+    opacity: 0.3;
+}
+
+.heroTitle {
+    font-size: clamp(3rem, 5vw, 4.5rem);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.gradient {
+    background: linear-gradient(135deg, #fff 0%, #94a3b8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heroDescription {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    max-width: 600px;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.problemSection {
+    padding: 6rem 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.problemGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.problemCard {
+    background: var(--bg-secondary);
+    border: 1px solid var(--glass-border);
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.problemCard:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: var(--elevation-2);
+}
+
+.problemIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.problemCard h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.problemCard p {
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+.directorySection {
+    padding: 6rem 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sectionTitle {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.sectionSubtitle {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 1.25rem;
+    margin-bottom: 4rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ctaCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.ctaPrimary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: #fff;
+    color: var(--bg-primary);
+    padding: 1rem 2rem;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.ctaPrimary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+}

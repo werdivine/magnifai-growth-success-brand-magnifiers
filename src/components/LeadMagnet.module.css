@@ -1,0 +1,70 @@
+.section {
+    padding: 6rem 2rem;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(168, 85, 247, 0.1));
+    border-top: 1px solid var(--card-border);
+    border-bottom: 1px solid var(--card-border);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        text-align: left;
+    }
+}
+
+.content {
+    flex: 1;
+}
+
+.bookMockup {
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(45deg, #1e293b, #0f172a);
+    border-radius: 12px;
+    box-shadow:
+        -20px 20px 40px rgba(0, 0, 0, 0.5),
+        inset 0 0 0 2px rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transform: rotateY(-15deg) rotateX(5deg);
+    transition: transform 0.3s;
+}
+
+.bookMockup:hover {
+    transform: rotateY(0) rotateX(0);
+}
+
+.badge {
+    display: inline-block;
+    background: var(--primary);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.sub {
+    color: #94a3b8;
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+}
