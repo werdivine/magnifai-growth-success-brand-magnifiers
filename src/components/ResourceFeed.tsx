@@ -3,6 +3,7 @@
 import styles from './ResourceFeed.module.css';
 import { ArrowRight, Terminal, FileText, Zap } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function ResourceFeed() {
     return (
@@ -15,11 +16,23 @@ export default function ResourceFeed() {
             <div className={styles.grid}>
                 {/* Card 1: Prompt */}
                 <Link href="/prompts" className={styles.card}>
-                    <div className={styles.icon} style={{ color: '#818cf8', background: 'rgba(99,102,241,0.1)' }}><Terminal size={20} /></div>
-                    <div className={styles.content}>
-                        <span className={styles.tag}>Prompt</span>
-                        <h3>Strategic Planning Agent</h3>
-                        <p>McKinsey-level quarterly planning prompt for GPT-4.</p>
+                    <div className={styles.thumbnail}>
+                        <Image
+                            src="/images/card-strategic-planning.jpg"
+                            alt="Strategic Planning"
+                            fill
+                            style={{ objectFit: 'cover' }}
+                        />
+                    </div>
+                    <div className={styles.cardContent}>
+                        <div className={styles.iconTag}>
+                            <div className={styles.icon} style={{ color: '#818cf8', background: 'rgba(99,102,241,0.1)' }}><Terminal size={20} /></div>
+                            <span className={styles.tag}>Prompt</span>
+                        </div>
+                        <div className={styles.content}>
+                            <h3>Strategic Planning Agent</h3>
+                            <p>McKinsey-level quarterly planning prompt for GPT-4.</p>
+                        </div>
                     </div>
                 </Link>
 
@@ -35,11 +48,23 @@ export default function ResourceFeed() {
 
                 {/* Card 3: Tool */}
                 <Link href="/tools/roi" className={styles.card}>
-                    <div className={styles.icon} style={{ color: '#34d399', background: 'rgba(52,211,153,0.1)' }}><Zap size={20} /></div>
-                    <div className={styles.content}>
-                        <span className={styles.tag}>Tool</span>
-                        <h3>ROI Calculator</h3>
-                        <p>Project your annual savings from AI automation.</p>
+                    <div className={styles.thumbnail}>
+                        <Image
+                            src="/images/card-roi-calculator.jpg"
+                            alt="ROI Calculator"
+                            fill
+                            style={{ objectFit: 'cover' }}
+                        />
+                    </div>
+                    <div className={styles.cardContent}>
+                        <div className={styles.iconTag}>
+                            <div className={styles.icon} style={{ color: '#34d399', background: 'rgba(52,211,153,0.1)' }}><Zap size={20} /></div>
+                            <span className={styles.tag}>Tool</span>
+                        </div>
+                        <div className={styles.content}>
+                            <h3>ROI Calculator</h3>
+                            <p>Project your annual savings from AI automation.</p>
+                        </div>
                     </div>
                 </Link>
             </div>

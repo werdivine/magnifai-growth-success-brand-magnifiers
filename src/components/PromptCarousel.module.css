@@ -128,3 +128,51 @@
 .link:hover {
     gap: 1rem;
 }
+
+/* Mobile Responsiveness - Fix Overlapping */
+@media (max-width: 768px) {
+    .section {
+        padding: 4rem 0;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .carouselContainer {
+        height: auto;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .card {
+        position: relative !important;
+        left: auto !important;
+        transform: scale(1) !important;
+        opacity: 1 !important;
+        margin-left: 0;
+        width: 100%;
+        max-width: 400px;
+        z-index: 1 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .card {
+        padding: 1.5rem;
+        max-width: 100%;
+    }
+
+    .cardTitle {
+        font-size: 1.5rem;
+    }
+}

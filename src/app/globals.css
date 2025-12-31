@@ -39,22 +39,28 @@
 [data-theme='light'] {
   --bg-primary: #ffffff;
   --bg-secondary: #f8fafc;
-  /* Slate 50 */
   --bg-tertiary: #f1f5f9;
-  /* Slate 100 */
-
   --foreground: #020617;
-  /* Slate 950 */
   --text-muted: #475569;
-  /* Slate 600 */
 
-  --glass-bg: rgba(255, 255, 255, 0.6);
-  --glass-border: rgba(0, 0, 0, 0.08);
-  --glass-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --primary: #6366f1;
+  --secondary: #ec4899;
+  --primary-glow: rgba(99, 102, 241, 0.2);
+  --secondary-glow: rgba(236, 72, 153, 0.2);
+
+  --glass-bg: rgba(255, 255, 255, 0.9);
+  --glass-border: rgba(0, 0, 0, 0.1);
+  --glass-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  --elevation-1: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --elevation-2: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --elevation-3: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
 /* Universal box-sizing */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
