@@ -10,6 +10,8 @@ const PROMPTS = [
     { id: 2, title: 'React Component Architect', color: '#ec4899', type: 'Coding' },
     { id: 3, title: 'Viral Hook Generator', color: '#10b981', type: 'Marketing' },
     { id: 4, title: 'SaaS Pricing Optimizer', color: '#f59e0b', type: 'Sales' },
+    { id: 5, title: 'Email Responder AI', color: '#14b8a6', type: 'Productivity' },
+    { id: 6, title: 'Hiring Assistant', color: '#8b5cf6', type: 'HR' },
 ];
 
 export default function PromptCarousel() {

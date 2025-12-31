@@ -38,11 +38,23 @@ export default function ResourceFeed() {
 
                 {/* Card 2: Insight */}
                 <Link href="/insights" className={styles.card}>
-                    <div className={styles.icon} style={{ color: '#f472b6', background: 'rgba(236,72,153,0.1)' }}><FileText size={20} /></div>
-                    <div className={styles.content}>
-                        <span className={styles.tag}>Guide</span>
-                        <h3>The &quot;Zero-Inbox&quot; Workflow</h3>
-                        <p>Automating email triage with Make.com and OpenAI.</p>
+                    <div className={styles.thumbnail}>
+                        <Image
+                            src="/images/card-zero-inbox.jpg"
+                            alt="Zero Inbox Workflow"
+                            fill
+                            style={{ objectFit: 'cover' }}
+                        />
+                    </div>
+                    <div className={styles.cardContent}>
+                        <div className={styles.iconTag}>
+                            <div className={styles.icon} style={{ color: '#f472b6', background: 'rgba(236,72,153,0.1)' }}><FileText size={20} /></div>
+                            <span className={styles.tag}>Guide</span>
+                        </div>
+                        <div className={styles.content}>
+                            <h3>The &quot;Zero-Inbox&quot; Workflow</h3>
+                            <p>Automating email triage with Make.com and OpenAI.</p>
+                        </div>
                     </div>
                 </Link>
 
