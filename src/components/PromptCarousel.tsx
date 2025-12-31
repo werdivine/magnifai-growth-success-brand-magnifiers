@@ -3,15 +3,16 @@
 import { Terminal, Copy, ArrowRight } from 'lucide-react';
 import Section from './Section';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './PromptCarousel.module.css';
 
 const PROMPTS = [
-    { id: 1, title: 'Strategic Planning Agent', color: '#6366f1', type: 'Strategy' },
-    { id: 2, title: 'React Component Architect', color: '#ec4899', type: 'Coding' },
-    { id: 3, title: 'Viral Hook Generator', color: '#10b981', type: 'Marketing' },
-    { id: 4, title: 'SaaS Pricing Optimizer', color: '#f59e0b', type: 'Sales' },
-    { id: 5, title: 'Email Responder AI', color: '#14b8a6', type: 'Productivity' },
-    { id: 6, title: 'Hiring Assistant', color: '#8b5cf6', type: 'HR' },
+    { id: 1, title: 'Strategic Planning Agent', color: '#6366f1', type: 'Strategy', image: '/images/prompt-strategic.jpg' },
+    { id: 2, title: 'React Component Architect', color: '#ec4899', type: 'Coding', image: '/images/prompt-react.jpg' },
+    { id: 3, title: 'Viral Hook Generator', color: '#10b981', type: 'Marketing', image: '/images/prompt-viral.jpg' },
+    { id: 4, title: 'SaaS Pricing Optimizer', color: '#f59e0b', type: 'Sales', image: '/images/prompt-saas.jpg' },
+    { id: 5, title: 'Email Responder AI', color: '#14b8a6', type: 'Productivity', image: '/images/prompt-email.jpg' },
+    { id: 6, title: 'Hiring Assistant', color: '#8b5cf6', type: 'HR', image: '/images/prompt-hiring.jpg' },
 ];
 
 export default function PromptCarousel() {
@@ -28,27 +29,38 @@ export default function PromptCarousel() {
                         key={prompt.id}
                         className={styles.card}
                         style={{
-                            background: `linear-gradient(145deg, rgba(255,255,255,0.1), rgba(0,0,0,0.2))`,
                             boxShadow: `0 20px 50px -10px ${prompt.color}40`,
                         }}
                     >
-                        <div>
-                            <div className={styles.cardTag} style={{ background: `${prompt.color}20`, color: prompt.color }}>
-                                <Terminal size={12} /> {prompt.type}
-                            </div>
-                            <h3 className={styles.cardTitle}>{prompt.title}</h3>
+                        <div className={styles.cardImage}>
+                            <Image
+                                src={prompt.image}
+                                alt={prompt.title}
+                                fill
+                                style={{ objectFit: 'cover' }}
+                            />
+                            <div className={styles.cardOverlay}></div>
                         </div>
 
-                        <div style={{ width: '100%', marginTop: '1rem' }}>
-                            <div className={styles.progressBarContainer}>
-                                <div
-                                    className={styles.progressBarFill}
-                                    style={{ background: prompt.color, width: '70%' }}
-                                />
+                        <div className={styles.cardContentWrapper}>
+                            <div>
+                                <div className={styles.cardTag} style={{ background: `${prompt.color}20`, color: prompt.color }}>
+                                    <Terminal size={12} /> {prompt.type}
+                                </div>
+                                <h3 className={styles.cardTitle}>{prompt.title}</h3>
                             </div>
-                            <div className={styles.cardFooter}>
-                                <span className={styles.modelTag}>GPT-4o Optimized</span>
-                                <Copy size={18} className={styles.copyIcon} />
+
+                            <div style={{ width: '100%', marginTop: '1rem' }}>
+                                <div className={styles.progressBarContainer}>
+                                    <div
+                                        className={styles.progressBarFill}
+                                        style={{ background: prompt.color, width: '70%' }}
+                                    />
+                                </div>
+                                <div className={styles.cardFooter}>
+                                    <span className={styles.modelTag}>GPT-4o Optimized</span>
+                                    <Copy size={18} className={styles.copyIcon} />
+                                </div>
                             </div>
                         </div>
                     </div>

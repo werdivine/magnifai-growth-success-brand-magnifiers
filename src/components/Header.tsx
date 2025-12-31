@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './Header.module.css';
 import ThemeToggle from './ThemeToggle';
 import { Menu, X } from 'lucide-react';
@@ -22,7 +23,9 @@ export default function Header() {
         <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
             <div className={styles.container}>
                 <Link href="/" className={styles.logo}>
-                    <div className={styles.logoIcon}></div>
+                    <div className={styles.logoIcon}>
+                        <Image src="/images/logo-icon.png" alt="WeMagnifAI" fill style={{ objectFit: 'contain' }} />
+                    </div>
                     <span className={styles.logoText}>WeMagnifAI</span>
                 </Link>
 
