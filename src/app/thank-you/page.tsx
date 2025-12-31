@@ -8,7 +8,7 @@ export default function ThankYouPage() {
             <div className={styles.container}>
                 <div className={styles.card}>
                     <CheckCircle className={styles.icon} size={64} />
-                    <h1 className={styles.title}>You're In!</h1>
+                    <h1 className={styles.title}>You&apos;re In!</h1>
                     <p className={styles.description}>
                         Thanks for joining the WeMagnifAI Growth Circle.
                         Your first audit resources are on their way to your inbox.
