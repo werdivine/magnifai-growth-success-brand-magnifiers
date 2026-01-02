@@ -15,7 +15,7 @@ import { BentoGrid, BentoItem } from '@/components/BentoGrid';
 const TerminalDemo = () => {
     const [lines, setLines] = useState<any[]>([]);
 
-    const script = [
+    const script = React.useMemo(() => [
         { type: 'command', text: '> initializing growth_engine --mode=aggressive', delay: 500 },
         { type: 'info', text: 'ℹ analyzing competitive landscape...', delay: 1000 },
         { type: 'success', text: '✔ identified 14 high-value opportunities', delay: 1500 },
@@ -24,7 +24,7 @@ const TerminalDemo = () => {
         { type: 'process', text: '→ optimizing_seo: ranks #3 for "best digital agency"...', delay: 3200 },
         { type: 'success', text: '✔ leads_generated: 12 in last 24h', delay: 4000 },
         { type: 'command', text: '> await client_booking()', delay: 4500 },
-    ];
+    ], []);
 
     const startedRef = React.useRef(false);
 
@@ -46,7 +46,7 @@ const TerminalDemo = () => {
         };
 
         runScript();
-    }, []);
+    }, [script]);
 
     return (
         <div className={styles.terminalWindow}>
@@ -87,7 +87,7 @@ export default function HomeV2() {
             {/* Hero Section */}
             <section className={styles.heroSection}>
                 <div className={styles.heroContent}>
-// Hero Content Animations
+                    {/* Hero Content Animations */}
                     <motion.div
                         animate={{ opacity: 1, y: 0 }}
                         initial={{ opacity: 0, y: 20 }}

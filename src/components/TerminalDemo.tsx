@@ -6,7 +6,7 @@ import styles from './TerminalDemo.module.css';
 const TerminalDemo = () => {
     const [lines, setLines] = useState<any[]>([]);
 
-    const script = [
+    const script = React.useMemo(() => [
         { type: 'command', text: '> initializing growth_engine --mode=aggressive', delay: 500 },
         { type: 'info', text: 'ℹ analyzing competitive landscape...', delay: 1000 },
         { type: 'success', text: '✔ identified 14 high-value opportunities', delay: 1500 },
@@ -15,7 +15,7 @@ const TerminalDemo = () => {
         { type: 'process', text: '→ optimizing_seo: ranks #3 for "best digital agency"...', delay: 3200 },
         { type: 'success', text: '✔ leads_generated: 12 in last 24h', delay: 4000 },
         { type: 'command', text: '> await client_booking()', delay: 4500 },
-    ];
+    ], []);
 
     const startedRef = useRef(false);
 
@@ -37,7 +37,7 @@ const TerminalDemo = () => {
         };
 
         runScript();
-    }, [script]); // Added script to deps, though it's static
+    }, [script]);
 
     return (
         <div className={styles.terminalWindow}>
