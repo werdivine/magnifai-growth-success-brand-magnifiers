@@ -1,0 +1,103 @@
+/* --- TERMINAL COMPONENT --- */
+.terminalWindow {
+    width: 100%;
+    max-width: 800px;
+    margin: 3rem auto 0;
+    background: rgba(10, 10, 12, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    box-shadow:
+        0 20px 50px -10px rgba(0, 0, 0, 0.5),
+        0 0 0 1px rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+}
+
+.terminalHeader {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dots {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.dot:nth-child(1) {
+    background: #ff5f56;
+}
+
+.dot:nth-child(2) {
+    background: #ffbd2e;
+}
+
+.dot:nth-child(3) {
+    background: #27c93f;
+}
+
+.terminalTitle {
+    flex: 1;
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: monospace;
+}
+
+.terminalBody {
+    padding: 1.5rem;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.95rem;
+    text-align: left;
+    min-height: 300px;
+}
+
+.line {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.lineNumber {
+    color: rgba(255, 255, 255, 0.2);
+    user-select: none;
+}
+
+.command {
+    color: #fff;
+}
+
+.success {
+    color: #4ade80;
+}
+
+.info {
+    color: #60a5fa;
+}
+
+.warning {
+    color: #fbbf24;
+}
+
+.cursor {
+    display: inline-block;
+    width: 8px;
+    height: 1.2em;
+    background: rgba(255, 255, 255, 0.5);
+    animation: blink 1s step-end infinite;
+    vertical-align: middle;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}

@@ -153,6 +153,8 @@
 }
 
 [data-theme='light'] .logoText {
+    background: none;
+    -webkit-text-fill-color: #020617;
     color: #020617;
 }
 

@@ -131,6 +131,7 @@
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid var(--glass-border);
+    background: linear-gradient(180deg, #0f0f23 0%, #1a1a2e 100%);
 }
 
 .glowOrb1 {
@@ -143,6 +144,19 @@
     filter: blur(120px);
     z-index: 0;
     opacity: 0.4;
+    animation: floatOrb 8s ease-in-out infinite;
+}
+
+@keyframes floatOrb {
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(-30px, -30px);
+    }
 }
 
 .glowOrb2 {
@@ -158,10 +172,10 @@
 }
 
 .heroTitle {
-    font-size: clamp(3rem, 5vw, 4.5rem);
-    font-weight: 800;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
+    font-size: clamp(3rem, 6vw, 4rem);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
     margin-bottom: 1.5rem;
     color: #fff;
     position: relative;
@@ -169,16 +183,16 @@
 }
 
 .gradient {
-    background: linear-gradient(135deg, #fff 0%, #94a3b8 100%);
+    background: linear-gradient(90deg, #ffffff 0%, #e0e7ff 50%, #fce7f3 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .heroDescription {
-    font-size: 1.25rem;
-    color: var(--text-muted);
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.85);
     max-width: 600px;
-    line-height: 1.6;
+    line-height: 1.7;
     margin-bottom: 2.5rem;
     position: relative;
     z-index: 1;

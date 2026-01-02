@@ -23,17 +23,25 @@ import InlineCTA from '@/components/InlineCTA';
 import StatsCounter from '@/components/StatsCounter';
 import ServicesGrid from '@/components/ServicesGrid';
 import AIQuiz from '@/components/AIQuiz';
+import IntelligenceBrief from '@/components/IntelligenceBrief';
+import TerminalDemo from '@/components/TerminalDemo';
+import { motion } from 'framer-motion';
 
 export default function Home() {
     return (
         <>
             <Header />
             <main className={styles.main}>
-                {/* 1. HERO (Dark Theme) */}
+                {/* 1. HERO (Dark Theme) - PREMIUM UPGRADED */}
                 <Section theme="dark" className={styles.heroSection}>
                     <div className={styles.glowOrb1}></div>
                     <div className={styles.heroGrid}>
-                        <div className={styles.heroContent}>
+                        <motion.div
+                            className={styles.heroContent}
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8 }}
+                        >
                             <div className={styles.badge}>
                                 <span className={styles.pulsingDot}></span> Now Accepting New Clients
                             </div>
@@ -55,11 +63,20 @@ export default function Home() {
                                     <div className={styles.logoBox}>GrowthCo</div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className={styles.heroFormWrapper}>
+                            <div style={{ marginTop: '3rem' }}>
+                                <TerminalDemo />
+                            </div>
+                        </motion.div>
+
+                        <motion.div
+                            className={styles.heroFormWrapper}
+                            initial={{ opacity: 0, x: 30 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 0.8, delay: 0.2 }}
+                        >
                             <BookingWidget />
-                        </div>
+                        </motion.div>
                     </div>
                 </Section>
 
@@ -81,13 +98,23 @@ export default function Home() {
                 {/* 6. PROMPT CAROUSEL (Vivid Theme) */}
                 <PromptCarousel />
 
-                {/* 7. AI READINESS QUIZ (Dark Theme) */}
-                <AIQuiz />
+                {/* 7. INTELLIGENCE BRIEF (Dark Theme) */}
+                <Section theme="dark">
+                    <IntelligenceBrief />
+                </Section>
 
                 {/* 8. RESOURCE FEED (Dark Theme) */}
                 <Section theme="dark">
-                    <h2 className={styles.sectionTitleCenter}>The Growth Assets</h2>
+                    <h2 className={styles.sectionTitleCenter}>The Sovereign Archives</h2>
+                    <p style={{ textAlign: 'center', color: '#94a3b8', marginTop: '-2.5rem', marginBottom: '3rem' }}>
+                        Specialized internal tooling, prompt libraries, and deployment frameworks.
+                    </p>
                     <ResourceFeed />
+                </Section>
+
+                {/* 9. AI READINESS QUIZ (Dark Theme) */}
+                <Section theme="dark">
+                    <AIQuiz />
                 </Section>
 
                 {/* 9. MAGAZINE GRID (Light Theme) */}

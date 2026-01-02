@@ -68,29 +68,57 @@ export const BLOG_POSTS: BlogPost[] = [
         `
     },
     {
-        id: '5',
-        slug: 'saas-pricing-psychology',
-        title: 'AI-Driven Dynamic Pricing Models',
-        excerpt: 'Using reinforcement learning to optimize SaaS pricing tiers in real-time based on user behavior.',
-        category: 'Sales',
-        author: 'Jessica Wu',
-        date: 'Jan 02, 2026',
-        image: '/images/card-strategy.png',
+        id: '7',
+        slug: 'agentic-workflows-2026',
+        title: 'Agentic Workflows: Beyond Simple Prompting',
+        excerpt: 'Why the chain-of-thought is being replaced by autonomous agent swarms in enterprise environments.',
+        category: 'Architecture',
+        author: 'Antigravity Alpha',
+        date: 'Jan 15, 2026',
+        image: '/images/card-agentic.png',
         content: `
-            <p>Fixed pricing is leaving money on the table...</p>
+            <p>In 2026, we no longer talk about "prompts." We talk about "agent protocols."</p>
+            <h3>The Swarm Model</h3>
+            <p>Enterprises are shifting from single-turn LLM calls to multi-agent swarms where specialized nodes handle research, execution, and validation autonomously.</p>
         `
     },
     {
-        id: '6',
-        slug: 'hiring-autonomous-agents',
-        title: 'Hiring Your First autonomous Employee',
-        excerpt: 'A guide to onboarding, managing, and evaluating AI agents as part of your core team.',
-        category: 'HR',
-        author: 'Mike Ross',
-        date: 'Dec 28, 2025',
-        image: '/images/card-strategy.png',
+        id: '8',
+        slug: 'local-llm-privacy',
+        title: 'The Sovereign Cloud: Running LLMs Locally',
+        excerpt: 'How to deploy Llama 4 and Mistral Large on edge hardware for 100% data privacy and zero latency.',
+        category: 'Cybersecurity',
+        author: 'Sarah Jenkins',
+        date: 'Jan 14, 2026',
+        image: '/images/card-local-ai.png',
         content: `
-            <p>The workforce of tomorrow is hybrid: Humans + Agents...</p>
+            <p>Privacy is the next luxury good. For businesses handling PII, the public cloud is a vulnerability.</p>
+        `
+    },
+    {
+        id: '9',
+        slug: 'ai-first-branding',
+        title: 'Psychographics of AI-First Branding',
+        excerpt: 'Why "Human-Made" is becoming a premium tag and how to blend AI efficiency with human soul.',
+        category: 'Branding',
+        author: 'Marcus Aurelius',
+        date: 'Jan 13, 2026',
+        image: '/images/card-branding-ai.png',
+        content: `
+            <p>The uncanny valley is closing. Branding must now pivot towards "Verified Biological Intent."</p>
+        `
+    },
+    {
+        id: '10',
+        slug: 'token-economics-marketing',
+        title: 'Token Economics: Funding Your Marketing via DAO',
+        excerpt: 'A deep dive into how Web3 and AI are merging to create autonomous marketing budgets.',
+        category: 'Finance',
+        author: 'Jessica Wu',
+        date: 'Jan 12, 2026',
+        image: '/images/card-finance.png',
+        content: `
+            <p>Programmable money meets programmable marketing. The results are explosive.</p>
         `
     }
 ];
