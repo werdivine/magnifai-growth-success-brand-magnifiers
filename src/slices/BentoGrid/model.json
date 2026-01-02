@@ -1,0 +1,69 @@
+{
+    "id": "bento_grid",
+    "type": "SharedSlice",
+    "name": "BentoGrid",
+    "description": "Bento Grid System",
+    "variations": [
+        {
+            "id": "default",
+            "name": "Default",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "title": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Section Title",
+                        "placeholder": "System Architecture"
+                    }
+                },
+                "subtitle": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Section Subtitle",
+                        "placeholder": "A modular, scalable ecosystem..."
+                    }
+                }
+            },
+            "items": {
+                "item_title": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Card Title",
+                        "placeholder": "AI Agents Swarm"
+                    }
+                },
+                "item_description": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Card Description",
+                        "placeholder": "Autonomous agents..."
+                    }
+                },
+                "icon_name": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Icon",
+                        "options": [
+                            "Bot",
+                            "Zap",
+                            "Globe",
+                            "Database",
+                            "Cpu",
+                            "Layers"
+                        ]
+                    }
+                },
+                "span": {
+                    "type": "Number",
+                    "config": {
+                        "label": "Column Span (1-4)",
+                        "placeholder": "1"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "id": "services",
+    "type": "SharedSlice",
+    "name": "Services",
+    "description": "Services Grid",
+    "variations": [
+        {
+            "id": "default",
+            "name": "Default",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "eyebrow": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Eyebrow",
+                        "placeholder": "OUR CAPABILITIES"
+                    }
+                },
+                "title": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Title",
+                        "placeholder": "Automate Your Growth"
+                    }
+                },
+                "subtitle": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Subtitle",
+                        "placeholder": "We build custom..."
+                    }
+                }
+            },
+            "items": {
+                "title": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Service Title",
+                        "placeholder": "Custom LLM Agents"
+                    }
+                },
+                "description": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Service Description",
+                        "placeholder": "Train agents on your data..."
+                    }
+                },
+                "icon_name": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Icon",
+                        "options": [
+                            "Bot",
+                            "Zap",
+                            "Globe",
+                            "Database",
+                            "Cpu",
+                            "Layers"
+                        ]
+                    }
+                },
+                "link_label": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Link Label",
+                        "placeholder": "Learn More"
+                    }
+                },
+                "link_url": {
+                    "type": "Link",
+                    "config": {
+                        "label": "Link URL",
+                        "select": null
+                    }
+                }
+            }
+        }
+    ]
+}

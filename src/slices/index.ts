@@ -2,4 +2,8 @@
 
 import dynamic from "next/dynamic";
 
-export const components = {};
+export const components = {
+    hero: dynamic(() => import("./Hero")),
+    bento_grid: dynamic(() => import("./BentoGrid")),
+    services: dynamic(() => import("./Services")),
+};

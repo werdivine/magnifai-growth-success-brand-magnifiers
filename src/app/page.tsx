@@ -27,82 +27,31 @@ import IntelligenceBrief from '@/components/IntelligenceBrief';
 import TerminalDemo from '@/components/TerminalDemo';
 import { motion } from 'framer-motion';
 
-export default function Home() {
+import { SliceZone } from "@prismicio/react";
+import { createClient } from "@/lib/prismic";
+import { components } from "@/slices";
+
+export default async function Home() {
+    const client = createClient();
+    const page = await client.getSingle("homepage");
+
     return (
         <>
             <Header />
             <main className={styles.main}>
-                {/* 1. HERO (Dark Theme) - PREMIUM UPGRADED */}
-                <Section theme="dark" className={styles.heroSection}>
-                    <div className={styles.glowOrb1}></div>
-                    <div className={styles.heroGrid}>
-                        <motion.div
-                            className={styles.heroContent}
-                            initial={{ opacity: 0, y: 30 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8 }}
-                        >
-                            <div className={styles.badge}>
-                                <span className={styles.pulsingDot}></span> Now Accepting New Clients
-                            </div>
-                            <h1 className={styles.heroTitle}>
-                                Your Creative &amp; Digital
-                                <br />
-                                <span className={styles.gradient}>Growth Partner</span>
-                            </h1>
+                <SliceZone slices={page.data.slices} components={components} />
 
-                            <p className={styles.heroDescription}>
-                                We help SMBs and entrepreneurs scale with AI-powered digital marketing, creative design, and automation services that deliver real results.
-                            </p>
-
-                            <div className={styles.trustStrip}>
-                                <span>Trusted by 500+ Businesses:</span>
-                                <div className={styles.logoRow}>
-                                    <div className={styles.logoBox}>StartupX</div>
-                                    <div className={styles.logoBox}>ScaleUp</div>
-                                    <div className={styles.logoBox}>GrowthCo</div>
-                                </div>
-                            </div>
-
-                            <div style={{ marginTop: '3rem' }}>
-                                <TerminalDemo />
-                            </div>
-                        </motion.div>
-
-                        <motion.div
-                            className={styles.heroFormWrapper}
-                            initial={{ opacity: 0, x: 30 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.8, delay: 0.2 }}
-                        >
-                            <BookingWidget />
-                        </motion.div>
-                    </div>
-                </Section>
-
-                {/* 2. TRUSTED BY + STATS (Dark Theme) */}
+                {/* Static Sections (Not yet moved to CMS) */}
                 <TrustedBy />
                 <StatsCounter />
-
-                {/* 3. PROBLEM (Light Theme) */}
                 <ProblemSection />
-
-                {/* 4. CTA: FREE AUDIT (After Problem) */}
                 <Section theme="dark">
                     <InlineCTA variant="audit" />
                 </Section>
-
-                {/* 5. SERVICES GRID (Dark Theme) */}
-                <ServicesGrid />
-
-                {/* 6. PROMPT CAROUSEL (Vivid Theme) */}
                 <PromptCarousel />
-
-                {/* 7. INTELLIGENCE BRIEF (Dark Theme) */}
                 <Section theme="dark">
                     <IntelligenceBrief />
                 </Section>
-
                 {/* 8. RESOURCE FEED (Dark Theme) */}
                 <Section theme="dark">
                     <h2 className={styles.sectionTitleCenter}>The Sovereign Archives</h2>
@@ -161,4 +110,14 @@ export default function Home() {
             <Footer />
         </>
     );
+}
+
+export async function generateMetadata() {
+    const client = createClient();
+    const page = await client.getSingle("homepage");
+
+    return {
+        title: page.data.meta_title,
+        description: page.data.meta_description,
+    };
 }
