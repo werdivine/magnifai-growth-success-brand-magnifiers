@@ -1,0 +1,66 @@
+{
+    "id": "homepage",
+    "label": "Homepage",
+    "singles": true,
+    "repeatable": false,
+    "status": true,
+    "json": {
+        "Main": {
+            "meta_title": {
+                "type": "Text",
+                "config": {
+                    "label": "Meta Title",
+                    "placeholder": "Agency Growth Engine..."
+                }
+            },
+            "meta_description": {
+                "type": "Text",
+                "config": {
+                    "label": "Meta Description",
+                    "placeholder": "We help agencies scale..."
+                }
+            },
+            "slices": {
+                "type": "Slices",
+                "fieldset": "Slice Zone",
+                "config": {
+                    "choices": {
+                        "hero": {
+                            "type": "SharedSlice"
+                        },
+                        "bento_grid": {
+                            "type": "SharedSlice"
+                        },
+                        "services": {
+                            "type": "SharedSlice"
+                        },
+                        "trusted_by": {
+                            "type": "SharedSlice"
+                        },
+                        "testimonials": {
+                            "type": "SharedSlice"
+                        },
+                        "faq": {
+                            "type": "SharedSlice"
+                        },
+                        "stats_counter": {
+                            "type": "SharedSlice"
+                        },
+                        "call_to_action": {
+                            "type": "SharedSlice"
+                        },
+                        "interactive_component": {
+                            "type": "SharedSlice"
+                        },
+                        "value_prop": {
+                            "type": "SharedSlice"
+                        },
+                        "problem_section": {
+                            "type": "SharedSlice"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

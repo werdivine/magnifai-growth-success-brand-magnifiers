@@ -1,0 +1,55 @@
+{
+    "id": "problem_section",
+    "type": "SharedSlice",
+    "name": "ProblemSection",
+    "description": "Problem Statement Section",
+    "variations": [
+        {
+            "id": "default",
+            "name": "Default",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "heading_start": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Heading Start",
+                        "placeholder": "The Agency Model is"
+                    }
+                },
+                "heading_strikethrough": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Strikethrough Word",
+                        "placeholder": "Broken"
+                    }
+                },
+                "lead": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Lead Text",
+                        "placeholder": "You are drowning in OpEx..."
+                    }
+                }
+            },
+            "items": {
+                "title": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Card Title",
+                        "placeholder": "The Headcount Trap"
+                    }
+                },
+                "description": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Card Description",
+                        "placeholder": "Scaling revenue = scaling payroll..."
+                    }
+                }
+            }
+        }
+    ]
+}

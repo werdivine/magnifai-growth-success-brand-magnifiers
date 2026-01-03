@@ -1,0 +1,41 @@
+{
+    "id": "interactive_component",
+    "type": "SharedSlice",
+    "name": "InteractiveComponent",
+    "description": "Interactive Component Wrapper",
+    "variations": [
+        {
+            "id": "default",
+            "name": "Default",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "component": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Component",
+                        "options": [
+                            "roi_calculator",
+                            "ai_quiz",
+                            "prompt_carousel",
+                            "magazine_grid",
+                            "resource_feed",
+                            "intelligence_brief"
+                        ],
+                        "default_value": "ai_quiz"
+                    }
+                },
+                "title_override": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Title Override (Optional)",
+                        "placeholder": "Overrides component internal title if supported"
+                    }
+                }
+            },
+            "items": {}
+        }
+    ]
+}

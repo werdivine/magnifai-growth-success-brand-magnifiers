@@ -1,0 +1,46 @@
+{
+    "id": "call_to_action",
+    "type": "SharedSlice",
+    "name": "CallToAction",
+    "description": "Call To Action",
+    "variations": [
+        {
+            "id": "default",
+            "name": "Default",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "variant": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Variant",
+                        "options": [
+                            "audit",
+                            "consultation",
+                            "newsletter",
+                            "lead_capture"
+                        ],
+                        "default_value": "audit"
+                    }
+                },
+                "title_override": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Title Override",
+                        "placeholder": "Leave empty to use default"
+                    }
+                },
+                "subtitle_override": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Subtitle Override",
+                        "placeholder": "Leave empty to use default"
+                    }
+                }
+            },
+            "items": {}
+        }
+    ]
+}

@@ -6,4 +6,12 @@ export const components = {
     hero: dynamic(() => import("./Hero")),
     bento_grid: dynamic(() => import("./BentoGrid")),
     services: dynamic(() => import("./Services")),
+    trusted_by: dynamic(() => import("./TrustedBy")),
+    testimonials: dynamic(() => import("./Testimonials")),
+    faq: dynamic(() => import("./FAQ")),
+    stats_counter: dynamic(() => import("./StatsCounter")),
+    call_to_action: dynamic(() => import("./CallToAction")),
+    interactive_component: dynamic(() => import("./InteractiveComponent")),
+    value_prop: dynamic(() => import("./ValueProp")),
+    problem_section: dynamic(() => import("./ProblemSection")),
 };
