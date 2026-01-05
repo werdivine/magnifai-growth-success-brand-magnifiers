@@ -1,27 +1,32 @@
-'use client';
-
 import styles from './StatsCounter.module.css';
 
-const STATS = [
-    { number: '500+', label: 'Happy Clients' },
-    { number: '$2M+', label: 'Revenue Generated' },
-    { number: '50+', label: 'AI Automations' },
-    { number: '98%', label: 'Client Retention' },
-];
+interface StatItem {
+    value: string;
+    label: string;
+}
 
-export default function StatsCounter() {
+interface StatsCounterProps {
+    items?: StatItem[];
+}
+
+export default function StatsCounter({ items }: StatsCounterProps) {
+    const defaultItems = [
+        { value: "4x", label: "Faster Execution" },
+        { value: "98%", label: "Open Rates" },
+        { value: "24/7", label: "AI Operation" },
+        { value: "< 7 Days", label: "To Launch" }
+    ];
+
+    const displayItems = items || defaultItems;
+
     return (
-        <section className={styles.section}>
-            <div className={styles.grid}>
-                {STATS.map((stat, i) => (
-                    <div key={i} className={styles.stat}>
-                        <div className={styles.number}>
-                            <span>{stat.number}</span>
-                        </div>
-                        <div className={styles.label}>{stat.label}</div>
-                    </div>
-                ))}
-            </div>
-        </section>
+        <div className={styles.metricsStrip}>
+            {displayItems.map((item, index) => (
+                <div key={index} className={styles.metricItem}>
+                    <span className={styles.metricValue}>{item.value}</span>
+                    <span className={styles.metricLabel}>{item.label}</span>
+                </div>
+            ))}
+        </div>
     );
 }

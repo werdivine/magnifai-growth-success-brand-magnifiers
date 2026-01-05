@@ -40,31 +40,63 @@ const SERVICES = [
     },
 ];
 
-export default function ServicesGrid() {
+interface ServicesGridProps {
+    eyebrow?: string;
+    title?: string;
+    subtitle?: string;
+    items?: {
+        title: string;
+        description: string;
+        iconName?: string;
+        href: string;
+    }[];
+}
+
+export default function ServicesGrid({ eyebrow, title, subtitle, items }: ServicesGridProps) {
+    const displayEyebrow = eyebrow || "What We Do";
+    const displayTitle = title || "Services Built for Growth";
+    const displaySubtitle = subtitle || "Full-stack creative and technical solutions to help you dominate your market.";
+
+    // If items provided, map icon name to component. If not, use static default.
+    const displayServices = items && items.length > 0 ? items.map(item => {
+        let icon = Code;
+        if (item.iconName === 'Palette') icon = Palette;
+        if (item.iconName === 'Megaphone') icon = Megaphone;
+        if (item.iconName === 'Bot') icon = Bot;
+        if (item.iconName === 'Code') icon = Code;
+
+        return {
+            ...item,
+            icon,
+            accentColor: '#6366f1', // Default accent
+            iconBg: 'rgba(99, 102, 241, 0.1)'
+        };
+    }) : SERVICES;
+
     return (
         <Section theme="dark" className={styles.section}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <span className={styles.eyebrow}>What We Do</span>
-                    <h2 className={styles.title}>Services Built for Growth</h2>
+                    <span className={styles.eyebrow}>{displayEyebrow}</span>
+                    <h2 className={styles.title}>{displayTitle}</h2>
                     <p className={styles.subtitle}>
-                        Full-stack creative and technical solutions to help you dominate your market.
+                        {displaySubtitle}
                     </p>
                 </div>
 
                 <div className={styles.grid}>
-                    {SERVICES.map((service) => {
+                    {displayServices.map((service, idx) => {
                         const Icon = service.icon;
                         return (
                             <Link
-                                key={service.title}
+                                key={idx}
                                 href={service.href}
                                 className={styles.card}
                                 style={{
                                     // @ts-ignore
-                                    '--accent-color': service.accentColor,
-                                    '--icon-bg': service.iconBg,
-                                    '--icon-color': service.accentColor,
+                                    '--accent-color': service.accentColor || '#6366f1',
+                                    '--icon-bg': service.iconBg || 'rgba(99, 102, 241, 0.1)',
+                                    '--icon-color': service.accentColor || '#6366f1',
                                 }}
                             >
                                 <div className={styles.iconWrapper}>

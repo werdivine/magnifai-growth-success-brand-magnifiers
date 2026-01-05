@@ -75,7 +75,7 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Architecture',
         author: 'Antigravity Alpha',
         date: 'Jan 15, 2026',
-        image: '/images/card-agentic.png',
+        image: '/images/card-viral.png', // Fallback for card-agentic
         content: `
             <p>In 2026, we no longer talk about "prompts." We talk about "agent protocols."</p>
             <h3>The Swarm Model</h3>
@@ -90,7 +90,7 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Cybersecurity',
         author: 'Sarah Jenkins',
         date: 'Jan 14, 2026',
-        image: '/images/card-local-ai.png',
+        image: '/images/card-react.png', // Fallback for card-local-ai
         content: `
             <p>Privacy is the next luxury good. For businesses handling PII, the public cloud is a vulnerability.</p>
         `
@@ -103,7 +103,7 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Branding',
         author: 'Marcus Aurelius',
         date: 'Jan 13, 2026',
-        image: '/images/card-branding-ai.png',
+        image: '/images/blog-branding.jpg', // Fallback for card-branding-ai
         content: `
             <p>The uncanny valley is closing. Branding must now pivot towards "Verified Biological Intent."</p>
         `
@@ -116,7 +116,7 @@ export const BLOG_POSTS: BlogPost[] = [
         category: 'Finance',
         author: 'Jessica Wu',
         date: 'Jan 12, 2026',
-        image: '/images/card-finance.png',
+        image: '/images/card-roi-calculator.jpg', // Fallback for card-finance
         content: `
             <p>Programmable money meets programmable marketing. The results are explosive.</p>
         `

@@ -13,22 +13,25 @@ const IconMap: Record<string, any> = {
 };
 
 const BentoGridSlice = ({ slice }: BentoGridProps) => {
+    // Use type assertions to work around stale Prismic type definitions
+    const primary = slice.primary as any;
+    const items = slice.items as any[];
     return (
         <section className={styles.sectionDark} data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
             <div className={styles.container}>
-                {slice.primary.title && <h2 className={styles.sectionTitle}>{slice.primary.title}</h2>}
-                {slice.primary.subtitle && <p className={styles.sectionSubtitle}>{slice.primary.subtitle}</p>}
+                {primary.title && <h2 className={styles.sectionTitle}>{String(primary.title || '')}</h2>}
+                {primary.subtitle && <p className={styles.sectionSubtitle}>{String(primary.subtitle || '')}</p>}
 
                 <Grid>
-                    {slice.items.map((item, i) => {
+                    {items.map((item, i) => {
                         const Icon = IconMap[item.icon_name as string] || Bot;
                         return (
                             <BentoItem
                                 key={i}
-                                title={item.item_title || ''}
-                                description={item.item_description || ''}
+                                title={String(item.item_title || '')}
+                                description={String(item.item_description || '')}
                                 icon={<Icon size={32} />}
-                                span={item.span || 1}
+                                span={(item.span as 1 | 2) || 1}
                             />
                         );
                     })}

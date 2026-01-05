@@ -12,6 +12,8 @@ import { PrismicNextLink } from '@prismicio/next';
 export type HeroProps = SliceComponentProps<Content.HeroSlice>;
 
 const Hero = ({ slice }: HeroProps) => {
+    // Use type assertions to work around stale Prismic type definitions
+    const primary = slice.primary as any;
     return (
         <section
             data-slice-type={slice.slice_type}
@@ -20,7 +22,7 @@ const Hero = ({ slice }: HeroProps) => {
         >
             <div className={styles.heroContent}>
                 {/* Badge */}
-                {slice.primary.badge_text && (
+                {primary.badge_text && (
                     <motion.div
                         animate={{ opacity: 1, y: 0 }}
                         initial={{ opacity: 0, y: 20 }}
@@ -28,7 +30,7 @@ const Hero = ({ slice }: HeroProps) => {
                         className={styles.badge}
                     >
                         <Zap size={14} className="text-yellow-400" />
-                        <span>{slice.primary.badge_text}</span>
+                        <span>{String(primary.badge_text || '')}</span>
                     </motion.div>
                 )}
 
@@ -39,7 +41,7 @@ const Hero = ({ slice }: HeroProps) => {
                     transition={{ duration: 0.5, delay: 0.1 }}
                     className={styles.heroTitle}
                 >
-                    <PrismicRichText field={slice.primary.title} />
+                    <PrismicRichText field={primary.title} />
                 </motion.div>
 
                 {/* Description */}
@@ -49,17 +51,17 @@ const Hero = ({ slice }: HeroProps) => {
                     transition={{ duration: 0.5, delay: 0.2 }}
                     className={styles.heroDescription}
                 >
-                    <PrismicRichText field={slice.primary.description} />
+                    <PrismicRichText field={primary.description} />
                 </motion.div>
 
                 {/* CTAs */}
                 <div className={styles.ctaGroup}>
-                    <PrismicNextLink field={slice.primary.primary_cta_link} className={styles.primaryCta}>
-                        {slice.primary.primary_cta_label || "Start"}
+                    <PrismicNextLink field={primary.primary_cta_link} className={styles.primaryCta}>
+                        {String(primary.primary_cta_label || 'Start')}
                     </PrismicNextLink>
 
-                    <PrismicNextLink field={slice.primary.secondary_cta_link} className={styles.secondaryCta}>
-                        {slice.primary.secondary_cta_label || "Learn More"}
+                    <PrismicNextLink field={primary.secondary_cta_link} className={styles.secondaryCta}>
+                        {String(primary.secondary_cta_label || 'Learn More')}
                     </PrismicNextLink>
                 </div>
 

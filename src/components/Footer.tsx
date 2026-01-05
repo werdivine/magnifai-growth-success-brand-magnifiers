@@ -20,6 +20,14 @@ export default function Footer() {
 
                     <div className={styles.linksGrid}>
                         <div className={styles.linkColumn}>
+                            <h4>Free Tools</h4>
+                            <Link href="/free-audit">AI Marketing Audit</Link>
+                            <Link href="/whatsapp-calculator">WhatsApp ROI Calculator</Link>
+                            <Link href="/ai-templates">AI Content Templates</Link>
+                            <Link href="/automation-checklist">Automation Checklist</Link>
+                        </div>
+
+                        <div className={styles.linkColumn}>
                             <h4>Product</h4>
                             <Link href="/directory">AI Directory</Link>
                             <Link href="/resources">Resources</Link>
@@ -41,14 +49,6 @@ export default function Footer() {
                             <Link href="/blog">Blog</Link>
                             <Link href="/company/careers">Careers</Link>
                             <Link href="/company/contact">Contact</Link>
-                        </div>
-
-                        <div className={styles.linkColumn}>
-                            <h4>Legal</h4>
-                            <Link href="/legal/privacy">Privacy</Link>
-                            <Link href="/legal/terms">Terms</Link>
-                            <Link href="/legal/cookies">Cookies</Link>
-                            <Link href="/legal/security">Security</Link>
                         </div>
                     </div>
                 </div>

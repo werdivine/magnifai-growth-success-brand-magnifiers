@@ -5,7 +5,7 @@ import * as prismicNext from '@prismicio/next'
  * The project's Prismic repository name.
  */
 export const repositoryName =
-  process.env.NEXT_PUBLIC_PRISMIC_ENVIRONMENT || 'your-repo-name'
+  process.env.NEXT_PUBLIC_PRISMIC_ENVIRONMENT || 'wemagnifai-growth-seo-brand-marketing'
 
 /**
  * Creates a Prismic client for the project's repository.
@@ -18,6 +18,10 @@ export const createClient = (config: prismicNext.CreateClientConfig = {}) => {
     accessToken: process.env.PRISMIC_ACCESS_TOKEN,
     routes: [
       {
+        type: 'homepage',
+        path: '/',
+      },
+      {
         type: 'page',
         path: '/:uid',
       },
@@ -27,14 +31,6 @@ export const createClient = (config: prismicNext.CreateClientConfig = {}) => {
       },
     ],
     ...config,
-  })
-
-  prismicNext.enableAutoPreviews({
-    client,
-    // @ts-ignore
-    previewData: config.previewData,
-    // @ts-ignore
-    req: config.req,
   })
 
   return client

@@ -1,10 +1,13 @@
+import { draftMode } from "next/headers";
+import { redirect } from "next/navigation";
 import { NextRequest } from "next/server";
-import { redirectToPreviewURL } from "@prismicio/next";
-
-import { createClient } from "../../../prismicio";
 
 export async function GET(request: NextRequest) {
-  const client = createClient();
+  // Enable draft mode
+  const draft = await draftMode();
+  draft.enable();
 
-  return await redirectToPreviewURL({ client, request });
+  // Redirect to the documentId path or home
+  const url = request.nextUrl.searchParams.get("documentId");
+  redirect(url || "/");
 }

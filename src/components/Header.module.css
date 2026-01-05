@@ -56,11 +56,12 @@
 
 .logoIcon {
     position: relative;
-    width: 32px;
-    height: 32px;
+    width: 48px;
+    height: 48px;
     flex-shrink: 0;
-    border-radius: 8px;
+    border-radius: 12px;
     overflow: hidden;
+    box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);
 }
 
 .logo:hover .logoIcon {
@@ -83,6 +84,21 @@
 
 .link:hover {
     color: #fff;
+}
+
+.link.highlight {
+    color: #10b981;
+    position: relative;
+}
+
+.link.highlight::after {
+    content: '✨';
+    font-size: 0.7rem;
+    margin-left: 0.25rem;
+}
+
+.link.highlight:hover {
+    color: #34d399;
 }
 
 .actions {
@@ -250,8 +266,8 @@
     }
 
     .logoIcon {
-        width: 28px;
-        height: 28px;
+        width: 40px;
+        height: 40px;
     }
 
     /* Hide desktop navigation on mobile */
@@ -286,8 +302,8 @@
     }
 
     .logoIcon {
-        width: 24px;
-        height: 24px;
+        width: 36px;
+        height: 36px;
     }
 
     .logoText {

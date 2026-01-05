@@ -3,7 +3,6 @@ import {
   type ClientConfig,
   type Route,
 } from "@prismicio/client";
-import { enableAutoPreviews } from "@prismicio/next";
 import sm from "../slicemachine.config.json";
 
 /**
@@ -17,11 +16,11 @@ export const repositoryName =
  *
  * {@link https://prismic.io/docs/route-resolver#route-resolver}
  */
-// TODO: Update the routes array to match your project's route structure.
+// Route resolver for Prismic document types
 const routes: Route[] = [
-  // Examples:
-  // { type: "homepage", path: "/" },
-  // { type: "page", path: "/:uid" },
+  { type: "homepage", path: "/" },
+  { type: "page", path: "/:uid" },
+  { type: "blog_post", path: "/blog/:uid" },
 ];
 
 /**
@@ -40,7 +39,6 @@ export const createClient = (config: ClientConfig = {}) => {
     ...config,
   });
 
-  enableAutoPreviews({ client });
-
   return client;
 };
+

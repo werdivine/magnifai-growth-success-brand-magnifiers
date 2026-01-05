@@ -1,67 +1,39 @@
-.section {
-    padding: 5rem 2rem;
-    background: linear-gradient(180deg, #0A0A0B 0%, #121214 100%);
-}
-
-.grid {
+.metricsStrip {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    gap: 1rem;
+    padding: 3rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-@media (max-width: 1024px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 640px) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-.stat {
+.metricItem {
     text-align: center;
-    padding: 2rem;
-    position: relative;
 }
 
-.stat::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 20%;
-    height: 60%;
-    width: 1px;
-    background: linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
-}
-
-.stat:last-child::after {
-    display: none;
-}
-
-.number {
-    font-size: 4rem;
+.metricValue {
+    display: block;
+    font-size: 2.5rem;
     font-weight: 800;
-    font-family: var(--font-playfair);
     color: #fff;
-    line-height: 1;
     margin-bottom: 0.5rem;
-}
-
-.number span {
-    background: linear-gradient(135deg, #6366f1 0%, #ec4899 100%);
+    background: linear-gradient(135deg, #fff 0%, #94a3b8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 
-.label {
-    color: #94a3b8;
-    font-size: 1rem;
+.metricLabel {
+    color: #64748b;
+    font-size: 0.9rem;
+    font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+    .metricsStrip {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
 }

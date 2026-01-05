@@ -12,7 +12,7 @@ export const RESOURCES: Resource[] = [
         id: 'r1',
         title: 'Strategic Planning Agent',
         description: 'McKinsey-level quarterly planning prompt for GPT-4 / Claude 3.5.',
-        image: '/images/res-strategic.jpg',
+        image: '/images/card-strategy.png', // Fallback for res-strategic
         type: 'Prompt',
         link: '/prompts/strategic-planning'
     },
@@ -20,7 +20,7 @@ export const RESOURCES: Resource[] = [
         id: 'r2',
         title: 'The "Zero-Inbox" Workflow',
         description: 'Automating email triage with Make.com and OpenAI.',
-        image: '/images/res-zero-inbox.jpg',
+        image: '/images/card-zero-inbox.jpg', // Exists
         type: 'Guide',
         link: '/insights/zero-inbox'
     },
@@ -28,7 +28,7 @@ export const RESOURCES: Resource[] = [
         id: 'r3',
         title: 'ROI Calculator',
         description: 'Project your annual savings from AI automation.',
-        image: '/images/res-roi.jpg',
+        image: '/images/card-roi-calculator.jpg', // Exists
         type: 'Tool',
         link: '/tools/roi'
     },
@@ -36,7 +36,7 @@ export const RESOURCES: Resource[] = [
         id: 'r4',
         title: 'Agency OS Notion Template',
         description: 'The master system for scaling an AI-first service business.',
-        image: '/images/res-notion.jpg',
+        image: '/images/card-strategic-planning.jpg', // Fallback for res-notion
         type: 'Template',
         link: '/resources/agency-os'
     },
@@ -44,7 +44,7 @@ export const RESOURCES: Resource[] = [
         id: 'r5',
         title: 'Legal-Agent Deployment Kit',
         description: 'A pre-built framework for deploying legal research agents.',
-        image: '/images/res-legal.jpg',
+        image: '/images/blog-automation.png', // Fallback for res-legal
         type: 'Tool',
         link: '/tools/legal-kit'
     }

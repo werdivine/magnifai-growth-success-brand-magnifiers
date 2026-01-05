@@ -35,6 +35,7 @@ export default function Header() {
                 <nav className={styles.nav}>
                     <Link href="/directory" className={styles.link}>Directory</Link>
                     <Link href="/resources" className={styles.link}>Resources</Link>
+                    <Link href="/free-audit" className={`${styles.link} ${styles.highlight}`}>Free Tools</Link>
                     <Link href="/agency" className={styles.link}>Agency</Link>
                 </nav>
 

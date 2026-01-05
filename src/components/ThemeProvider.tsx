@@ -16,24 +16,17 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
-        // 1. Check local storage
-        const savedTheme = localStorage.getItem('theme') as Theme | null;
-
-        if (savedTheme) {
-            setTheme(savedTheme);
-        } else {
-            // 2. Check system preference
-            const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            setTheme(systemPrefersDark ? 'dark' : 'light');
-        }
+        // Force Dark Mode by default as per strict user requirement
+        // We ignore localStorage 'light' preference to ensure the premium experience first
+        setTheme('dark');
         setMounted(true);
     }, []);
 
     useEffect(() => {
         if (!mounted) return;
 
-        // Update DOM
-        document.body.setAttribute('data-theme', theme);
+        // Update DOM - set on html element for CSS :root selectors to work
+        document.documentElement.setAttribute('data-theme', theme);
         // Persist
         localStorage.setItem('theme', theme);
     }, [theme, mounted]);

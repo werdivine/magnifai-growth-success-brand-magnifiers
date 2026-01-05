@@ -1,5 +1,8 @@
-import { exitPreview } from "@prismicio/next";
+import { draftMode } from "next/headers";
+import { redirect } from "next/navigation";
 
-export function GET() {
-  return exitPreview();
+export async function GET() {
+  const draft = await draftMode();
+  draft.disable();
+  redirect("/");
 }

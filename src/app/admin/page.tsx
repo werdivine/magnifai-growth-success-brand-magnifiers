@@ -1,27 +1,20 @@
-'use client'
+import ClientEditor from './client'
+import fs from 'fs'
+import path from 'path'
 
-import { Puck } from '@measured/puck'
-import { config } from '@/lib/puck-config'
-import '@measured/puck/puck.css'
+export default async function AdminPage() {
+    const DATA_FILE = path.join(process.cwd(), 'src/content/puck-data.json')
+    let initialData = { content: [], root: {} }
 
-export default function AdminPage() {
-    return (
-        <div>
-            <Puck
-                config={config}
-                data={{
-                    content: [],
-                    root: {},
-                }}
-                onPublish={async (data) => {
-                    // Save to Prismic via API
-                    await fetch('/api/puck/save', {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify(data),
-                    })
-                }}
-            />
-        </div>
-    )
+    try {
+        if (fs.existsSync(DATA_FILE)) {
+            const fileContent = fs.readFileSync(DATA_FILE, 'utf-8')
+            initialData = JSON.parse(fileContent)
+        }
+    } catch (e) {
+        console.error('Failed to load local data', e)
+    }
+
+    return <ClientEditor initialData={initialData} />
 }
+

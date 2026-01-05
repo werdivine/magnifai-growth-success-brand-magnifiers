@@ -1,19 +1,20 @@
 import { NextResponse } from 'next/server'
-import { createClient } from '@/lib/prismic'
+import fs from 'fs'
+import path from 'path'
+
+const DATA_FILE = path.join(process.cwd(), 'src/content/puck-data.json')
 
 export async function POST(request: Request) {
     try {
         const data = await request.json()
 
-        // TODO: Add authentication check here
-        // const password = request.headers.get('authorization')
-        // if (password !== process.env.PUCK_ADMIN_PASSWORD) {
-        //   return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
-        // }
+        // Ensure directory shows
+        const dir = path.dirname(DATA_FILE)
+        if (!fs.existsSync(dir)) {
+            fs.mkdirSync(dir, { recursive: true })
+        }
 
-        // TODO: Save to Prismic
-        // For now, just acknowledge receipt
-        console.log('Puck data received:', data)
+        fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2))
 
         return NextResponse.json({ success: true, message: 'Data saved successfully' })
     } catch (error) {
@@ -27,8 +28,11 @@ export async function POST(request: Request) {
 
 export async function GET(request: Request) {
     try {
-        // TODO: Load from Prismic
-        // For now, return empty data
+        if (fs.existsSync(DATA_FILE)) {
+            const fileContent = fs.readFileSync(DATA_FILE, 'utf-8')
+            return NextResponse.json(JSON.parse(fileContent))
+        }
+
         return NextResponse.json({
             content: [],
             root: {},
