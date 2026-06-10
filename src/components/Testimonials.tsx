@@ -1,4 +1,7 @@
+'use client';
+
 import styles from './Testimonials.module.css';
+import { motion } from 'framer-motion';
 
 interface TestimonialsProps {
     title?: string;
@@ -17,10 +20,25 @@ export default function Testimonials({ title, reviews }: TestimonialsProps) {
 
     return (
         <section className={styles.section}>
-            <h2 style={{ textAlign: 'center', fontSize: '2.5rem', marginBottom: '4rem', color: 'white' }}>{displayTitle}</h2>
+            <motion.h2 
+                style={{ textAlign: 'center', fontSize: '2.5rem', marginBottom: '4rem', color: 'white' }}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+            >
+                {displayTitle}
+            </motion.h2>
             <div className={styles.scroller}>
                 {displayReviews.map((r, i) => (
-                    <div key={i} className={styles.card}>
+                    <motion.div 
+                        key={i} 
+                        className={`${styles.card} liquid-glass`}
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: i * 0.2, duration: 0.6 }}
+                        whileHover={{ y: -10 }}
+                    >
                         <p className={styles.text}>&ldquo;{r.text}&rdquo;</p>
                         <div className={styles.author}>
                             <div className={styles.avatar}></div>
@@ -29,7 +47,7 @@ export default function Testimonials({ title, reviews }: TestimonialsProps) {
                                 <span className={styles.role}>{r.role}</span>
                             </div>
                         </div>
-                    </div>
+                    </motion.div>
                 ))}
             </div>
         </section>

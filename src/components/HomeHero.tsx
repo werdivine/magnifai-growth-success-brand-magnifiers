@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { Zap } from 'lucide-react';
 import TerminalDemo from './TerminalDemo';
+import { motion } from 'framer-motion';
 import styles from './HomeHero.module.css';
 import { cn } from '@/lib/utils';
 import FloatingCommandBar from './FloatingCommandBar';
@@ -31,33 +32,68 @@ export default function HomeHero({
 }: HomeHeroProps) {
     return (
         <section className={styles.heroSection}>
-            <div className={styles.heroContent}>
-                <div className={styles.badge}>
+            <motion.div 
+                className={styles.heroContent}
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+            >
+                <motion.div 
+                    className={styles.badge}
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: 0.2, duration: 0.5 }}
+                >
                     {!minimal && <Zap size={14} />}
                     <span>{badgeText}</span>
-                </div>
+                </motion.div>
 
-                <h1 className={styles.heroTitle} dangerouslySetInnerHTML={{ __html: title.split('\n').map((line, i, arr) => i === arr.length - 1 ? `<span>${line}</span>` : line).join('<br/>') }} />
+                <motion.h1 
+                    className={styles.heroTitle} 
+                    dangerouslySetInnerHTML={{ __html: title.split('\n').map((line, i, arr) => i === arr.length - 1 ? `<span>${line}</span>` : line).join('<br/>') }} 
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.3, duration: 0.6 }}
+                />
 
-                <p className={styles.heroDescription}>
+                <motion.p 
+                    className={styles.heroDescription}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.5, duration: 0.8 }}
+                >
                     {description}
-                </p>
+                </motion.p>
 
-                <div className={styles.ctaGroup}>
+                <motion.div 
+                    className={styles.ctaGroup}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.6, duration: 0.5 }}
+                >
                     <Link href={primaryCtaLink} className={cn(styles.primaryCta, "shimmer-btn")}>
                         {primaryCtaText}
                     </Link>
                     <Link href={secondaryCtaLink} className={styles.secondaryCta}>
                         {secondaryCtaText}
                     </Link>
-                </div>
+                </motion.div>
 
-                <FloatingCommandBar variant="solutions" />
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.8, duration: 1 }}
+                >
+                    <FloatingCommandBar variant="solutions" />
+                </motion.div>
 
                 {/* --- PREMIUM FLOATING TOOLS BAND --- */}
                 {!minimal && (
-                    <div 
+                    <motion.div 
                         className="liquid-glass"
+                        initial={{ opacity: 0, y: 40 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 1, duration: 0.8, ease: "easeOut" }}
                         style={{
                             position: 'relative',
                             width: '100%',
@@ -113,9 +149,9 @@ export default function HomeHero({
                         <div style={{ width: '100%', marginTop: '1rem', position: 'relative', zIndex: 1 }}>
                             <TerminalDemo />
                         </div>
-                    </div>
+                    </motion.div>
                 )}
-            </div>
+            </motion.div>
         </section>
     );
 }

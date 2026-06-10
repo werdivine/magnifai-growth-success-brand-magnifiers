@@ -27,6 +27,7 @@ import WhyWeMagnifAI from '@/components/WhyWeMagnifAI';
 import SystemArchitectureBlueprint from '@/components/SystemArchitectureBlueprint';
 import PlaybookBanner from '@/components/PlaybookBanner';
 import BookingWidget from '@/components/BookingWidget';
+import ScrollReveal from '@/components/ScrollReveal';
 
 import { SliceZone } from "@prismicio/react";
 import { createClient } from "@/lib/prismic";
@@ -76,11 +77,16 @@ export default async function Home() {
     const TwoColumnShowcaseGrid = () => (
         <div className={styles.showcaseGrid}>
             <div className={styles.showcaseLeftColumn}>
-                <AutomatedPipelines isColumn={true} />
-                <IntelligenceBrief />
+                <ScrollReveal delay={0.1}>
+                    <AutomatedPipelines isColumn={true} />
+                </ScrollReveal>
+                <ScrollReveal delay={0.2}>
+                    <IntelligenceBrief />
+                </ScrollReveal>
                 
                 {/* Circular Metrics Row */}
-                <div className={styles.metricsCircleRow}>
+                <ScrollReveal delay={0.3}>
+                    <div className={styles.metricsCircleRow}>
                     <div className={styles.metricCircleCard}>
                         <div className={styles.metricCircleValue}>500+</div>
                         <div className={styles.metricCircleLabel}>CLICKS</div>
@@ -97,10 +103,12 @@ export default async function Home() {
                         <div className={styles.metricCircleValue}>98%</div>
                         <div className={styles.metricCircleLabel}>SATISFACTION</div>
                     </div>
-                </div>
+                    </div>
+                </ScrollReveal>
 
                 {/* Agency Model is Broken gears mockup */}
-                <div className={styles.brokenAgencyContainer}>
+                <ScrollReveal delay={0.4}>
+                    <div className={styles.brokenAgencyContainer}>
                     <div className={styles.brokenAgencyHeader}>
                         <h3 className={styles.brokenAgencyTitle}>
                             The "Agency"<br />Model is <span className={styles.brokenAgencyTitleSpan}>Broken.</span>
@@ -126,16 +134,27 @@ export default async function Home() {
                         REQUIRED FIELDCODE
                     </Link>
                 </div>
+                </ScrollReveal>
 
                 {/* Booking Widget */}
-                <BookingWidget />
+                <ScrollReveal delay={0.5}>
+                    <BookingWidget />
+                </ScrollReveal>
             </div>
 
             <div className={styles.showcaseRightColumn}>
-                <TelegramEngineShowcase isColumn={true} />
-                <PlaybookBanner isColumn={true} />
-                <WhyWeMagnifAI isColumn={true} />
-                <SystemArchitectureBlueprint isColumn={true} />
+                <ScrollReveal delay={0.2}>
+                    <TelegramEngineShowcase isColumn={true} />
+                </ScrollReveal>
+                <ScrollReveal delay={0.3}>
+                    <PlaybookBanner isColumn={true} />
+                </ScrollReveal>
+                <ScrollReveal delay={0.4}>
+                    <WhyWeMagnifAI isColumn={true} />
+                </ScrollReveal>
+                <ScrollReveal delay={0.5}>
+                    <SystemArchitectureBlueprint isColumn={true} />
+                </ScrollReveal>
             </div>
         </div>
     );
