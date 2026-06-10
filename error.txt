@@ -1,0 +1,7 @@
+{
+  "message": "User is not authorized to access this resource with an explicit deny in an identity-based policy",
+  "stack": "Error: User is not authorized to access this resource with an explicit deny in an identity-based policy\n    at WriteClient.#handleMigrationAPIError (C:\\IDE-PROJECTS\\ANTIGRAVITY\\New folder\\ai-authority-vortex\\node_modules\\@prismicio\\client\\src\\WriteClient.ts:937:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async WriteClient.createDocument (C:\\IDE-PROJECTS\\ANTIGRAVITY\\New folder\\ai-authority-vortex\\node_modules\\@prismicio\\client\\src\\WriteClient.ts:791:12)\n    at async WriteClient.migrateCreateDocuments (C:\\IDE-PROJECTS\\ANTIGRAVITY\\New folder\\ai-authority-vortex\\node_modules\\@prismicio\\client\\src\\WriteClient.ts:433:19)\n    at async WriteClient.migrate (C:\\IDE-PROJECTS\\ANTIGRAVITY\\New folder\\ai-authority-vortex\\node_modules\\@prismicio\\client\\src\\WriteClient.ts:271:3)\n    at async run (C:\\IDE-PROJECTS\\ANTIGRAVITY\\New folder\\ai-authority-vortex\\scripts\\migrate-to-prismic.ts:137:9)",
+  "response": "Has Response"
+}
+
+Could not read response body

@@ -1,0 +1,33 @@
+{
+    "id": "stats_counter",
+    "type": "SharedSlice",
+    "name": "StatsCounter",
+    "description": "Stats Counter",
+    "variations": [
+        {
+            "id": "default",
+            "name": "Default",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {},
+            "items": {
+                "number": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Number",
+                        "placeholder": "500+"
+                    }
+                },
+                "label": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Label",
+                        "placeholder": "Happy Clients"
+                    }
+                }
+            }
+        }
+    ]
+}

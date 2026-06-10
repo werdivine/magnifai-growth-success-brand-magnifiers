@@ -1,0 +1,12 @@
+# WeMagnifAI
+
+> MagnifAI Growth Success Brand Magnifiers: An AI-driven agency platform offering dynamic campaign management, website insights, automated lead scraping (via Telegram/calculators), and agentic blogging engines.
+
+## Key Resources
+- [Insights / Blog](/insights) - Dynamic blog containing industry insights, growth strategies, and AI news.
+- [Telegram Dashboard](/telegram-dashboard) - Operational console for configuring Telegram discovery and lead generation.
+- [About Us](/about) - Overview of our mission and agency capabilities.
+
+## Codebase Map for Agents
+- [AGENTS.md](/AGENTS.md) - Contains persistent project memories, stack definitions, and autonomous directives.
+- [MARKETING_CONTEXT.md](/MARKETING_CONTEXT.md) - Enforces tone of voice, style guides, and brand rules for writing agents.

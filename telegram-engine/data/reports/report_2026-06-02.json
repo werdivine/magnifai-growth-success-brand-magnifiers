@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-02",
+  "groups_discovered": 8,
+  "groups_joined": 5,
+  "posts_published": 0,
+  "leads_scraped": 299,
+  "dms_sent": 0,
+  "replies_received": 11,
+  "comments_posted": 0,
+  "conversion_rate": "0.00",
+  "estimated_pipeline": 1600,
+  "lead_scores": {
+    "high": 0,
+    "medium": 23,
+    "low": 276
+  },
+  "top_groups": [
+    {
+      "title": "SEA Startups and Founders Community",
+      "members": 1911,
+      "posts": 0,
+      "leads": 22
+    },
+    {
+      "title": "STARTUP FOUNDERS & Entrepreneurs | Apex Founders",
+      "members": 2594,
+      "posts": 0,
+      "leads": 21
+    },
+    {
+      "title": "Marketing Automation",
+      "members": 233,
+      "posts": 0,
+      "leads": 7
+    },
+    {
+      "title": "AI AUTOMATION AGENCY",
+      "members": 1120,
+      "posts": 0,
+      "leads": 0
+    },
+    {
+      "title": "TikTok Marketing Automation",
+      "members": 863,
+      "posts": 0,
+      "leads": 0
+    }
+  ],
+  "generated_at": "2026-06-02T21:00:00.667Z"
+}

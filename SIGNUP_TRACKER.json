@@ -1,0 +1,25 @@
+{
+  "apis": [
+    { "name": "Prismic", "url": "https://prismic.io", "status": "pending" },
+    { "name": "Cerebras", "url": "https://cloud.cerebras.ai", "status": "completed" },
+    { "name": "Together AI", "url": "https://www.together.ai", "status": "completed" },
+    { "name": "Groq", "url": "https://console.groq.com", "status": "blocked_by_bot_detection" },
+    { "name": "Mistral AI", "url": "https://console.mistral.ai", "status": "completed" },
+    { "name": "Pinecone", "url": "https://www.pinecone.io", "status": "completed" },
+    { "name": "Upstash", "url": "https://upstash.com", "status": "completed" },
+    { "name": "LangSmith", "url": "https://smith.langchain.com", "status": "completed" },
+    { "name": "Helicone", "url": "https://www.helicone.ai", "status": "pending" },
+    { "name": "Helicone", "url": "https://www.helicone.ai", "status": "completed" },
+    { "name": "Firecrawl", "url": "https://www.firecrawl.dev", "status": "completed" },
+    { "name": "Tavily", "url": "https://tavily.com", "status": "completed" },
+    { "name": "Perplexity", "url": "https://www.perplexity.ai", "status": "completed" },
+    { "name": "Exa", "url": "https://exa.ai", "status": "completed" },
+    { "name": "Voyage AI", "url": "https://www.voyageai.com", "status": "completed" },
+    { "name": "DeepSeek", "url": "https://www.deepseek.com", "status": "completed" },
+    { "name": "Anthropic", "url": "https://console.anthropic.com", "status": "completed" },
+    { "name": "Stability AI", "url": "https://stability.ai", "status": "completed" },
+    { "name": "Cohere", "url": "https://cohere.com", "status": "completed" }
+  ],
+  "lastUpdated": "2026-05-07",
+  "email": "cafesuncity77@gmail.com"
+}

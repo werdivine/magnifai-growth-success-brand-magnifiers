@@ -1,0 +1,1206 @@
+﻿
+> wemagnifai@0.1.0 build
+> next build
+
+node.exe : ΓÜá Warning: Next.js 
+inferred your workspace root, 
+but it may not be correct.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Users\natur\AppData\Roaming\ 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo          : No 
+   tSpecified: (ΓÜá Warning: Ne  
+  ...not be correct.:String) [   
+ ], RemoteException
+    + FullyQualifiedErrorId : Na 
+   tiveCommandError
+ 
+ We detected multiple lockfiles 
+and selected the directory of C:\
+IDE-PROJECTS\package-lock.json 
+as the root directory.
+ To silence this warning, set 
+`turbopack.root` in your Next.js 
+config, or consider removing one 
+of the lockfiles if it's not 
+needed.
+   See https://nextjs.org/docs/ap
+p/api-reference/config/next-confi
+g-js/turbopack#root-directory 
+for more information.
+ Detected additional lockfiles: 
+   * 
+C:\IDE-PROJECTS\ANTIGRAVITY\New f
+older\ai-authority-vortex\package
+-lock.json
+
+Γû▓ Next.js 16.1.1 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 11.8s
+  Running TypeScript ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/54) ...
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /prompts. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /prompts. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/company/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/company/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /_not-found. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /_not-found. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /resources/ai-
+implementation-guide. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /resources/ai-
+implementation-guide. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/company/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/company/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/company/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/company/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/company/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/company/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /admin. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /admin. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/company/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/company/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/company/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/company/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /contact. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /contact. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /resources. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /resources. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /directory. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /directory. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /free-audit. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /free-audit. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/services/[slug]. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /homev2. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /homev2. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /agency. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /agency. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/services/ai-automation. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/services/ai-automation. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/ai-templates. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/ai-templates. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+  Generating static pages using 7 workers (13/54) 
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/services/development. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/services/development. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/services/marketing. Please move 
+it to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/services/marketing. Please move 
+it to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/automation-checklist. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/automation-checklist. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/slice-simulator. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/slice-simulator. Please move it 
+to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/insights/ai-marketing. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/insights/ai-marketing. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+  Generating static pages using 7 workers (26/54) 
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/tools/readiness-quiz. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/tools/readiness-quiz. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/insights/automation-guide. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/insights/automation-guide. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/services/creative. Please move 
+it to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/services/creative. Please move 
+it to viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /insights. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /insights. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /thank-you. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /thank-you. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /learn. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /tools/roi. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /tools/roi. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /learn. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /tools/seo. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /tools/seo. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/insights/branding-2025. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/insights/branding-2025. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+  Generating static pages using 7 workers (40/54) 
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /tools/token. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /tools/token. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /blog/[slug]. 
+Please move it to viewport 
+export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/whatsapp-calculator. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/whatsapp-calculator. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in 
+/legal/[slug]. Please move it to 
+viewport export instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+viewport is configured in 
+metadata export in /. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+ΓÜá Unsupported metadata 
+themeColor is configured in 
+metadata export in /. Please 
+move it to viewport export 
+instead.
+Read more: https://nextjs.org/doc
+s/app/api-reference/functions/gen
+erate-viewport
+Error occurred prerendering page 
+"/". Read more: https://nextjs.or
+g/docs/messages/prerender-error
+TypeError: Cannot destructure 
+property 'auth' of 'a' as it is 
+undefined.
+    at h 
+(C:\IDE-PROJECTS\ANTIGRAVITY\New 
+folder\ai-authority-vortex\.next\
+server\chunks\ssr\1e37b_next_dist
+_ea402bb9._.js:1:1135)
+    at p 
+(C:\IDE-PROJECTS\ANTIGRAVITY\New 
+folder\ai-authority-vortex\.next\
+server\chunks\ssr\1e37b_next_dist
+_ea402bb9._.js:1:76019)
+    at <unknown> 
+(C:\IDE-PROJECTS\ANTIGRAVITY\New 
+folder\ai-authority-vortex\.next\
+server\chunks\ssr\1e37b_next_dist
+_ea402bb9._.js:1:76588)
+    at q 
+(C:\IDE-PROJECTS\ANTIGRAVITY\New 
+folder\ai-authority-vortex\.next\
+server\chunks\ssr\1e37b_next_dist
+_ea402bb9._.js:1:76569) {
+  digest: '2897251500'
+}
+Export encountered an error on 
+/page: /, exiting the build.
+Γ¿» Next.js build worker exited 
+with code: 1 and signal: null

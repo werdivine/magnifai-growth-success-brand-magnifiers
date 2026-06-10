@@ -1,0 +1,80 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+.next
+next-env.d.ts
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local ENV
+.env*.local
+.env
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+node_modules
+
+# Genkit
+.genkit/
+
+# Custom Local/Debug
+err.txt
+out.txt
+run-visible.bat
+WEMAGNIFAI_HISTORY.md
+mcp-error.log
+*.log
+/scripts/autonomous_signup_edge.js
+/scripts/check-all-chat-indexes.py
+/scripts/check_conversations_directory.py
+/scripts/check_files.py
+/scripts/check_missing_brain_folders.py
+/scripts/check_titles.py
+/scripts/debug_matching.py
+/scripts/debug_missing_folders.py
+/scripts/debug_title_match.py
+/scripts/find_all_subfolders.py
+/scripts/find_cline_history.py
+/scripts/find_conversation_dates.py
+/scripts/find_dbs.py
+/scripts/fix_all_chat_titles.py
+/scripts/fix_all_chat_titles_enhanced.py
+/scripts/fix_chat_titles.py
+/scripts/get_all_wemagnifai_sessions.py
+/scripts/inspect_db.py
+/scripts/inspect_globalstorage_extensions.py
+/scripts/list_all_titles.py
+/scripts/mcp-wrapper.js
+/scripts/print_val.py
+/scripts/search_brain.py
+/scripts/summarize_wemagnifai_history.py
+

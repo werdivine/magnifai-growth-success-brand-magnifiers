@@ -1,0 +1,72 @@
+{
+    "id": "hero",
+    "type": "SharedSlice",
+    "name": "Hero",
+    "description": "Hero section with title, description, and CTAs",
+    "variations": [
+        {
+            "id": "default",
+            "name": "Default",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "badge_text": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Badge Text",
+                        "placeholder": "v2.0.0 Now Live"
+                    }
+                },
+                "title": {
+                    "type": "StructuredText",
+                    "config": {
+                        "label": "Title",
+                        "placeholder": "The Growth Engine...",
+                        "allowTargetBlank": true,
+                        "single": "heading1"
+                    }
+                },
+                "description": {
+                    "type": "StructuredText",
+                    "config": {
+                        "label": "Description",
+                        "placeholder": "Stop relying on luck...",
+                        "allowTargetBlank": true,
+                        "multi": "paragraph"
+                    }
+                },
+                "primary_cta_label": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Primary CTA Label",
+                        "placeholder": "Start Growth Engine"
+                    }
+                },
+                "primary_cta_link": {
+                    "type": "Link",
+                    "config": {
+                        "label": "Primary CTA Link",
+                        "select": null
+                    }
+                },
+                "secondary_cta_label": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Secondary CTA Label",
+                        "placeholder": "View System Architecture"
+                    }
+                },
+                "secondary_cta_link": {
+                    "type": "Link",
+                    "config": {
+                        "label": "Secondary CTA Link",
+                        "select": null
+                    }
+                }
+            },
+            "items": {}
+        }
+    ]
+}

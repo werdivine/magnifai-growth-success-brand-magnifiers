@@ -1,0 +1,65 @@
+{
+  "prospects": [
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/n8n/comments/1df5g89/hiring_looking_for_n8n_ai_agent_specialist_for_crm/",
+      "title": "[Hiring] Looking for n8n AI Agent Specialist for CRM & Leads integration",
+      "snippet": "We run a real estate agency and need an experienced n8n builder to connect our inbound social leads to a custom AI responder and update our Hubspot CRM. High priority, paid gig.",
+      "keyword": "hiring n8n CRM",
+      "scraped_at": "2026-06-05",
+      "status": "new",
+      "suggested_package": "STARTER (\u20b940,000)"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/AiAutomations/comments/1de8fa3/looking_for_an_agency_to_build_customer_support/",
+      "title": "Looking for an agency to build customer support chat automation",
+      "snippet": "We receive over 500 support messages daily on WhatsApp and email. Looking for an AI automation agency to build an agentic resolver that answers FAQs and routes complex cases.",
+      "keyword": "agency customer support WhatsApp",
+      "scraped_at": "2026-06-05",
+      "status": "new",
+      "suggested_package": "GROWTH (\u20b960,000 setup + \u20b920K/month)"
+    },
+    {
+      "platform": "ycombinator",
+      "url": "https://news.ycombinator.com/item?id=40592811",
+      "title": "Ask HN: Freelancer? Seek work / AI outbound automation pipelines",
+      "snippet": "Founding team at a B2B SaaS startup looking for a freelancer or boutique agency to design and build our outbound sales and marketing automation stack using Make.com/n8n + custom LLM scripts.",
+      "keyword": "SaaS startup outbound",
+      "scraped_at": "2026-06-05",
+      "status": "new",
+      "suggested_package": "GROWTH (\u20b960,000 setup + \u20b920K/month)"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/startups/comments/1dcrga5/need_recommendation_for_local_seo_ai_content_agency/",
+      "title": "Need recommendation for Local SEO & AI content agency",
+      "snippet": "We have 15 local clinics and need a partner to build topical authority using localized SEO strategies and automated content pipelines. We want high-quality blogs that rank and bypass basic AI filters.",
+      "keyword": "Local SEO AI content",
+      "scraped_at": "2026-06-05",
+      "status": "new",
+      "suggested_package": "GROWTH (\u20b960,000 setup + \u20b920K/month)"
+    },
+    {
+      "platform": "github",
+      "url": "https://github.com/FlowiseAI/Flowise/discussions/2104",
+      "title": "Flowise consultation / commercial setup for legal tech chatbot",
+      "snippet": "We are seeking a developer or agency to deploy Flowise on our private cloud, integrate it with PostgreSQL vector store, and create a specialized legal research assistant. Budget allocated.",
+      "keyword": "Flowise legal tech chatbot",
+      "scraped_at": "2026-06-05",
+      "status": "new",
+      "suggested_package": "ENTERPRISE (\u20b91,20,000 setup)"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/freelance_forhire/comments/1db90f2/hiring_ai_developer_to_automate_whatsapp_outreach/",
+      "title": "[Hiring] AI developer to automate WhatsApp outreach and replies",
+      "snippet": "Looking to hire a developer who can set up a WhatsApp outreach system that pulls leads from Google Maps, scrapes their websites, and sends personalized intros. Budget: \u20b950K.",
+      "keyword": "WhatsApp outreach lead generation",
+      "scraped_at": "2026-06-05",
+      "status": "new",
+      "suggested_package": "STARTER (\u20b940,000)"
+    }
+  ],
+  "last_updated": "2026-06-05T22:07:04.000Z"
+}

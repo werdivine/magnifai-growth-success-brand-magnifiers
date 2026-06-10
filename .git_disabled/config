@@ -1,0 +1,37 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://cafesuncity77@github.com/werdivine/magnifai-growth-success-brand-magnifiers.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+	vscode-merge-base = origin/main
+[branch "wemagnifai/nvidia-nvidia-nemotron-3-super-120b-a12b"]
+	remote = origin
+	merge = refs/heads/wemagnifai/nvidia-nvidia-nemotron-3-super-120b-a12b
+	vscode-merge-base = origin/main
+[branch "wemagnifai/nvidia-deepseek-ai-deepseek-v3-2"]
+	remote = origin
+	merge = refs/heads/wemagnifai/nvidia-deepseek-ai-deepseek-v3-2
+	vscode-merge-base = origin/main
+[branch "wemagnifai/nvidia-minimaxai-minimax-m2-7"]
+	remote = origin
+	merge = refs/heads/wemagnifai/nvidia-minimaxai-minimax-m2-7
+	vscode-merge-base = origin/main
+[branch "wemagnifai/nvidia-meta-codellama-70b"]
+	remote = origin
+	merge = refs/heads/wemagnifai/nvidia-meta-codellama-70b
+	vscode-merge-base = origin/main
+[branch "wemagnifai/nvidia-qwen-qwen3-next-80b-a3b-thinking"]
+	remote = origin
+	merge = refs/heads/wemagnifai/nvidia-qwen-qwen3-next-80b-a3b-thinking
+	vscode-merge-base = origin/main
+[user]
+	email = admin@werdivine.com
+	name = Admin

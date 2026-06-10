@@ -1,0 +1,2502 @@
+[
+  {
+    "path": "C:\\Users\\Administrator\\.claude\\transcripts\\ses_2bcb39487ffeIZv8fqrPLDsFYW.jsonl",
+    "date": "2026-03-31 20:44:23",
+    "size": 182424
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.local\\share\\opencode\\storage\\session_diff\\ses_2bcb39487ffeIZv8fqrPLDsFYW.json",
+    "date": "2026-03-31 20:44:18",
+    "size": 2
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.local\\share\\opencode\\storage\\session_diff\\ses_2c236ac74ffeOljjlKh5r5nuI5.json",
+    "date": "2026-03-31 20:20:33",
+    "size": 2
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.claude\\transcripts\\ses_2c236ac74ffeOljjlKh5r5nuI5.jsonl",
+    "date": "2026-03-31 20:20:27",
+    "size": 932669
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.qwen\\debug\\90268689-86c0-4884-818a-6fe41301545a.txt",
+    "date": "2026-03-31 19:37:59",
+    "size": 5765
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.qwen\\debug\\0eb90623-1153-4ed5-b4a8-a613b5506086.txt",
+    "date": "2026-03-31 19:36:46",
+    "size": 5765
+  },
+  {
+    "path": "C:\\Users\\Administrator\\check_procs.ps1",
+    "date": "2026-03-31 19:34:20",
+    "size": 168
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.ollama\\id_ed25519",
+    "date": "2026-03-31 19:32:45",
+    "size": 387
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.ollama\\id_ed25519.pub",
+    "date": "2026-03-31 19:32:45",
+    "size": 81
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Downloads\\TRAE-WORKSPACE.code-workspace",
+    "date": "2026-03-31 19:31:58",
+    "size": 102
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\Virtual Machines\\Windows 11 x64\\Windows 11 x64.vmx",
+    "date": "2026-03-31 19:31:40",
+    "size": 10858
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\Virtual Machines\\Windows 11 x64\\mksSandbox.log",
+    "date": "2026-03-31 19:31:39",
+    "size": 82463
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\Virtual Machines\\Windows 11 x64\\vmware.log",
+    "date": "2026-03-31 19:31:39",
+    "size": 332274
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\Virtual Machines\\Windows 11 x64\\Windows 11 x64.scoreboard",
+    "date": "2026-03-31 19:31:39",
+    "size": 7421
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Documents\\Virtual Machines\\Windows 11 x64\\Windows 11 x64.nvram",
+    "date": "2026-03-31 19:25:44",
+    "size": 2424832
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Desktop\\find_recent_hebe.py",
+    "date": "2026-03-31 19:20:03",
+    "size": 930
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Desktop\\markdownfiles\\FULL_ANTIGRAVITY_HISTORY_HEBE.md",
+    "date": "2026-03-31 19:03:09",
+    "size": 14131
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Desktop\\markdownfiles\\Hebe_Wellness_Chatbot_History.md",
+    "date": "2026-03-31 18:48:52",
+    "size": 1208
+  },
+  {
+    "path": "C:\\Users\\Administrator\\Desktop\\sync_chat_index.py",
+    "date": "2026-03-31 18:27:28",
+    "size": 6451
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.local\\share\\kilo\\log\\2026-03-31T123002.log",
+    "date": "2026-03-31 18:00:03",
+    "size": 643
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.local\\share\\kilo\\log\\2026-03-31T114539.log",
+    "date": "2026-03-31 17:59:00",
+    "size": 192305
+  },
+  {
+    "path": "C:\\Users\\Administrator\\rclone_D_mount_bg.log",
+    "date": "2026-03-31 17:23:13",
+    "size": 21088
+  },
+  {
+    "path": "C:\\Users\\Administrator\\rclone_E_mount_bg.log",
+    "date": "2026-03-31 17:23:13",
+    "size": 17314
+  },
+  {
+    "path": "C:\\Users\\Administrator\\rclone_G_test.log",
+    "date": "2026-03-31 17:23:13",
+    "size": 16992
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.qwen\\projects\\c--users-administrator\\chats\\ac9b5bde-29f0-4dc0-b3d3-38e6fedf8dc5.jsonl",
+    "date": "2026-03-31 17:21:49",
+    "size": 59246
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.local\\share\\opencode\\storage\\agent-usage-reminder\\ses_2bcb39487ffeIZv8fqrPLDsFYW.json",
+    "date": "2026-03-31 17:18:11",
+    "size": 125
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.trae\\extensions\\kilocode-ai.kilo-code-4.92.0-universal\\changelog.md",
+    "date": "2026-03-31 15:32:37",
+    "size": 131812
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.trae\\extensions\\kilocode-ai.kilo-code-4.92.0-universal\\LICENSE.txt",
+    "date": "2026-03-31 15:32:37",
+    "size": 10172
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.trae\\extensions\\kilocode-ai.kilo-code-4.92.0-universal\\package.json",
+    "date": "2026-03-31 15:32:37",
+    "size": 1138
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.trae\\extensions\\kilocode-ai.kilo-code-4.92.0-universal\\images\\vscode-logo.png",
+    "date": "2026-03-31 15:32:37",
+    "size": 2794
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.trae\\extensions\\kilocode-ai.kilo-code-4.92.0-universal\\utils\\prompt.js",
+    "date": "2026-03-31 15:32:37",
+    "size": 2093
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.trae\\extensions\\kilocode-ai.kilo-code-4.92.0-universal\\.vsixmanifest",
+    "date": "2026-03-31 15:32:36",
+    "size": 2941
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.trae\\extensions\\kilocode-ai.kilo-code-4.92.0-universal\\extension.js",
+    "date": "2026-03-31 15:32:36",
+    "size": 1456
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.trae\\extensions\\kilocode-ai.kilo-code-4.92.0-universal\\readme.md",
+    "date": "2026-03-31 15:32:36",
+    "size": 3916
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.local\\share\\opentui\\tree-sitter\\languages\\tree-sitter-css.wasm",
+    "date": "2026-03-31 15:13:49",
+    "size": 128668
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.local\\share\\opentui\\tree-sitter\\queries\\css-7ffaecc5.scm",
+    "date": "2026-03-31 15:13:49",
+    "size": 1177
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-redux-selector.svg",
+    "date": "2026-03-31 15:05:54",
+    "size": 2686
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-redux-store-open.svg",
+    "date": "2026-03-31 15:05:54",
+    "size": 2745
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-redux-store.svg",
+    "date": "2026-03-31 15:05:54",
+    "size": 2686
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-resolver-open.svg",
+    "date": "2026-03-31 15:05:54",
+    "size": 452
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-resolver.svg",
+    "date": "2026-03-31 15:05:54",
+    "size": 393
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-resource-open.svg",
+    "date": "2026-03-31 15:05:54",
+    "size": 607
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-resource.svg",
+    "date": "2026-03-31 15:05:54",
+    "size": 548
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-review-open.svg",
+    "date": "2026-03-31 15:05:54",
+    "size": 600
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-review.svg",
+    "date": "2026-03-31 15:05:54",
+    "size": 541
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-robot-open.svg",
+    "date": "2026-03-31 15:05:53",
+    "size": 842
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-robot.svg",
+    "date": "2026-03-31 15:05:53",
+    "size": 783
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-root-open.svg",
+    "date": "2026-03-31 15:05:53",
+    "size": 185
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-root.svg",
+    "date": "2026-03-31 15:05:53",
+    "size": 220
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-routes-open.svg",
+    "date": "2026-03-31 15:05:53",
+    "size": 625
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-routes.svg",
+    "date": "2026-03-31 15:05:53",
+    "size": 566
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-rules-open.svg",
+    "date": "2026-03-31 15:05:53",
+    "size": 603
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-rules.svg",
+    "date": "2026-03-31 15:05:53",
+    "size": 544
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-sass-open.svg",
+    "date": "2026-03-31 15:05:53",
+    "size": 1970
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-sass.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 1911
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-scala-open.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 748
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-scala.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 689
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-scripts-open.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 520
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-scripts.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 461
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-secure-open.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 569
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-secure.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 510
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-seeders-open.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 3967
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-seeders.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 2759
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-server-open.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 655
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-server.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 596
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-serverless-open.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 807
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-serverless.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 748
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-shader-open.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 817
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-shader.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 758
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-shared-open.svg",
+    "date": "2026-03-31 15:05:52",
+    "size": 556
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-shared.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 497
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-src-open.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 1308
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-src.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 1252
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-stack-open.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 822
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-stack.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 763
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-stencil-open.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 620
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-stencil.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 561
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-storybook-open.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 1010
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-storybook.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 951
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-stylus-open.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 882
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-stylus.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 823
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-sublime-open.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 702
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-sublime.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 643
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-supabase-open.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 475
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-supabase.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 416
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-svelte-open.svg",
+    "date": "2026-03-31 15:05:51",
+    "size": 2136
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-svelte.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 2077
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-svg-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 816
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-svg.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 757
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-syntax-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 1057
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-syntax.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 998
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-target-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 1162
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-target.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 1103
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-taskfile-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 426
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-taskfile.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 367
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-tasks-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 622
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-tasks.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 563
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-television-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 449
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-television.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 390
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-temp-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 595
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-temp.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 536
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-template-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 681
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-template.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 622
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-terraform-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 625
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-terraform.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 566
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-test-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 479
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-test.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 420
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-theme-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 690
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-theme.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 631
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-tools-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 784
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-tools.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 725
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-typescript-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 1161
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-typescript.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 1102
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-unity-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 740
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-unity.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 681
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-update-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 594
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-update.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 535
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-upload-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 428
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-upload.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 369
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-utils-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 598
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-utils.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 539
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-vercel-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 394
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-vercel.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 335
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-verdaccio-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 618
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-verdaccio.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 559
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-video-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 500
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-video.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 441
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-views-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 543
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-views.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 484
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-vm-open.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 524
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-vm.svg",
+    "date": "2026-03-31 15:05:50",
+    "size": 465
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-vscode-open.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 561
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-vscode.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 502
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-vue-directives-open.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 611
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-vue-directives.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 552
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-vue-open.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 611
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-vue.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 552
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-vuepress-open.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 842
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-vuepress.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 764
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-vuex-store-open.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 585
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-vuex-store.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 526
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-wakatime-open.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1157
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-wakatime.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1098
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-webpack-open.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 894
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-webpack.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 835
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-windows-open.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 652
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-windows.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 601
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-wordpress-open.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1222
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-wordpress.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1163
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-yarn-open.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1545
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder-yarn.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1486
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\folder.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 252
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\font.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 221
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\forth.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 732
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\fortran.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 242
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\foxpro.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 8151
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\fsharp.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 344
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\fusebox.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1525
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\gamemaker.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 404
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\gatsby.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 840
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\gcp.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 917
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\gemfile.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 341
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\gemini.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1209
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\git.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 912
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\gitlab.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1235
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\gitpod.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 723
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\gleam.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 2792
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\go-mod.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1062
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\go.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1062
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\godot-assets.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 758
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\godot.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 758
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\go_gopher.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 2134
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\gradle.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 481
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\grain.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 334
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\graphcool.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1030
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\graphql.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1817
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\gridsome.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 299
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\groovy.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1643
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\grunt.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 19636
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\gulp.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 216
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\h.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 206
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\hack.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 419
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\haml.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 2077
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\handlebars.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 685
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\hardhat.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 415
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\haskell.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 436
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\haxe.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1455
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\hcl.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 418
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\hcl_light.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 418
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\helm.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 3898
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\heroku.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 342
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\hex.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 359
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\hjson.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1693
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\horusec.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 3020
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\hpp.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 348
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\html.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 250
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\http.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1209
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\huff.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 683
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\huff_light.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 683
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\husky.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 942
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\i18n.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 633
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\idris.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 6862
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\ifanr-cloud.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 939
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\image.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 292
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\imba.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1051
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\ionic.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1110
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\istanbul.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 835
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\jar.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 340
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\java.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 293
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\javaclass.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 293
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\javascript-map.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 1077
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\javascript.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 875
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\jenkins.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 16190
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\jest.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 727
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\jinja.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 397
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\jinja_light.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 397
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\jsconfig.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 468
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\json.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 589
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\julia.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 282
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\jupyter.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 505
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\karma.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 313
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\key.svg",
+    "date": "2026-03-31 15:05:49",
+    "size": 196
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\kivy.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 406
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\kl.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1556
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\knip.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 574
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\kotlin.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 801
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\kubernetes.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 5824
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\kusto.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 727
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\laravel.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1925
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\lerna.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1375
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\less.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 351
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\lib.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 342
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\lighthouse.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 371
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\lilypond.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 216
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\liquid.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 240
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\lisp.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 368
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\livescript.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 873
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\lock.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 264
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\log.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 344
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\lolcode.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1065
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\lottie.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 448
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\lua.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 787
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\makefile.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1106
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\markdown.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 296
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\markojs.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1760
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\mathematica.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 4061
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\matlab.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 964
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\maven.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 819
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\mdsvex.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 296
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\mdx.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 296
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\mercurial.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 768
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\merlin.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 271
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\mermaid.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 593
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\meson.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 527
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\minecraft.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 170
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\mint.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1304
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\mjml.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 879
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\mocha.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 827
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\modernizr.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 247
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\mojo.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 538
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\moon.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 376
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\moonscript.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 638
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\mxml.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 328
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nano-staged.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 439
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nano-staged_light.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 455
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\ndst.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1007
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nest-controller.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 5046
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nest-decorator.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 5046
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nest-filter.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 5046
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nest-gateway.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 5046
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nest-guard.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 5046
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nest-middleware.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 5046
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nest-module.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 5046
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nest-pipe.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 5046
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nest-resolver.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 5046
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nest-service.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 5046
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nest.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 5046
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\netlify.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1146
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\netlify_light.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1146
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\next.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 311
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\next_light.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 311
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nginx.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 324
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\ngrx-actions.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1626
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\ngrx-effects.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1626
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\ngrx-entity.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1626
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\ngrx-reducer.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1626
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\ngrx-selectors.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1647
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\ngrx-state.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1626
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nim.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 283
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nix.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 4221
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nodejs.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 441
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nodejs_alt.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1016
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nodemon.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 943
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\npm.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 144
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nuget.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 304
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nunjucks.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 259
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nuxt.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 440
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\nx.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 1413
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\objective-c.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 283
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\objective-cpp.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 448
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\ocaml.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 2448
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\odin.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 833
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\opa.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 933
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\opam.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 2321
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\openapi.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 3419
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\openapi_light.svg",
+    "date": "2026-03-31 15:05:48",
+    "size": 2914
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\otne.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 535
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\panda.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 874
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\parcel.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 558
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\pascal.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 526
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\pawn.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 332
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\payload.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 208
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\payload_light.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 208
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\pdf.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 986
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\pdm.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 715
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\percy.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1811
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\perl.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 553
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\php-cs-fixer.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 679
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\php.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 921
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\phpunit.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 533
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\php_elephant.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 388
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\php_elephant_pink.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 388
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\pinejs.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 964
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\pipeline.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 488
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\pkl.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1665
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\plastic.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1602
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\playwright.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1018
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\plop.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1014
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\pnpm.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 641
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\pnpm_light.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 641
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\poetry.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 367
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\postcss.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 478
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\posthtml.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 3091
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\powerpoint.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 270
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\powershell.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 782
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\prettier.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1678
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\prisma.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 594
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\processing.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 158
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\prolog.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1079
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\proto.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 429
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\protractor.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1098
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\pug.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 5379
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\puppet.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 565
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\puppeteer.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 866
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\purescript.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 589
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\python-misc.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 796
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\python.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 794
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\qsharp.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 900
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\quasar.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1701
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\quokka.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 257
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\qwik.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1178
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\r.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 739
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\racket.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 783
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\raml.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 536
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\razor.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 793
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\rc.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 383
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\react.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1442
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\react_ts.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1442
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\readme.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 273
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\reason.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 394
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\red.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 726
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\redux-action.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1563
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\redux-reducer.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1563
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\redux-selector.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1563
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\redux-store.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 1563
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\remix.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 355
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\remix_light.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 355
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\renovate.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 364
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\replit.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 395
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\rescript-interface.svg",
+    "date": "2026-03-31 15:05:47",
+    "size": 504
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\rescript.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 350
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\restql.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 9393
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\riot.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 375
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\roadmap.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 187
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\roblox.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 396
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\robot.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 575
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\robots.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 457
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\rollup.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 738
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\rome.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 1210
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\routing.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 203
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\rspec.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 2537
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\rubocop.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 642
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\rubocop_light.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 642
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\ruby.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 521
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\rust.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 2461
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\salesforce.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 571
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\san.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 305
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\sas.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 707
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\sass.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 1776
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\sbt.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 581
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\scala.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 705
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\scheme.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 283
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\search.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 584
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\semantic-release.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 2336
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\semantic-release_light.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 2336
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\semgrep.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 2348
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\sentry.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 1279
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\sequelize.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 3070
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\serverless.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 614
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\settings.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 1482
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\shader.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 316
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\shaderlab.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 334
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\silverstripe.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 750
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\siyuan.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 313
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\sketch.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 374
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\slim.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 211
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\slug.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 2157
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\smarty.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 534
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\sml.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 293
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\snowpack.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 340
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\snowpack_light.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 340
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\snyk.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 3276
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\solidity.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 210
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\sonarcloud.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 2008
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\spwn.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 511
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\stan.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 1610
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\steadybit.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 823
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\stencil.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 295
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\stitches.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 1083
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\stitches_light.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 1083
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\storybook.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 1022
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\stryker.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 2425
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\stylable.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 2454
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\stylelint.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 1277
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\stylelint_light.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 1277
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\stylus.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 594
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\sublime.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 514
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\supabase.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 265
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\svelte.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 1804
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\svg.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 1674
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\svgo.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 1968
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\svgr.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 1442
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\swagger.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 9146
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\swc.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 339
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\swift.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 513
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\syncpack.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 2026
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\table.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 277
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\tailwindcss.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 455
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\taskfile.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 298
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\tauri.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 1230
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\tcl.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 490
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\teal.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 159
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\templ.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 331
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\template.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 426
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\terraform.svg",
+    "date": "2026-03-31 15:05:46",
+    "size": 378
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\test-js.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 1239
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\test-jsx.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 1239
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\test-ts.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 1239
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\tex.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 618
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\textlint.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 302
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\tilt.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 364
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\tldraw.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 1123
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\tldraw_light.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 1123
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\tobi.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 165
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\tobimake.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 310
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\todo.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 242
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\travis.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 22760
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\tree.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 399
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\tsconfig.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 430
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\tune.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 672
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\turborepo.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 1595
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\turborepo_light.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 1603
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\twig.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 2940
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\twine.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 400
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\typescript-def.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 790
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\typescript.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 749
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\typst.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 406
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\uml.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 915
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\uml_light.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 931
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\unocss.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 250
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\url.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 568
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\vagrant.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 685
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\vala.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 2646
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\vedic.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 3224
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\velocity.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 797
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\vercel.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 138
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\assets\\vscode-material-icons\\icons\\vercel_light.svg",
+    "date": "2026-03-31 15:05:45",
+    "size": 138
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\ar\\common.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 19586
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\ar\\embeddings.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 7419
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\ar\\jetbrains.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 710
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\ar\\kilocode.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 11703
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\ar\\marketplace.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 2056
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\ar\\mcp.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 2478
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\ar\\tools.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 2064
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\ca\\common.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 18738
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\ca\\embeddings.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 6516
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\ca\\jetbrains.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 632
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\ca\\kilocode.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 9868
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\ca\\marketplace.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 1874
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\ca\\mcp.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 2231
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\ca\\tools.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 1709
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\cs\\common.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 17335
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\cs\\embeddings.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 6180
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\cs\\jetbrains.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 624
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\cs\\kilocode.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 9606
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\cs\\marketplace.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 1893
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\cs\\mcp.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 2080
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\cs\\tools.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 1698
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\de\\common.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 18595
+  },
+  {
+    "path": "C:\\Users\\Administrator\\.antigravity\\extensions\\.d1ec03f8-695c-4ac0-ac4c-82b3c7303ac5\\dist\\locales\\de\\embeddings.json",
+    "date": "2026-03-31 15:05:45",
+    "size": 6550
+  }
+]

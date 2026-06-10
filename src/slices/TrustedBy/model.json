@@ -1,0 +1,34 @@
+{
+    "id": "trusted_by",
+    "type": "SharedSlice",
+    "name": "TrustedBy",
+    "description": "Trusted By Logos",
+    "variations": [
+        {
+            "id": "default",
+            "name": "Default",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "title": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Title",
+                        "placeholder": "Trusted by teams..."
+                    }
+                }
+            },
+            "items": {
+                "company_name": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Company Name",
+                        "placeholder": "TechCorp"
+                    }
+                }
+            }
+        }
+    ]
+}

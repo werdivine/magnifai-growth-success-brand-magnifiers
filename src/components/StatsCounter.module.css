@@ -1,0 +1,52 @@
+.metricsStrip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.metricItem {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    transition: background 0.2s;
+}
+
+.metricItem:hover {
+    background: rgba(139, 92, 246, 0.06);
+}
+
+html[data-theme='light'] .metricItem:hover {
+    background: rgba(139, 92, 246, 0.04);
+}
+
+.metricValue {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--foreground);
+    margin-bottom: 0.5rem;
+    background: linear-gradient(135deg, #fff 0%, #94a3b8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.metricLabel {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+
+@media (max-width: 768px) {
+    .metricsStrip {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        padding: 2rem 1rem;
+    }
+}

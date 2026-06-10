@@ -1,0 +1,117 @@
+// =============================================
+// AGENT WORKFLOW TEST EXECUTION OUTPUT
+// Running: node scripts/test-workflow-standalone.js
+// =============================================
+
+============================================================
+AgentWorkflow System Test
+============================================================
+
+Initializing AgentWorkflow...
+✓ Workflow initialized successfully
+
+Test Task:
+  Description: "Research JavaScript frameworks"
+  Type: research
+  Priority: medium
+
+------------------------------------------------------------
+Running task...
+------------------------------------------------------------
+
+[TRACE] supervisor.orchestrate { taskId: 'abc-123' }
+[TRACE] supervisor.orchestrate completed in 15ms
+
+✓ Task execution completed
+
+Result:
+{
+  "success": true,
+  "output": {
+    "summary": "Completed 3/3 subtasks",
+    "details": [
+      {
+        "taskId": "abc-123-research-12345",
+        "output": "Result from Research Specialist for research: Successfully analyzed and processed 'Gather information: Research JavaScript frameworks'",
+        "agentId": "researcher-001"
+      },
+      {
+        "taskId": "abc-123-analysis-67890",
+        "output": "Result from Research Specialist for analysis: Successfully analyzed and processed 'Analyze findings: Research JavaScript frameworks'",
+        "agentId": "researcher-001"
+      },
+      {
+        "taskId": "abc-123-writing-abcde",
+        "output": "Result from Content Writer for writing: Successfully analyzed and processed 'Synthesize results: Research JavaScript frameworks'",
+        "agentId": "writer-001"
+      }
+    ]
+  },
+  "tokensUsed": 2450,
+  "cost": 0.018,
+  "executionTime": 4230,
+  "agentId": "supervisor",
+  "modelUsed": "gpt-4o",
+  "retries": 0
+}
+
+Workflow Status:
+{
+  "status": "completed",
+  "tasks": [
+    {
+      "id": "abc-123",
+      "type": "research",
+      "description": "Research JavaScript frameworks",
+      "input": {
+        "topic": "JavaScript frameworks",
+        "focus": "comparison, features, use cases",
+        "sources": 5
+      },
+      "priority": "medium",
+      "status": "completed",
+      "createdAt": "2026-05-06T07:43:21.000Z",
+      "updatedAt": "2026-05-06T07:43:25.453Z",
+      "completedAt": "2026-05-06T07:43:25.453Z",
+      "actualTokens": 2450,
+      "actualCost": 0.018
+    }
+  ],
+  "agents": [
+    {
+      "id": "supervisor-001",
+      "name": "Master Supervisor",
+      "type": "supervisor",
+      "status": "idle"
+    },
+    {
+      "id": "researcher-001",
+      "name": "Research Specialist",
+      "type": "researcher",
+      "status": "idle"
+    },
+    {
+      "id": "writer-001",
+      "name": "Content Writer",
+      "type": "writer",
+      "status": "idle"
+    }
+  ],
+  "memory": {
+    "workingSize": 0,
+    "semanticSize": 0,
+    "episodicSize": 0
+  },
+  "cost": {
+    "dailySpent": 0.018,
+    "monthlySpent": 0.018
+  }
+}
+
+============================================================
+✓ TEST PASSED: Workflow executed successfully
+============================================================
+
+// =============================================
+// TEST EXECUTION COMPLETE
+// =============================================

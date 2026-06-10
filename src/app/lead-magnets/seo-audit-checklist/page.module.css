@@ -1,0 +1,12 @@
+.leadMagnetPage {
+  min-height: 100vh;
+  background: var(--bg-primary);
+}
+
+.leadMagnetInput::placeholder {
+  color: #64748b;
+}
+
+.leadMagnetSelect {
+  color: #64748b;
+}

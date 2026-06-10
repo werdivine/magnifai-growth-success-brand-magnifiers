@@ -1,0 +1,33 @@
+# ai.txt
+# This file is based on the Spawning.ai standard for AI data mining permissions.
+
+# PERMISSIONS FOR AI SEARCH ENGINES (SGE, Perplexity, etc.)
+# We explicitly allow crawling and indexing for the purpose of answering real-time user queries.
+User-Agent: OAI-SearchBot
+Allow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
+
+User-Agent: anthropic-ai
+Allow: /
+
+User-Agent: ClaudeBot
+Allow: /
+
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: ChatGPT-User
+Allow: /
+
+# PERMISSIONS FOR COMMERCIAL MODEL TRAINING
+# We explicitly prohibit the use of our proprietary content, strategies, and case studies for commercial model training without compensation.
+# To negotiate training rights, contact: legal@wemagnifai.com
+User-Agent: *
+Disallow: /
+Spawning-ai-Training: Disallow
+Dataset-Inclusion: Disallow

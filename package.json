@@ -1,0 +1,48 @@
+{
+    "name": "wemagnifai",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev -p 5005 -H 0.0.0.0",
+        "build": "next build",
+        "start": "next start -p 5005 -H 0.0.0.0",
+        "lint": "next lint",
+        "slicemachine": "start-slicemachine",
+        "autoblog:hermes": "node scripts/autoblog_hermes.js"
+    },
+    "dependencies": {
+        "@genkit-ai/dotprompt": "^0.9.12",
+        "@genkit-ai/google-genai": "^1.33.0",
+        "@measured/puck": "^0.20.2",
+        "@modelcontextprotocol/sdk": "^1.0.1",
+        "@prismicio/client": "^7.21.8",
+        "@prismicio/next": "^2.2.4",
+        "@prismicio/react": "^3.4.1",
+        "cheerio": "^1.1.2",
+        "clsx": "^2.1.1",
+        "framer-motion": "^12.38.0",
+        "genkit": "^1.33.0",
+        "lucide-react": "^0.378.0",
+        "next": "15.1.0",
+        "openai": "^4.86.1",
+        "playwright": "^1.49.0",
+        "puppeteer-core": "^25.1.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "sqlite3": "^6.0.1",
+        "tailwind-merge": "^3.5.0",
+        "turndown": "^7.1.2"
+    },
+    "devDependencies": {
+        "@slicemachine/adapter-next": "^0.3.95",
+        "@types/node": "^20.19.39",
+        "@types/react": "^18.3.28",
+        "@types/react-dom": "^18.3.7",
+        "eslint": "^9.39.4",
+        "eslint-config-next": "15.1.0",
+        "genkit-cli": "^1.33.0",
+        "slice-machine-ui": "^2.21.2",
+        "tsx": "^4.21.0",
+        "typescript": "^5.9.3"
+    }
+}

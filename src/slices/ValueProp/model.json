@@ -1,0 +1,55 @@
+{
+    "id": "value_prop",
+    "type": "SharedSlice",
+    "name": "ValueProp",
+    "description": "Value Proposition Grid",
+    "variations": [
+        {
+            "id": "default",
+            "name": "Default",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "title": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Title",
+                        "placeholder": "Why WeMagnifAI?"
+                    }
+                }
+            },
+            "items": {
+                "title": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Card Title",
+                        "placeholder": "Curated Precision"
+                    }
+                },
+                "description": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Card Description",
+                        "placeholder": "We don't list everything..."
+                    }
+                },
+                "icon_name": {
+                    "type": "Select",
+                    "config": {
+                        "label": "Icon",
+                        "options": [
+                            "Target",
+                            "TrendingUp",
+                            "Users",
+                            "Zap",
+                            "Shield",
+                            "BookOpen"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

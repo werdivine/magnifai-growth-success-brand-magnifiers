@@ -1,0 +1,34 @@
+{
+  "name": "@magnifai/orchestrator",
+  "version": "1.0.0",
+  "description": "Advanced Multi-Agent Orchestration System",
+  "main": "index.ts",
+  "types": "index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    },
+    "./types": {
+      "import": "./types.ts",
+      "types": "./types.ts"
+    },
+    "./workflow": {
+      "import": "./workflow.ts",
+      "types": "./workflow.ts"
+    },
+    "./advanced-patterns": {
+      "import": "./advanced-patterns.ts",
+      "types": "./advanced-patterns.ts"
+    }
+  },
+  "keywords": [
+    "ai",
+    "orchestration",
+    "multi-agent",
+    "automation",
+    "workflow"
+  ],
+  "author": "MagnifAI Team",
+  "license": "MIT"
+}

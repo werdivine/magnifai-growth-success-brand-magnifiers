@@ -1,0 +1,55 @@
+.section {
+    padding: 60px 0;
+    border-bottom: 1px solid var(--glass-border);
+    background: transparent;
+    overflow: hidden;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    margin-bottom: 3.5rem;
+    opacity: 0.6;
+}
+
+.scroller {
+    display: flex;
+    gap: 6rem;
+    width: max-content;
+    animation: scroll 40s linear infinite;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--text-primary);
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    opacity: 0.3;
+    filter: grayscale(1);
+    transition: all 0.4s ease;
+    cursor: default;
+}
+
+.logo:hover {
+    opacity: 1;
+    filter: grayscale(0);
+    transform: scale(1.1);
+    color: var(--brand-primary);
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-33.33%);
+    }
+}

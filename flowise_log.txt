@@ -1,0 +1,29 @@
+ »   ModuleLoadError: [MODULE_NOT_FOUND] require failed to load 
+ »   C:\Users\Administrator\Tools\node\node-v23.9.0-win-x64\node_modules\flowis
+ »   e\dist\commands\start.js: Cannot find module 'turndown'
+ »   Require stack:
+ »   - C:\Users\Administrator\Tools\node\node-v23.9.0-win-x64\node_modules\flow
+ »   ise\node_modules\flowise-components\dist\src\utils.js
+ »   - C:\Users\Administrator\Tools\node\node-v23.9.0-win-x64\node_modules\flow
+ »   ise\node_modules\flowise-components\dist\src\index.js
+ »   - C:\Users\Administrator\Tools\node\node-v23.9.0-win-x64\node_modules\flow
+ »   ise\dist\utils\index.js
+ »   - C:\Users\Administrator\Tools\node\node-v23.9.0-win-x64\node_modules\flow
+ »   ise\dist\index.js
+ »   - C:\Users\Administrator\Tools\node\node-v23.9.0-win-x64\node_modules\flow
+ »   ise\dist\commands\start.js
+ »   - C:\Users\Administrator\Tools\node\node-v23.9.0-win-x64\node_modules\flow
+ »   ise\node_modules\@oclif\core\lib\module-loader.js
+ »   - C:\Users\Administrator\Tools\node\node-v23.9.0-win-x64\node_modules\flow
+ »   ise\node_modules\@oclif\core\lib\config\plugin.js
+ »   - C:\Users\Administrator\Tools\node\node-v23.9.0-win-x64\node_modules\flow
+ »   ise\node_modules\@oclif\core\lib\config\config.js
+ »   - C:\Users\Administrator\Tools\node\node-v23.9.0-win-x64\node_modules\flow
+ »   ise\node_modules\@oclif\core\lib\config\index.js
+ »   - C:\Users\Administrator\Tools\node\node-v23.9.0-win-x64\node_modules\flow
+ »   ise\node_modules\@oclif\core\lib\command.js
+ »   - C:\Users\Administrator\Tools\node\node-v23.9.0-win-x64\node_modules\flow
+ »   ise\node_modules\@oclif\core\lib\index.js
+ »   - C:\Users\Administrator\Tools\node\node-v23.9.0-win-x64\node_modules\flow
+ »   ise\bin\run
+ »   Code: MODULE_NOT_FOUND

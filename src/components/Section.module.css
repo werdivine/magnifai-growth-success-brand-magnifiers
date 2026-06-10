@@ -1,0 +1,75 @@
+.section {
+    width: 100%;
+    padding: 8rem 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Base transparent state to allow global backgrounds/orbs to shine through */
+.section[data-variant='transparent'] {
+    background: transparent;
+}
+
+/* Premium Midnight (Default) */
+.section[data-variant='midnight'] {
+    background: var(--bg-primary);
+}
+
+/* The Deep Void */
+.section[data-variant='void'] {
+    background: radial-gradient(circle at center, #0e1635 0%, #030308 100%);
+    border-top: 1px solid var(--glass-border);
+    border-bottom: 1px solid var(--glass-border);
+}
+
+/* Glass Surface */
+.section[data-variant='glass'] {
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid var(--glass-border);
+}
+
+/* Atmospheric Mesh */
+.section[data-variant='mesh'] {
+    background: var(--bg-primary);
+    position: relative;
+}
+
+.section[data-variant='mesh']::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: 
+        radial-gradient(circle at 0% 0%, rgba(139, 92, 246, 0.1) 0%, transparent 40%),
+        radial-gradient(circle at 100% 100%, rgba(59, 130, 246, 0.1) 0%, transparent 40%);
+    pointer-events: none;
+}
+
+/* Neon Pulse Section */
+.section[data-variant='neon'] {
+    background: #030308;
+}
+
+.section[data-variant='neon']::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 50%; transform: translateX(-50%);
+    width: 60%; height: 1px;
+    background: linear-gradient(90deg, transparent, var(--brand-primary), transparent);
+    box-shadow: 0 0 20px var(--brand-primary);
+    z-index: 10;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 5rem 1.5rem;
+    }
+}

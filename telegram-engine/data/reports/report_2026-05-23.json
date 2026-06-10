@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-23",
+  "groups_discovered": 7,
+  "groups_joined": 0,
+  "posts_published": 0,
+  "leads_scraped": 0,
+  "dms_sent": 0,
+  "replies_received": 0,
+  "comments_posted": 0,
+  "conversion_rate": "0.00",
+  "estimated_pipeline": 0,
+  "lead_scores": {
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "top_groups": [],
+  "generated_at": "2026-05-23T21:00:07.423Z"
+}

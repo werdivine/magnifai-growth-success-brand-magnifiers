@@ -1,0 +1,180 @@
+{
+  "contacts": [
+    {
+      "user_id": "8630118164",
+      "username": "SparkFounderLab",
+      "messages": [
+        {
+          "step": 0,
+          "sent_at": "2026-06-02T13:14:22.811Z",
+          "message": "Hi SparkFounder Lab! Noticed you in the STARTUP FOUNDERS & Entrepreneurs | Apex Founders group. We build custom AI systems at WeMagnifAI (https://wemagnifai.com) to handle marketing, lead gen, and content at scale. Are you currently using any AI for your outreach?"
+        },
+        {
+          "step": 1,
+          "sent_at": "2026-06-05T16:56:49.272Z",
+          "message": "Hey [First Name],\n\nJust stumbled on this cool AI tool for automating cold email replies—saves hours of back-and-forth. (No pitch, just sharing since you’re scaling fast.)\n\nWe’re seeing founders hit a wall when their manual processes can’t keep up with demand—happy to chat if that sounds familiar. Would this be useful for your situation?\n\n— [Your Name]"
+        }
+      ],
+      "first_contacted": "2026-06-02T13:14:22.811Z"
+    },
+    {
+      "user_id": "7518902329",
+      "username": "ceosahwa",
+      "messages": [
+        {
+          "step": 0,
+          "sent_at": "2026-06-02T13:17:13.672Z",
+          "message": "Hi CEO | SAHWA! Noticed you in the STARTUP FOUNDERS & Entrepreneurs | Apex Founders group. We build custom AI systems at WeMagnifAI (https://wemagnifai.com) to handle marketing, lead gen, and content at scale. Are you currently using any AI for your outreach?"
+        },
+        {
+          "step": 1,
+          "sent_at": "2026-06-05T16:57:54.074Z",
+          "message": "Hey [Name],\n\nQuick thought—did you know 70% of B2B buyers ignore cold emails? AI can actually *personalize* outreach at scale (without the spammy vibe). We’ve helped startups turn cold leads into warm convos in days, not weeks.\n\nWould this be useful for your situation? No pressure if not—just sharing something that’s been a game-changer for founders we work with."
+        }
+      ],
+      "first_contacted": "2026-06-02T13:17:13.672Z"
+    },
+    {
+      "user_id": "8507367225",
+      "username": "vaibhav_builds_1st",
+      "messages": [
+        {
+          "step": 0,
+          "sent_at": "2026-06-02T13:20:29.144Z",
+          "message": "Hi Vaibhav! Noticed you in the SEA Startups and Founders Community group. We build custom AI systems at WeMagnifAI (https://wemagnifai.com) to handle marketing, lead gen, and content at scale. Are you currently using any AI for your outreach?"
+        }
+      ],
+      "first_contacted": "2026-06-02T13:20:29.144Z"
+    },
+    {
+      "user_id": "6644139813",
+      "username": "Shoaibyasinusm",
+      "messages": [
+        {
+          "step": 0,
+          "sent_at": "2026-06-02T13:24:46.022Z",
+          "message": "Hi Shoaib! Noticed you in the Marketing Automation group. We build custom AI systems at WeMagnifAI (https://wemagnifai.com) to handle marketing, lead gen, and content at scale. Are you currently using any AI for your outreach?"
+        }
+      ],
+      "first_contacted": "2026-06-02T13:24:46.022Z"
+    },
+    {
+      "user_id": "7868204357",
+      "username": "tomyamate",
+      "messages": [
+        {
+          "step": 0,
+          "sent_at": "2026-06-02T13:31:38.993Z",
+          "message": "Hi Tomy! Noticed you in the STARTUP FOUNDERS & Entrepreneurs | Apex Founders group. We build custom AI systems at WeMagnifAI (https://wemagnifai.com) to handle marketing, lead gen, and content at scale. Are you currently using any AI for your outreach?"
+        },
+        {
+          "type": "received",
+          "received_at": "2026-06-02T17:28:15.000Z",
+          "message": "Will give it a try with one of the projects."
+        },
+        {
+          "type": "replied",
+          "sent_at": "2026-06-05T16:46:14.261Z",
+          "message": "**\"Awesome, Tomy! That’s exactly what we’re here for. 😊 Which project are you looking to tackle first? I’d love to hop on a quick 20-min call to brainstorm—no pressure, just ideas to get things moving. When works best for you this week?\"**\n\n*(P.S. Here’s my calendar link: [insert link] or just reply with your availability!)*",
+          "intent_classified": "default"
+        }
+      ],
+      "first_contacted": "2026-06-02T13:31:38.993Z"
+    },
+    {
+      "user_id": "7240578356",
+      "username": "emperorfateh",
+      "messages": [
+        {
+          "step": 0,
+          "sent_at": "2026-06-02T13:42:50.986Z",
+          "message": "Hi Emperor! Noticed you in the STARTUP FOUNDERS & Entrepreneurs | Apex Founders group. We build custom AI systems at WeMagnifAI (https://wemagnifai.com) to handle marketing, lead gen, and content at scale. Are you currently using any AI for your outreach?"
+        }
+      ],
+      "first_contacted": "2026-06-02T13:42:50.986Z"
+    },
+    {
+      "user_id": "8597599219",
+      "username": "xxlola21hotline",
+      "messages": [
+        {
+          "step": 0,
+          "sent_at": "2026-06-02T13:48:05.014Z",
+          "message": "Hi Myles! Noticed you in the STARTUP FOUNDERS & Entrepreneurs | Apex Founders group. We build custom AI systems at WeMagnifAI (https://wemagnifai.com) to handle marketing, lead gen, and content at scale. Are you currently using any AI for your outreach?"
+        }
+      ],
+      "first_contacted": "2026-06-02T13:48:05.014Z"
+    },
+    {
+      "user_id": "5363287776",
+      "username": "habibur25",
+      "messages": [
+        {
+          "step": 0,
+          "sent_at": "2026-06-02T13:53:10.784Z",
+          "message": "Hi Habibur! Noticed you in the STARTUP FOUNDERS & Entrepreneurs | Apex Founders group. We build custom AI systems at WeMagnifAI (https://wemagnifai.com) to handle marketing, lead gen, and content at scale. Are you currently using any AI for your outreach?"
+        }
+      ],
+      "first_contacted": "2026-06-02T13:53:10.784Z"
+    },
+    {
+      "user_id": "8548414390",
+      "username": "Shamanfx64",
+      "messages": [
+        {
+          "step": 0,
+          "sent_at": "2026-06-02T14:03:04.061Z",
+          "message": "Hi Market! Noticed you in the STARTUP FOUNDERS & Entrepreneurs | Apex Founders group. We build custom AI systems at WeMagnifAI (https://wemagnifai.com) to handle marketing, lead gen, and content at scale. Are you currently using any AI for your outreach?"
+        },
+        {
+          "type": "received",
+          "received_at": "2026-06-02T14:37:06.000Z",
+          "message": "The market is very volatile during the US trading session, so focus on taking profits, guys."
+        },
+        {
+          "type": "replied",
+          "sent_at": "2026-06-05T16:50:05.999Z",
+          "message": "Got it! Volatility can be tricky—taking profits early is definitely a smart approach. Have you found that this strategy works well for your specific market, or are you looking to refine it further?\n\nWould you be open to a quick 20-min call to brainstorm ways to optimize your approach? No pressure—just happy to help! 🚀",
+          "intent_classified": "default"
+        }
+      ],
+      "first_contacted": "2026-06-02T14:03:04.061Z"
+    },
+    {
+      "user_id": "1398868896",
+      "username": "MM9sab",
+      "messages": [
+        {
+          "step": 0,
+          "sent_at": "2026-06-02T14:09:33.877Z",
+          "message": "Hi Mosb! Noticed you in the STARTUP FOUNDERS & Entrepreneurs | Apex Founders group. We build custom AI systems at WeMagnifAI (https://wemagnifai.com) to handle marketing, lead gen, and content at scale. Are you currently using any AI for your outreach?"
+        },
+        {
+          "type": "received",
+          "received_at": "2026-06-04T17:33:34.000Z",
+          "message": "The suffering of the people of Gaza in obtaining drinking water"
+        },
+        {
+          "type": "replied",
+          "sent_at": "2026-06-05T16:54:11.278Z",
+          "message": "**\"Mosb, I’m so sorry to hear about the suffering in Gaza—it’s heartbreaking. Water access is a basic human right, and this crisis is devastating for so many.\n\nIf you or anyone you know is working on solutions (awareness, advocacy, or practical aid), I’d love to hear more—sometimes small, strategic actions can amplify impact. Would you be open to a quick 20-min call to brainstorm ideas? No pressure, just happy to help where I can.\"**\n\n*(Link to Calendly or DM: \"DM me ‘WATER’ and I’ll send a free slot!\")*",
+          "intent_classified": "default"
+        }
+      ],
+      "first_contacted": "2026-06-02T14:09:33.877Z"
+    },
+    {
+      "user_id": "8600369701",
+      "username": "Amnam785585",
+      "messages": [
+        {
+          "step": 0,
+          "sent_at": "2026-06-02T14:14:13.841Z",
+          "message": "Hi Walter! Noticed you in the STARTUP FOUNDERS & Entrepreneurs | Apex Founders group. We build custom AI systems at WeMagnifAI (https://wemagnifai.com) to handle marketing, lead gen, and content at scale. Are you currently using any AI for your outreach?"
+        }
+      ],
+      "first_contacted": "2026-06-02T14:14:13.841Z"
+    }
+  ],
+  "last_updated": "2026-06-05T16:56:19.485Z"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "testimonials",
+    "type": "SharedSlice",
+    "name": "Testimonials",
+    "description": "Client Testimonials",
+    "variations": [
+        {
+            "id": "default",
+            "name": "Default",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "title": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Title",
+                        "placeholder": "Success Stories"
+                    }
+                }
+            },
+            "items": {
+                "quote": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Quote",
+                        "placeholder": "Great service..."
+                    }
+                },
+                "name": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Name",
+                        "placeholder": "John Doe"
+                    }
+                },
+                "role": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Role",
+                        "placeholder": "CTO"
+                    }
+                }
+            }
+        }
+    ]
+}

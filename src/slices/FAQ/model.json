@@ -1,0 +1,41 @@
+{
+    "id": "faq",
+    "type": "SharedSlice",
+    "name": "FAQ",
+    "description": "Frequently Asked Questions",
+    "variations": [
+        {
+            "id": "default",
+            "name": "Default",
+            "docURL": "...",
+            "version": "initial",
+            "description": "Default",
+            "imageUrl": "",
+            "primary": {
+                "title": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Title",
+                        "placeholder": "Common Questions"
+                    }
+                }
+            },
+            "items": {
+                "question": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Question",
+                        "placeholder": "Is this free?"
+                    }
+                },
+                "answer": {
+                    "type": "Text",
+                    "config": {
+                        "label": "Answer",
+                        "placeholder": "Yes..."
+                    }
+                }
+            }
+        }
+    ]
+}
