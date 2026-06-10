@@ -85,7 +85,7 @@ export default function WebsiteOracleV4() {
             <main className={styles.toolContainer}>
 
                 {/* Oracle Hero */}
-                <div className={styles.hero}>
+                <div className={`${styles.hero} global-wave-bg`}>
                     <div className={styles.badge} style={{ background: 'rgba(236, 72, 153, 0.1)', color: '#f472b6', borderColor: 'rgba(236, 72, 153, 0.2)' }}>
                         <Cpu size={14} />
                         Neural Oracle Engine v4.0
@@ -283,3 +283,4 @@ export default function WebsiteOracleV4() {
         </>
     );
 }
+

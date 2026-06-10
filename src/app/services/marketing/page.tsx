@@ -11,7 +11,7 @@ export default function MarketingPage() {
             <main className={styles.servicePage} style={{ '--accent-color': '#6366f1', '--accent-light': '#818cf8', '--icon-bg': 'rgba(99, 102, 241, 0.1)', '--icon-color': '#6366f1' } as React.CSSProperties}>
 
                 {/* HERO */}
-                <section className={styles.heroSection}>
+                <section className={`${styles.heroSection} global-wave-bg`}>
                     <span className={styles.eyebrow}>Digital Marketing Services</span>
                     <h1 className={styles.heroTitle}>
                         Marketing That Actually Moves Needles
@@ -154,3 +154,4 @@ export default function MarketingPage() {
         </>
     );
 }
+

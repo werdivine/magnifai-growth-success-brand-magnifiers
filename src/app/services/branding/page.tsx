@@ -14,7 +14,7 @@ export default function BrandingPage() {
         <>
             <Header />
             <main className={styles.servicePage} style={{ '--accent-color': '#f59e0b', '--accent-light': '#fbbf24', '--icon-bg': 'rgba(245,158,11,0.12)', '--icon-color': '#f59e0b' } as React.CSSProperties}>
-                <section className={styles.heroSection}>
+                <section className={`${styles.heroSection} global-wave-bg`}>
                     <span className={styles.eyebrow}>Brand Identity</span>
                     <h1 className={styles.heroTitle}>
                         A Visual Identity<br />Worth Remembering.
@@ -118,3 +118,4 @@ export default function BrandingPage() {
         </>
     );
 }
+

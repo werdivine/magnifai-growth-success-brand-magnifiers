@@ -296,7 +296,7 @@ export default function AITemplatesPage() {
             <main className={styles.main}>
                 <div className={styles.container}>
                     {/* Hero */}
-                    <div className={styles.hero}>
+                    <div className={`${styles.hero} global-wave-bg`}>
                         <span className={styles.badge}>
                             <Sparkles size={14} />
                             Free Resource
@@ -487,3 +487,4 @@ export default function AITemplatesPage() {
         </>
     );
 }
+

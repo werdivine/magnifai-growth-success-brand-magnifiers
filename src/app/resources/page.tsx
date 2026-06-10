@@ -26,7 +26,7 @@ export default function ResourcesHub() {
             <Header />
             <main className={styles.main}>
                 {/* HERO */}
-                <section className={styles.heroSection}>
+                <section className={`${styles.heroSection} global-wave-bg`}>
                     <div className={styles.heroContainer}>
                         <div className={styles.badge}>📚 Free Resource Library</div>
                         <h1 className={styles.heroTitle}>
@@ -138,3 +138,4 @@ export default function ResourcesHub() {
         </>
     );
 }
+

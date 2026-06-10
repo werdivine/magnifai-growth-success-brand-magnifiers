@@ -272,7 +272,7 @@ export default function FreeAuditPage() {
                     <div className={styles.container}>
                         {/* Hero Section */}
                         {currentQuestion === 0 && Object.keys(answers).length === 0 && (
-                            <div className={styles.hero}>
+                            <div className={`${styles.hero} global-wave-bg`}>
                                 <span className={styles.badge}>
                                     <Sparkles size={14} />
                                     Free 2-Minute Assessment
@@ -435,3 +435,4 @@ export default function FreeAuditPage() {
         </>
     );
 }
+

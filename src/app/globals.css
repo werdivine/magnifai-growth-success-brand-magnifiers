@@ -18,6 +18,10 @@
   --glass-bg: rgba(255, 255, 255, 0.03);
   --glass-border: rgba(255, 255, 255, 0.08);
   --glass-glow: rgba(139, 92, 246, 0.15);
+  --glass-blur: 20px;
+
+  --primary-glow: rgba(139, 92, 246, 0.15);
+  --secondary-glow: rgba(59, 130, 246, 0.15);
   
   --font-inter: 'Inter', system-ui, sans-serif;
   --font-playfair: 'Playfair Display', serif;
@@ -299,3 +303,62 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+/* --- GLOBAL BACKGROUNDS --- */
+.global-wave-bg {
+    position: relative;
+    overflow: hidden;
+}
+.global-wave-bg::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-image: 
+        radial-gradient(circle at 50% 50%, rgba(6, 182, 212, 0.15) 0%, transparent 50%),
+        url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='neonWave' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2306b6d4' stop-opacity='0.4'/%3E%3Cstop offset='50%25' stop-color='%233b82f6' stop-opacity='0.2'/%3E%3Cstop offset='100%25' stop-color='%2306b6d4' stop-opacity='0.4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M0,300 C150,100 350,500 500,300 C650,100 850,500 1000,300 C1150,100 1350,500 1500,300' fill='none' stroke='url(%23neonWave)' stroke-width='4' filter='blur(2px)' opacity='0.7'/%3E%3Cpath d='M-100,400 C100,200 300,600 500,400 C700,200 900,600 1100,400 C1300,200 1500,600 1700,400' fill='none' stroke='url(%23neonWave)' stroke-width='8' filter='blur(4px)' opacity='0.4'/%3E%3Cpath d='M0,500 C200,300 400,700 600,500 C800,300 1000,700 1200,500 C1400,300 1600,700 1800,500' fill='none' stroke='url(%23neonWave)' stroke-width='2' opacity='0.9'/%3E%3Cpath d='M0,200 C250,50 450,350 600,200 C750,50 950,350 1100,200' fill='none' stroke='rgba(34, 211, 238, 0.3)' stroke-width='12' filter='blur(8px)' opacity='0.5'/%3E%3C/svg%3E");
+    background-size: 1500px 1000px;
+    background-repeat: repeat;
+    z-index: 0;
+    pointer-events: none;
+    animation: waveDriftGlobal 40s linear infinite;
+    opacity: 0.9;
+}
+
+@keyframes waveDriftGlobal {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    100% { transform: translate(-1500px, -500px) rotate(5deg); }
+}
+
+.bg-indigo-glass {
+    background: rgba(30, 27, 75, 0.5) !important;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(139, 92, 246, 0.3) !important;
+    box-shadow: 0 10px 40px rgba(30, 27, 75, 0.5);
+}
+
+.bg-pink-glass {
+    background: rgba(131, 24, 67, 0.3) !important;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(217, 70, 239, 0.3) !important;
+    box-shadow: 0 10px 40px rgba(131, 24, 67, 0.3);
+}
+
+.bg-light-glass {
+    background: rgba(255, 255, 255, 0.04) !important;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.tech-grid-bg {
+    background-color: var(--bg-primary);
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px) !important;
+    background-size: 40px 40px !important;
+    background-position: center center !important;
+}

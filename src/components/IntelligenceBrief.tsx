@@ -8,14 +8,13 @@ import { Newspaper } from 'lucide-react';
 export default function IntelligenceBrief() {
     return (
         <div className={styles.container}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '3rem' }}>
-                <div style={{ padding: '0.8rem', background: 'rgba(124,58,237,0.1)', border: '1px solid rgba(124,58,237,0.2)', borderRadius: '14px', color: 'var(--brand-primary)' }}>
-                    <Newspaper size={28} />
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '2rem' }}>
+                <div style={{ padding: '0.5rem', background: 'rgba(139,92,246,0.15)', borderRadius: '10px', color: '#a78bfa', display: 'flex' }}>
+                    <Newspaper size={18} />
                 </div>
-                <div>
-                    <h2 style={{ fontSize: '2.5rem', margin: 0, fontFamily: 'var(--font-playfair)', fontWeight: 900, color: 'var(--text-primary)' }}>Intelligence Brief</h2>
-                    <p style={{ color: 'var(--text-muted)', margin: 0, fontSize: '1.1rem' }}>Signals from the bleeding edge of AI.</p>
-                </div>
+                <h2 style={{ fontSize: '1.25rem', margin: 0, fontFamily: 'var(--font-inter)', fontWeight: 800, color: '#ffffff' }}>
+                    Intelligence Brief
+                </h2>
             </div>
 
             <div className={styles.briefGrid}>

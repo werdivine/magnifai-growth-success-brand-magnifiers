@@ -14,7 +14,7 @@ export default function ContentPage() {
         <>
             <Header />
             <main className={styles.servicePage} style={{ '--accent-color': '#ec4899', '--accent-light': '#f472b6', '--icon-bg': 'rgba(236,72,153,0.12)', '--icon-color': '#ec4899' } as React.CSSProperties}>
-                <section className={styles.heroSection}>
+                <section className={`${styles.heroSection} global-wave-bg`}>
                     <span className={styles.eyebrow}>Content Strategy</span>
                     <h1 className={styles.heroTitle}>
                         Content That Compounds.
@@ -118,3 +118,4 @@ export default function ContentPage() {
         </>
     );
 }
+

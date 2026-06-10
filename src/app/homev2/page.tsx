@@ -85,7 +85,7 @@ export default function HomeV2() {
     return (
         <main className={styles.main}>
             {/* Hero Section */}
-            <section className={styles.heroSection}>
+            <section className={`${styles.heroSection} global-wave-bg`}>
                 <div className={styles.heroContent}>
                     {/* Hero Content Animations */}
                     <motion.div
@@ -205,3 +205,4 @@ export default function HomeV2() {
         </main>
     );
 }
+

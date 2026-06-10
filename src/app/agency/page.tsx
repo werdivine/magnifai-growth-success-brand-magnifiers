@@ -9,7 +9,7 @@ export default function Agency() {
         <>
             <Header />
             <main className={styles.main}>
-                <div className={styles.hero}>
+                <div className={`${styles.hero} global-wave-bg`}>
                     <h1 className={styles.title}>Automate Your Growth.</h1>
                     <p className={styles.subtitle}>We build custom AI agents and workflows for high-growth companies. From lead gen to operations.</p>
                     <Link href="#contact" className={styles.cta}>
@@ -35,3 +35,4 @@ export default function Agency() {
         </>
     )
 }
+

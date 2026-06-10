@@ -150,7 +150,7 @@ export default function WhatsAppCalculatorPage() {
                 {!showResults ? (
                     <div className={styles.container}>
                         {/* Hero */}
-                        <div className={styles.hero}>
+                        <div className={`${styles.hero} global-wave-bg`}>
                             <span className={styles.badge}>
                                 <MessageCircle size={14} />
                                 Free Calculator
@@ -451,3 +451,4 @@ export default function WhatsAppCalculatorPage() {
         </>
     );
 }
+

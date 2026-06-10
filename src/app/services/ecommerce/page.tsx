@@ -14,7 +14,7 @@ export default function EcommercePage() {
         <>
             <Header />
             <main className={styles.servicePage} style={{ '--accent-color': '#10b981', '--accent-light': '#34d399', '--icon-bg': 'rgba(16,185,129,0.12)', '--icon-color': '#10b981' } as React.CSSProperties}>
-                <section className={styles.heroSection}>
+                <section className={`${styles.heroSection} global-wave-bg`}>
                     <span className={styles.eyebrow}>E-commerce Growth</span>
                     <h1 className={styles.heroTitle}>
                         More Revenue.<br />Same Ad Budget.
@@ -118,3 +118,4 @@ export default function EcommercePage() {
         </>
     );
 }
+

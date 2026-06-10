@@ -497,3 +497,186 @@
     background: var(--brand-primary);
     border-color: var(--brand-primary);
 }
+
+/* TWO-COLUMN SHOWCASE GRID */
+.showcaseGrid {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 3rem;
+    max-width: 1400px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+    align-items: start;
+    position: relative;
+    z-index: 10;
+}
+
+.showcaseLeftColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.showcaseRightColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+/* Circular Metrics */
+.metricsCircleRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+}
+
+.metricCircleCard {
+    flex: 1 1 120px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 2px solid rgba(139, 92, 246, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, rgba(3, 3, 8, 0.9) 80%);
+    box-shadow: 0 0 25px rgba(139, 92, 246, 0.3), inset 0 0 20px rgba(139, 92, 246, 0.1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.metricCircleCard::after {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(34, 211, 238, 0.6) 0%, transparent 50%, rgba(139, 92, 246, 0.6) 100%);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.metricCircleCard:hover::after {
+    opacity: 1;
+}
+
+.metricCircleCard:hover {
+    transform: scale(1.05);
+    border-color: rgba(34, 211, 238, 0.5);
+    box-shadow: 0 0 30px rgba(34, 211, 238, 0.3), inset 0 0 20px rgba(34, 211, 238, 0.1);
+}
+
+.metricCircleValue {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.1;
+    font-family: var(--font-playfair);
+}
+
+.metricCircleLabel {
+    font-size: 0.7rem;
+    color: #cbd5e1;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin-top: 2px;
+}
+
+/* Broken Agency section inside column */
+.brokenAgencyContainer {
+    background: #080812;
+    border: 1px solid rgba(34, 211, 238, 0.2);
+    border-radius: 20px;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), inset 0 0 30px rgba(34, 211, 238, 0.05);
+}
+
+.brokenAgencyContainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(34, 211, 238, 0.8), transparent);
+}
+
+.brokenAgencyHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.brokenAgencyTitle {
+    font-size: 2.25rem;
+    color: #fff;
+    font-family: var(--font-playfair);
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.brokenAgencyTitleSpan {
+    text-decoration: line-through;
+    text-decoration-color: #ef4444;
+    text-decoration-thickness: 3px;
+    color: #ef4444;
+}
+
+.brokenAgencyDesc {
+    color: #94a3b8;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.brokenAgencyVisual {
+    background: #04040c;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 160px;
+}
+
+.gearsContainer {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.gear {
+    animation: rotateSlow 20s linear infinite;
+    color: rgba(139, 92, 246, 0.4);
+}
+
+.gearCounter {
+    animation: rotateSlow 20s linear infinite reverse;
+    color: rgba(34, 211, 238, 0.4);
+}
+
+@media (max-width: 1024px) {
+    .showcaseGrid {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+        padding: 0 1.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .showcaseGrid {
+        padding: 0 1rem;
+        gap: 3rem;
+    }
+}

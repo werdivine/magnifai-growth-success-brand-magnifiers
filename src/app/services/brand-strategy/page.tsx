@@ -15,7 +15,7 @@ export default function BrandStrategyPage() {
             <Header />
             <main className={styles.servicePage} style={{ '--accent-color': '#8B5CF6', '--accent-light': '#A78BFA', '--icon-bg': 'rgba(139,92,246,0.12)', '--icon-color': '#8B5CF6' } as React.CSSProperties}>
 
-                <section className={styles.heroSection}>
+                <section className={`${styles.heroSection} global-wave-bg`}>
                     <span className={styles.eyebrow}>Brand Strategy</span>
                     <h1 className={styles.heroTitle}>
                         Position to Win.<br />Build to Last.
@@ -142,3 +142,4 @@ export default function BrandStrategyPage() {
         </>
     );
 }
+

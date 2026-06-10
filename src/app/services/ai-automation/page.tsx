@@ -11,7 +11,7 @@ export default function AIAutomationService() {
             <main style={{ minHeight: '100vh' }}>
 
                 {/* HERO */}
-                <section className={styles.hero}>
+                <section className={`${styles.hero} global-wave-bg`}>
                     <div className={styles.heroTag}>Agency Service</div>
                     <h1 className={styles.heroTitle}>We Build the Machine That <span>Runs Your Business.</span></h1>
                     <p className={styles.heroDesc}>
@@ -115,3 +115,4 @@ export default function AIAutomationService() {
         </>
     );
 }
+

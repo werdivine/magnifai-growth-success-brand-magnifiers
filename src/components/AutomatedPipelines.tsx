@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Database, Brain, Rocket, Eye, Cpu, Settings, Play, Check } from 'lucide-react';
 
-export default function AutomatedPipelines() {
+export default function AutomatedPipelines({ isColumn = false }: { isColumn?: boolean }) {
     const [activeTab, setActiveTab] = useState('data');
     const [simulatedRun, setSimulatedRun] = useState(false);
 
@@ -54,6 +54,178 @@ export async function POST(req: Request) {
 }`
     };
 
+    const leftColContent = (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem', width: '100%' }}>
+            {/* Grid for Line Chart & Code Editor side by side */}
+            <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
+                gap: '1.25rem',
+                width: '100%'
+            }}>
+                <div className="liquid-glass" style={{
+                    padding: '1.5rem',
+                    borderRadius: '16px',
+                    background: 'rgba(3, 3, 8, 0.8)',
+                    border: '1px solid rgba(6, 182, 212, 0.2)',
+                    position: 'relative'
+                }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
+                        <div>
+                            <h4 style={{ color: '#fff', fontSize: '0.95rem', fontWeight: 700 }}>AI Model Performance</h4>
+                            <p style={{ color: '#94a3b8', fontSize: '0.75rem' }}>Live evaluation error rates</p>
+                        </div>
+                        <span style={{
+                            background: 'rgba(34, 211, 238, 0.1)',
+                            color: '#22d3ee',
+                            fontSize: '0.7rem',
+                            fontWeight: 700,
+                            padding: '3px 6px',
+                            borderRadius: '6px'
+                        }}>Active</span>
+                    </div>
+
+                    {/* Simulated SVG Graph */}
+                    <div style={{ height: '120px', width: '100%', position: 'relative' }}>
+                        <svg width="100%" height="100%" viewBox="0 0 100 30" preserveAspectRatio="none">
+                            <defs>
+                                <linearGradient id="chartGlow" x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0%" stopColor="#22d3ee" stopOpacity="0.4" />
+                                    <stop offset="100%" stopColor="#8b5cf6" stopOpacity="0" />
+                                </linearGradient>
+                            </defs>
+                            <path
+                                d="M0,25 Q15,8 30,12 T60,5 T90,8 T100,2"
+                                fill="none"
+                                stroke="url(#chartGlow)"
+                                strokeWidth="1.5"
+                                className="flowing-path"
+                            />
+                            <path
+                                d="M0,25 Q15,8 30,12 T60,5 T90,8 T100,2 L100,30 L0,30 Z"
+                                fill="url(#chartGlow)"
+                            />
+                        </svg>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '8px', color: '#64748b', fontSize: '0.65rem' }}>
+                            <span>Jan</span>
+                            <span>Mar</span>
+                            <span>May</span>
+                            <span>Jul</span>
+                            <span>Sep</span>
+                            <span>Nov</span>
+                        </div>
+                    </div>
+                </div>
+
+                {/* 2. Code Editor Panel */}
+                <div className="liquid-glass" style={{
+                    borderRadius: '20px',
+                    background: '#04040c',
+                    border: '1px solid rgba(255,255,255,0.06)',
+                    overflow: 'hidden'
+                }}>
+                    <div style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                        padding: '10px 16px',
+                        borderBottom: '1px solid rgba(255,255,255,0.08)',
+                        background: 'rgba(255,255,255,0.02)'
+                    }}>
+                        <div style={{ display: 'flex', gap: '6px' }}>
+                            <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#ef4444' }} />
+                            <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#f59e0b' }} />
+                            <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#10b981' }} />
+                        </div>
+                        <div style={{ display: 'flex', gap: '6px' }}>
+                            {['data', 'model', 'deploy'].map((tab) => (
+                                <button
+                                    key={tab}
+                                    onClick={() => setActiveTab(tab)}
+                                    style={{
+                                        background: activeTab === tab ? 'rgba(255,255,255,0.08)' : 'transparent',
+                                        border: 'none',
+                                        color: activeTab === tab ? '#fff' : '#64748b',
+                                        fontSize: '0.7rem',
+                                        padding: '2px 6px',
+                                        borderRadius: '4px',
+                                        cursor: 'pointer',
+                                        textTransform: 'capitalize',
+                                        fontWeight: 600
+                                    }}
+                                >
+                                    {tab}.ts
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+                    <pre style={{
+                        margin: 0,
+                        padding: '1rem',
+                        color: '#a78bfa',
+                        fontSize: '0.72rem',
+                        overflowX: 'auto',
+                        fontFamily: 'JetBrains Mono, monospace'
+                    }}>
+                        <code>{codeSnippets[activeTab]}</code>
+                    </pre>
+                </div>
+            </div>
+
+            {/* 3. Small Stats row */}
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', width: '100%' }}>
+                <div className="liquid-glass" style={{ padding: '1rem', borderRadius: '16px' }}>
+                    <div style={{ color: '#22d3ee', fontSize: '1.4rem', fontWeight: 800 }}>1,297x</div>
+                    <div style={{ color: '#cbd5e1', fontSize: '0.72rem', fontWeight: 600 }}>Data Processed (MoM)</div>
+                </div>
+                <div className="liquid-glass" style={{ padding: '1rem', borderRadius: '16px' }}>
+                    <div style={{ color: '#34d399', fontSize: '1.4rem', fontWeight: 800 }}>30+</div>
+                    <div style={{ color: '#cbd5e1', fontSize: '0.72rem', fontWeight: 600 }}>Active Auto-Workflows</div>
+                </div>
+            </div>
+        </div>
+    );
+
+    if (isColumn) {
+        return (
+            <div className="tech-grid-bg" style={{ 
+                width: '100%', 
+                display: 'flex', 
+                flexDirection: 'column', 
+                gap: '1.5rem',
+                borderRadius: '20px',
+                padding: '2.5rem',
+                border: '1px solid rgba(6, 182, 212, 0.4)',
+                boxShadow: '0 20px 40px rgba(0, 0, 0, 0.6), inset 0 0 20px rgba(6, 182, 212, 0.1)',
+                position: 'relative',
+                overflow: 'hidden'
+            }}>
+                <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '2px', background: 'linear-gradient(90deg, transparent, #06b6d4, transparent)' }} />
+                
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+                    <div style={{ padding: '0.5rem', background: 'rgba(6,182,212,0.15)', borderRadius: '10px', color: '#22d3ee', display: 'flex' }}>
+                        <Brain size={18} />
+                    </div>
+                    <div>
+                        <h2 style={{
+                            fontSize: '1.25rem',
+                            fontFamily: 'var(--font-inter)',
+                            fontWeight: 800,
+                            margin: 0,
+                            color: '#fff'
+                        }}>
+                            Automated AI Pipelines
+                        </h2>
+                        <p style={{ color: '#94a3b8', fontSize: '0.85rem', margin: '0.2rem 0 0 0' }}>
+                            Live experimental grid parameters
+                        </p>
+                    </div>
+                </div>
+                {leftColContent}
+            </div>
+        );
+    }
+
     return (
         <section id="platform" style={{
             padding: '80px 2rem',
@@ -96,146 +268,15 @@ export async function POST(req: Request) {
                     </p>
                 </div>
 
-                {/* Grid Layout representing both Screenshot 1 & 2 */}
                 <div style={{
                     display: 'grid',
                     gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
                     gap: '2rem',
                     alignItems: 'stretch'
                 }}>
-                    
-                    {/* LEFT COLUMN: Screenshot 1 - Charts & Code Editor */}
-                    <div style={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '1.5rem'
-                    }}>
-                        {/* 1. Line Chart Card */}
-                        <div className="liquid-glass" style={{
-                            padding: '1.5rem',
-                            borderRadius: '20px',
-                            background: 'rgba(12, 13, 29, 0.5)',
-                            position: 'relative'
-                        }}>
-                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
-                                <div>
-                                    <h4 style={{ color: '#fff', fontSize: '1rem', fontWeight: 700 }}>AI Model Performance</h4>
-                                    <p style={{ color: '#94a3b8', fontSize: '0.8rem' }}>Live evaluation error rates</p>
-                                </div>
-                                <span style={{
-                                    background: 'rgba(34, 211, 238, 0.1)',
-                                    color: '#22d3ee',
-                                    fontSize: '0.75rem',
-                                    fontWeight: 700,
-                                    padding: '4px 8px',
-                                    borderRadius: '6px'
-                                }}>Active</span>
-                            </div>
+                    {leftColContent}
 
-                            {/* Simulated SVG Graph */}
-                            <div style={{ height: '140px', width: '100%', position: 'relative' }}>
-                                <svg width="100%" height="100%" viewBox="0 0 100 30" preserveAspectRatio="none">
-                                    <defs>
-                                        <linearGradient id="chartGlow" x1="0" y1="0" x2="0" y2="1">
-                                            <stop offset="0%" stopColor="#22d3ee" stopOpacity="0.4" />
-                                            <stop offset="100%" stopColor="#8b5cf6" stopOpacity="0" />
-                                        </linearGradient>
-                                    </defs>
-                                    <path
-                                        d="M0,25 Q15,8 30,12 T60,5 T90,8 T100,2"
-                                        fill="none"
-                                        stroke="url(#chartGlow)"
-                                        strokeWidth="1.5"
-                                        className="flowing-path"
-                                    />
-                                    <path
-                                        d="M0,25 Q15,8 30,12 T60,5 T90,8 T100,2 L100,30 L0,30 Z"
-                                        fill="url(#chartGlow)"
-                                    />
-                                </svg>
-                                {/* Chart points label */}
-                                <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '8px', color: '#64748b', fontSize: '0.7rem' }}>
-                                    <span>Jan</span>
-                                    <span>Mar</span>
-                                    <span>May</span>
-                                    <span>Jul</span>
-                                    <span>Sep</span>
-                                    <span>Nov</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* 2. Code Editor Panel */}
-                        <div className="liquid-glass" style={{
-                            borderRadius: '20px',
-                            background: '#04040c',
-                            border: '1px solid rgba(255,255,255,0.06)',
-                            overflow: 'hidden'
-                        }}>
-                            {/* Editor Header */}
-                            <div style={{
-                                display: 'flex',
-                                justifyContent: 'space-between',
-                                alignItems: 'center',
-                                padding: '10px 16px',
-                                borderBottom: '1px solid rgba(255,255,255,0.08)',
-                                background: 'rgba(255,255,255,0.02)'
-                            }}>
-                                <div style={{ display: 'flex', gap: '6px' }}>
-                                    <span style={{ width: 10, height: 10, borderRadius: '50%', background: '#ef4444' }} />
-                                    <span style={{ width: 10, height: 10, borderRadius: '50%', background: '#f59e0b' }} />
-                                    <span style={{ width: 10, height: 10, borderRadius: '50%', background: '#10b981' }} />
-                                </div>
-                                <div style={{ display: 'flex', gap: '8px' }}>
-                                    {['data', 'model', 'deploy'].map((tab) => (
-                                        <button
-                                            key={tab}
-                                            onClick={() => setActiveTab(tab)}
-                                            style={{
-                                                background: activeTab === tab ? 'rgba(255,255,255,0.08)' : 'transparent',
-                                                border: 'none',
-                                                color: activeTab === tab ? '#fff' : '#64748b',
-                                                fontSize: '0.75rem',
-                                                padding: '4px 8px',
-                                                borderRadius: '4px',
-                                                cursor: 'pointer',
-                                                textTransform: 'capitalize',
-                                                fontWeight: 600
-                                            }}
-                                        >
-                                            {tab}.ts
-                                        </button>
-                                    ))}
-                                </div>
-                            </div>
-                            {/* Code Area */}
-                            <pre style={{
-                                margin: 0,
-                                padding: '1.25rem',
-                                color: '#a78bfa',
-                                fontSize: '0.8rem',
-                                overflowX: 'auto',
-                                fontFamily: 'JetBrains Mono, monospace'
-                            }}>
-                                <code>{codeSnippets[activeTab]}</code>
-                            </pre>
-                        </div>
-
-                        {/* 3. Small Stats row */}
-                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
-                            <div className="liquid-glass" style={{ padding: '1.25rem', borderRadius: '16px' }}>
-                                <div style={{ color: '#22d3ee', fontSize: '1.5rem', fontWeight: 800 }}>1,297x</div>
-                                <div style={{ color: '#94a3b8', fontSize: '0.75rem', fontWeight: 600 }}>Data Processed (MoM)</div>
-                            </div>
-                            <div className="liquid-glass" style={{ padding: '1.25rem', borderRadius: '16px' }}>
-                                <div style={{ color: '#34d399', fontSize: '1.5rem', fontWeight: 800 }}>30+</div>
-                                <div style={{ color: '#94a3b8', fontSize: '0.75rem', fontWeight: 600 }}>Active Auto-Workflows</div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    {/* RIGHT COLUMN: Screenshot 2 - Interactive Pipeline Cards */}
+                    {/* RIGHT COLUMN: Pipeline Cards */}
                     <div style={{
                         display: 'flex',
                         flexDirection: 'column',
@@ -341,7 +382,6 @@ export async function POST(req: Request) {
                             </div>
                         ))}
                     </div>
-
                 </div>
             </div>
         </section>

@@ -6,22 +6,37 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(circle at 20% 20%, rgba(124, 58, 237, 0.15) 0%, transparent 40%),
-                radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.1) 0%, transparent 40%),
-                var(--bg-primary);
+    background-color: #010206;
     overflow: hidden;
     text-align: center;
+}
 
-    /* Dark mode rich gradient */
-    background:
-        radial-gradient(ellipse 100% 70% at 50% -5%, rgba(124, 58, 237, 0.45) 0%, transparent 65%),
-        radial-gradient(ellipse 60% 40% at 80% 60%, rgba(99, 102, 241, 0.12) 0%, transparent 50%),
-        radial-gradient(ellipse 60% 40% at 20% 80%, rgba(236, 72, 153, 0.08) 0%, transparent 50%),
-        var(--bg-primary);
+/* Wavy Neon Abstract Background matching the screenshot */
+.heroSection::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-image: 
+        radial-gradient(circle at 50% 50%, rgba(6, 182, 212, 0.15) 0%, transparent 50%),
+        url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='neonWave' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2306b6d4' stop-opacity='0.4'/%3E%3Cstop offset='50%25' stop-color='%233b82f6' stop-opacity='0.2'/%3E%3Cstop offset='100%25' stop-color='%2306b6d4' stop-opacity='0.4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M0,300 C150,100 350,500 500,300 C650,100 850,500 1000,300 C1150,100 1350,500 1500,300' fill='none' stroke='url(%23neonWave)' stroke-width='4' filter='blur(2px)' opacity='0.7'/%3E%3Cpath d='M-100,400 C100,200 300,600 500,400 C700,200 900,600 1100,400 C1300,200 1500,600 1700,400' fill='none' stroke='url(%23neonWave)' stroke-width='8' filter='blur(4px)' opacity='0.4'/%3E%3Cpath d='M0,500 C200,300 400,700 600,500 C800,300 1000,700 1200,500 C1400,300 1600,700 1800,500' fill='none' stroke='url(%23neonWave)' stroke-width='2' opacity='0.9'/%3E%3Cpath d='M0,200 C250,50 450,350 600,200 C750,50 950,350 1100,200' fill='none' stroke='rgba(34, 211, 238, 0.3)' stroke-width='12' filter='blur(8px)' opacity='0.5'/%3E%3C/svg%3E");
+    background-size: 1500px 1000px;
+    background-repeat: repeat;
+    z-index: 0;
+    pointer-events: none;
+    animation: waveDrift 40s linear infinite;
+    opacity: 0.9;
+}
+
+@keyframes waveDrift {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    100% { transform: translate(-1500px, -500px) rotate(5deg); }
 }
 
 /* Animated top glow line */
-.heroSection::before {
+.heroSection::after {
     content: '';
     position: absolute;
     top: 0;
@@ -61,19 +76,25 @@
     line-height: 1.05;
     letter-spacing: -0.03em;
     margin-bottom: 2rem;
-    background: var(--gradient-hero);
+    color: #ffffff;
+}
+
+.heroTitle span {
+    background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    text-shadow: 0 0 30px rgba(6, 182, 212, 0.4);
 }
 
 .heroDescription {
-    font-size: 1.35rem;
-    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.25rem;
+    color: #cbd5e1;
     max-width: 650px;
     line-height: 1.6;
     margin: 0 auto 3.5rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 html[data-theme='light'] .heroDescription {
@@ -93,20 +114,20 @@ html[data-theme='light'] .heroDescription {
     align-items: center;
     justify-content: center;
     padding: 16px 36px;
-    background: linear-gradient(135deg, #8b5cf6 0%, #3b82f6 100%);
+    background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
     color: #fff;
     font-weight: 800;
     font-size: 1.1rem;
     border-radius: 14px;
     text-decoration: none;
-    box-shadow: 0 10px 40px rgba(139, 92, 246, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 40px rgba(6, 182, 212, 0.4), inset 0 0 15px rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .primaryCta:hover {
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 15px 50px rgba(139, 92, 246, 0.6);
+    box-shadow: 0 15px 50px rgba(6, 182, 212, 0.6), inset 0 0 20px rgba(255, 255, 255, 0.4);
 }
 
 .secondaryCta {

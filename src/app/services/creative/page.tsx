@@ -11,7 +11,7 @@ export default function CreativeDesignPage() {
             <main className={styles.servicePage} style={{ '--accent-color': '#ec4899', '--accent-light': '#f472b6', '--icon-bg': 'rgba(236, 72, 153, 0.1)', '--icon-color': '#ec4899' } as React.CSSProperties}>
 
                 {/* HERO */}
-                <section className={styles.heroSection}>
+                <section className={`${styles.heroSection} global-wave-bg`}>
                     <span className={styles.eyebrow}>Creative Design Services</span>
                     <h1 className={styles.heroTitle}>
                         Brands That Command Attention
@@ -154,3 +154,4 @@ export default function CreativeDesignPage() {
         </>
     );
 }
+

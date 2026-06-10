@@ -85,7 +85,7 @@ export default function LeadInfiltratorV4() {
             <main className={styles.toolContainer}>
 
                 {/* Hero */}
-                <div className={styles.hero}>
+                <div className={`${styles.hero} global-wave-bg`}>
                     <div className={styles.badge} style={{ background: 'rgba(99, 102, 241, 0.1)', color: '#818cf8', borderColor: 'rgba(99, 102, 241, 0.2)' }}>
                         <Fingerprint size={14} />
                         Identity Infiltration v5.0 (Live)
@@ -265,3 +265,4 @@ export default function LeadInfiltratorV4() {
         </>
     );
 }
+

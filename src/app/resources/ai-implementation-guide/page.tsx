@@ -20,7 +20,7 @@ export default function AIImplementationGuide() {
             <Header />
             <main className={styles.main}>
                 {/* HERO */}
-                <div className={styles.hero}>
+                <div className={`${styles.hero} global-wave-bg`}>
                     <div className={styles.badge}>
                         <BookOpen size={16} style={{ marginRight: 8 }} />
                         Pillar Guide 2026
@@ -119,3 +119,4 @@ export default function AIImplementationGuide() {
         </>
     );
 }
+

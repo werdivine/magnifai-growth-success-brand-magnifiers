@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { Zap, TrendingUp, BarChart2, ShieldCheck, MessageSquare, Code } from 'lucide-react';
 
-export default function WhyWeMagnifAI() {
+export default function WhyWeMagnifAI({ isColumn = false }: { isColumn?: boolean }) {
     const cards = [
         {
             title: 'Instant Execution',
@@ -43,6 +43,120 @@ export default function WhyWeMagnifAI() {
         }
     ];
 
+    const content = (
+        <div style={{ width: '100%', position: 'relative', zIndex: 10 }}>
+            {/* Header */}
+            <div style={{ textAlign: isColumn ? 'left' : 'center', marginBottom: isColumn ? '2rem' : '4rem' }}>
+                <h2 style={{
+                    fontSize: isColumn ? '1.5rem' : 'clamp(2.25rem, 4.5vw, 3.25rem)',
+                    fontFamily: 'var(--font-inter)',
+                    fontWeight: 900,
+                    lineHeight: 1.1,
+                    marginBottom: '1rem',
+                    color: '#fff'
+                }}>
+                    Why WeMagnifAI?
+                </h2>
+                <p style={{ color: '#94a3b8', fontSize: isColumn ? '0.95rem' : '1.05rem', maxWidth: isColumn ? '100%' : '500px', margin: isColumn ? '0' : '0 auto' }}>
+                    The core architectural pillars that build market authority and compound digital growth.
+                </p>
+            </div>
+
+            {/* 3x2 Grid */}
+            <div style={{
+                display: 'grid',
+                gridTemplateColumns: isColumn ? 'repeat(auto-fit, minmax(220px, 1fr))' : 'repeat(auto-fit, minmax(280px, 1fr))',
+                gap: '1.25rem'
+            }}>
+                {cards.map((card) => (
+                    <div
+                        key={card.title}
+                        className="liquid-glass"
+                        style={{
+                            padding: isColumn ? '1.25rem' : '2rem',
+                            borderRadius: '16px',
+                            background: 'rgba(3, 3, 8, 0.8)',
+                            border: '1px solid rgba(59, 130, 246, 0.2)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: '0.8rem',
+                            transition: 'all 0.3s ease',
+                            position: 'relative',
+                            overflow: 'hidden'
+                        }}
+                        onMouseEnter={(e) => {
+                            e.currentTarget.style.transform = 'translateY(-6px)';
+                            e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.15)';
+                        }}
+                        onMouseLeave={(e) => {
+                            e.currentTarget.style.transform = 'translateY(0)';
+                            e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.05)';
+                        }}
+                    >
+                        {/* Accent lighting for each card */}
+                        <div style={{
+                            position: 'absolute',
+                            top: '-30px',
+                            right: '-30px',
+                            width: '100px',
+                            height: '100px',
+                            background: card.glow,
+                            filter: 'blur(30px)',
+                            borderRadius: '50%',
+                            pointerEvents: 'none'
+                        }} />
+
+                        {/* Icon panel */}
+                        <div style={{
+                            width: '36px',
+                            height: '36px',
+                            borderRadius: '8px',
+                            background: card.glow,
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            flexShrink: 0
+                        }}>
+                            {card.icon}
+                        </div>
+
+                        <div>
+                            <h3 style={{
+                                color: '#fff',
+                                fontSize: '1.05rem',
+                                fontWeight: 700,
+                                marginBottom: '0.4rem'
+                            }}>
+                                {card.title}
+                            </h3>
+                            <p style={{
+                                color: '#cbd5e1',
+                                fontSize: '0.82rem',
+                                lineHeight: 1.5
+                            }}>
+                                {card.desc}
+                            </p>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
+
+    if (isColumn) {
+        return (
+            <div className="bg-indigo-glass" style={{
+                borderRadius: '20px',
+                padding: '2.5rem',
+                position: 'relative',
+                boxShadow: '0 20px 40px rgba(0, 0, 0, 0.6), inset 0 0 20px rgba(59, 130, 246, 0.1)'
+            }}>
+                <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '2px', background: 'linear-gradient(90deg, transparent, #3b82f6, transparent)' }} />
+                {content}
+            </div>
+        );
+    }
+
     return (
         <section id="why-us" style={{
             padding: '80px 2rem',
@@ -51,103 +165,7 @@ export default function WhyWeMagnifAI() {
             overflow: 'hidden',
             borderTop: '1px solid rgba(255, 255, 255, 0.05)'
         }}>
-            <div style={{ maxWidth: '1200px', margin: '0 auto', position: 'relative', zIndex: 10 }}>
-                {/* Header */}
-                <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-                    <h2 className="glow-text" style={{
-                        fontSize: 'clamp(2.25rem, 4.5vw, 3.25rem)',
-                        fontFamily: 'var(--font-playfair)',
-                        fontWeight: 900,
-                        lineHeight: 1.1,
-                        marginBottom: '1rem',
-                        color: '#fff'
-                    }}>
-                        Why WeMagnifAI?
-                    </h2>
-                    <p style={{ color: '#94a3b8', fontSize: '1.05rem', maxWidth: '500px', margin: '0 auto' }}>
-                        The core architectural pillars that build market authority and compound digital growth.
-                    </p>
-                </div>
-
-                {/* 3x2 Grid */}
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-                    gap: '1.5rem'
-                }}>
-                    {cards.map((card) => (
-                        <div
-                            key={card.title}
-                            className="liquid-glass"
-                            style={{
-                                padding: '2rem',
-                                borderRadius: '20px',
-                                background: 'rgba(12, 13, 29, 0.4)',
-                                border: '1px solid rgba(255, 255, 255, 0.05)',
-                                display: 'flex',
-                                flexDirection: 'column',
-                                gap: '1.25rem',
-                                transition: 'all 0.3s ease',
-                                position: 'relative',
-                                overflow: 'hidden'
-                            }}
-                            onMouseEnter={(e) => {
-                                e.currentTarget.style.transform = 'translateY(-6px)';
-                                e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.15)';
-                            }}
-                            onMouseLeave={(e) => {
-                                e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.05)';
-                            }}
-                        >
-                            {/* Accent lighting for each card */}
-                            <div style={{
-                                position: 'absolute',
-                                top: '-30px',
-                                right: '-30px',
-                                width: '100px',
-                                height: '100px',
-                                background: card.glow,
-                                filter: 'blur(30px)',
-                                borderRadius: '50%',
-                                pointerEvents: 'none'
-                            }} />
-
-                            {/* Icon panel */}
-                            <div style={{
-                                width: '40px',
-                                height: '40px',
-                                borderRadius: '10px',
-                                background: card.glow,
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                flexShrink: 0
-                            }}>
-                                {card.icon}
-                            </div>
-
-                            <div>
-                                <h3 style={{
-                                    color: '#fff',
-                                    fontSize: '1.15rem',
-                                    fontWeight: 700,
-                                    marginBottom: '0.5rem'
-                                }}>
-                                    {card.title}
-                                </h3>
-                                <p style={{
-                                    color: '#94a3b8',
-                                    fontSize: '0.88rem',
-                                    lineHeight: 1.6
-                                }}>
-                                    {card.desc}
-                                </p>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            </div>
+            {content}
         </section>
     );
 }

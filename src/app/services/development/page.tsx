@@ -11,7 +11,7 @@ export default function DevelopmentPage() {
             <main className={styles.servicePage} style={{ '--accent-color': '#f59e0b', '--accent-light': '#fbbf24', '--icon-bg': 'rgba(245, 158, 11, 0.1)', '--icon-color': '#f59e0b' } as React.CSSProperties}>
 
                 {/* HERO */}
-                <section className={styles.heroSection}>
+                <section className={`${styles.heroSection} global-wave-bg`}>
                     <span className={styles.eyebrow}>Web Development Services</span>
                     <h1 className={styles.heroTitle}>
                         Websites That Work as Hard as You Do
@@ -178,3 +178,4 @@ export default function DevelopmentPage() {
         </>
     );
 }
+

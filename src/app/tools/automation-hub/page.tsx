@@ -83,7 +83,7 @@ export default function CampaignCommanderV4() {
             <main className={styles.toolContainer}>
 
                 {/* Hero */}
-                <div className={styles.hero}>
+                <div className={`${styles.hero} global-wave-bg`}>
                     <div className={styles.badge} style={{ background: 'rgba(5, 150, 105, 0.1)', color: '#10b981', borderColor: 'rgba(5, 150, 105, 0.2)' }}>
                         <Play size={14} className="fill-current" />
                         Campaign Commander v4.0
@@ -277,3 +277,4 @@ export default function CampaignCommanderV4() {
         </>
     );
 }
+

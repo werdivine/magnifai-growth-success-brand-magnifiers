@@ -199,7 +199,7 @@ export default function AutomationChecklistPage() {
                 {!showResults ? (
                     <div className={styles.container}>
                         {/* Hero */}
-                        <div className={styles.hero}>
+                        <div className={`${styles.hero} global-wave-bg`}>
                             <span className={styles.badge}>
                                 <Zap size={14} />
                                 Interactive Assessment
@@ -418,3 +418,4 @@ export default function AutomationChecklistPage() {
         </>
     );
 }
+
