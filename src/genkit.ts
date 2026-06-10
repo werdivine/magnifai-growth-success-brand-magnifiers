@@ -1,9 +1,13 @@
-console.log('Genkit runtime starting...');
 import { genkit, z } from 'genkit';
 import { googleAI } from '@genkit-ai/google-genai';
 
+const plugins = [];
+if (process.env.GEMINI_API_KEY) {
+  plugins.push(googleAI());
+}
+
 export const ai = genkit({
-  plugins: [googleAI()],
+  plugins,
 });
 
 export const helloFlow = ai.defineFlow(
@@ -16,19 +20,3 @@ export const helloFlow = ai.defineFlow(
     return `Hello, ${name}! The MagnifAI swarm is operational.`;
   }
 );
-
-console.log('Genkit runtime ready.');
-
-// Start the reflection server for Genkit CLI discovery
-(async () => {
-  try {
-    // @ts-ignore - accessing internal reflectionServer
-    await ai.reflectionServer.start();
-    console.log('Genkit reflection server started.');
-  } catch (e) {
-    console.error('Failed to start reflection server:', e);
-  }
-})();
-
-// Keep the process alive
-setInterval(() => {}, 1000 * 60 * 60);
