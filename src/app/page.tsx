@@ -21,6 +21,12 @@ import AIROICalculator from '@/components/AIROICalculator';
 import FAQ from '@/components/FAQ';
 import Section from '@/components/Section';
 
+import AutomatedPipelines from '@/components/AutomatedPipelines';
+import TelegramEngineShowcase from '@/components/TelegramEngineShowcase';
+import WhyWeMagnifAI from '@/components/WhyWeMagnifAI';
+import SystemArchitectureBlueprint from '@/components/SystemArchitectureBlueprint';
+import PlaybookBanner from '@/components/PlaybookBanner';
+
 import { SliceZone } from "@prismicio/react";
 import { createClient } from "@/lib/prismic";
 import { components } from "@/slices";
@@ -112,33 +118,22 @@ export default async function Home() {
             <Header />
             <main className={styles.main}>
                 {/* Hero Section */}
-                <section className={styles.heroSection}>
-                    <div className={styles.heroContent}>
-                        <div className={styles.badge}>
-                            <Zap size={14} />
-                            <span>v2.0.0 Now Live</span>
-                        </div>
+                <HomeHero 
+                    badgeText="v2.0.0 Now Live"
+                    title="Your Creative &amp; Digital<br/>Growth Partner"
+                    description="Shop training success. We customized them wxt axpenties now lenghts, authors, and create over clean clients."
+                    primaryCtaText="Start Building with AI"
+                    primaryCtaLink="/leads/telegram"
+                    secondaryCtaText="View Our Services &amp; Expertise"
+                    secondaryCtaLink="/services"
+                />
 
-                        <h1 className={styles.heroTitle}>
-                            The Growth Engine<br />For Scaling Agencies
-                        </h1>
-
-                        <p className={styles.heroDescription}>
-                            Stop relying on luck. We build automated AI pipelines that specifically target, nurture, and close your ideal clients. No fluff. Just code &amp; revenue.
-                        </p>
-
-                        <div className={styles.ctaGroup}>
-                            <Link href="/book" className={styles.primaryCta}>
-                                Start Growth Engine
-                            </Link>
-                            <Link href="/case-studies" className={styles.secondaryCta}>
-                                View System Architecture
-                            </Link>
-                        </div>
-
-                        <TerminalDemo />
-                    </div>
-                </section>
+                {/* PREMIUM SECTIONS FROM ATTACHED SCREENSHOT MOCKUPS */}
+                <AutomatedPipelines />
+                <TelegramEngineShowcase />
+                <PlaybookBanner />
+                <WhyWeMagnifAI />
+                <SystemArchitectureBlueprint />
 
                 <GlobalSections />
 

@@ -42,6 +42,7 @@ export const metadata: Metadata = {
 };
 
 import { ThemeProvider } from "@/components/ThemeProvider";
+import WhatsAppChatWidget from "@/components/WhatsAppChatWidget";
 
 export default function RootLayout({
     children,
@@ -87,6 +88,7 @@ export default function RootLayout({
                 />
                 <ThemeProvider>
                     {children}
+                    <WhatsAppChatWidget />
                 </ThemeProvider>
             </body>
         </html>

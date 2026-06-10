@@ -5,6 +5,7 @@ import { Zap } from 'lucide-react';
 import TerminalDemo from './TerminalDemo';
 import styles from './HomeHero.module.css';
 import { cn } from '@/lib/utils';
+import FloatingCommandBar from './FloatingCommandBar';
 
 
 interface HomeHeroProps {
@@ -48,6 +49,8 @@ export default function HomeHero({
                         {secondaryCtaText}
                     </Link>
                 </div>
+
+                <FloatingCommandBar variant="solutions" />
 
                 {/* --- PREMIUM FLOATING TOOLS BAND --- */}
                 <div 
