@@ -98,7 +98,7 @@ export default function WebsiteRedesignChecklist() {
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
             <Header />
-            <main style={{ minHeight: '100vh', background: 'var(--bg-primary)' }}>
+            <main style={{ minHeight: '100vh', background: 'transparent' }}>
 
                 <div style={{ padding: '1.5rem 2rem 0', maxWidth: '1200px', margin: '0 auto' }}>
                     <nav style={{ display: 'flex', gap: '0.5rem', color: '#64748b', fontSize: '0.85rem' }}>

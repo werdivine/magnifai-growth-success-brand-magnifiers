@@ -89,7 +89,7 @@ export default function AEOServicePage() {
         />
 
         <FadeIn>
-          <section className={styles.sectionLight} style={{ background: 'linear-gradient(180deg, rgba(8,8,22,1) 0%, rgba(12,13,29,1) 100%)', borderBottom: '1px solid rgba(59,130,246,0.15)' }}>
+          <section className={styles.sectionLight} style={{ background: 'transparent', borderBottom: '1px solid rgba(59,130,246,0.15)' }}>
             <div className={styles.container} style={{ textAlign: 'center', padding: '8rem 2rem' }}>
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1.25rem', borderRadius: '999px', background: 'rgba(59,130,246,0.12)', border: '1px solid rgba(59,130,246,0.3)', color: '#3b82f6', fontWeight: 700, fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.12em', marginBottom: '2rem' }}>
                 <Share2 size={16} /> Answer Engine Optimization
@@ -113,7 +113,7 @@ export default function AEOServicePage() {
         </FadeIn>
 
         <FadeIn>
-          <section style={{ padding: '6rem 2rem', background: 'var(--bg-primary)', borderBottom: '1px solid rgba(var(--foreground-rgb), 0.06)' }}>
+          <section style={{ padding: '6rem 2rem', background: 'transparent', borderBottom: '1px solid rgba(var(--foreground-rgb), 0.06)' }}>
             <div className={styles.container}>
               <h2 style={{ fontSize: 'clamp(2rem, 4vw, 2.75rem)', fontFamily: 'var(--font-playfair)', fontWeight: 700, color: 'var(--foreground)', marginBottom: '0.75rem', textAlign: 'center' }}>AEO Performance Metrics</h2>
               <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', textAlign: 'center', marginBottom: '4rem', maxWidth: '500px', marginLeft: 'auto', marginRight: 'auto' }}>
@@ -133,7 +133,7 @@ export default function AEOServicePage() {
         </FadeIn>
 
         <FadeIn>
-          <section style={{ padding: '6rem 2rem', background: 'rgba(var(--foreground-rgb), 0.02)', borderBottom: '1px solid rgba(var(--foreground-rgb), 0.06)' }}>
+          <section style={{ padding: '6rem 2rem', background: 'transparent', borderBottom: '1px solid rgba(var(--foreground-rgb), 0.06)' }}>
             <div className={styles.container}>
               <h2 style={{ fontSize: 'clamp(2rem, 4vw, 2.75rem)', fontFamily: 'var(--font-playfair)', fontWeight: 700, color: 'var(--foreground)', marginBottom: '0.75rem', textAlign: 'center' }}>Why You Aren't Getting Cited</h2>
               <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', textAlign: 'center', marginBottom: '4rem', maxWidth: '600px', marginLeft: 'auto', marginRight: 'auto' }}>
@@ -155,7 +155,7 @@ export default function AEOServicePage() {
         </FadeIn>
 
         <FadeIn>
-          <section style={{ padding: '6rem 2rem', background: 'var(--bg-primary)', borderBottom: '1px solid rgba(var(--foreground-rgb), 0.06)' }}>
+          <section style={{ padding: '6rem 2rem', background: 'transparent', borderBottom: '1px solid rgba(var(--foreground-rgb), 0.06)' }}>
             <div className={styles.container}>
               <h2 style={{ fontSize: 'clamp(2rem, 4vw, 2.75rem)', fontFamily: 'var(--font-playfair)', fontWeight: 700, color: 'var(--foreground)', marginBottom: '0.75rem', textAlign: 'center' }}>The 4-Step AEO Process</h2>
               <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', textAlign: 'center', marginBottom: '4rem', maxWidth: '600px', marginLeft: 'auto', marginRight: 'auto' }}>
@@ -175,7 +175,7 @@ export default function AEOServicePage() {
         </FadeIn>
 
         <FadeIn>
-          <section style={{ padding: '6rem 2rem', background: 'rgba(var(--foreground-rgb), 0.02)' }}>
+          <section style={{ padding: '6rem 2rem', background: 'transparent' }}>
             <div className={styles.container}>
               <h2 style={{ fontSize: 'clamp(2rem, 4vw, 2.75rem)', fontFamily: 'var(--font-playfair)', fontWeight: 700, color: 'var(--foreground)', marginBottom: '0.75rem', textAlign: 'center' }}>Citation Wins</h2>
               <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', textAlign: 'center', marginBottom: '4rem', maxWidth: '500px', marginLeft: 'auto', marginRight: 'auto' }}>
@@ -202,7 +202,7 @@ export default function AEOServicePage() {
         </FadeIn>
 
         <FadeIn>
-          <section id="faq" style={{ padding: '6rem 2rem', background: 'rgba(var(--foreground-rgb), 0.02)', borderBottom: '1px solid rgba(var(--foreground-rgb), 0.06)' }}>
+          <section id="faq" style={{ padding: '6rem 2rem', background: 'transparent', borderBottom: '1px solid rgba(var(--foreground-rgb), 0.06)' }}>
             <div className={styles.container} style={{ maxWidth: '850px', margin: '0 auto' }}>
               <h2 style={{ fontSize: 'clamp(2rem, 4vw, 2.75rem)', fontFamily: 'var(--font-playfair)', fontWeight: 700, color: 'var(--foreground)', marginBottom: '0.75rem', textAlign: 'center' }}>AEO FAQ</h2>
               <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', textAlign: 'center', marginBottom: '3.5rem' }}>
@@ -229,7 +229,7 @@ export default function AEOServicePage() {
         </FadeIn>
 
         <FadeIn>
-          <section style={{ padding: '7rem 2rem', background: 'linear-gradient(180deg, rgba(8,8,22,1) 0%, rgba(12,13,29,1) 100%)', textAlign: 'center', borderTop: '1px solid rgba(59,130,246,0.15)' }}>
+          <section style={{ padding: '7rem 2rem', background: 'transparent', textAlign: 'center', borderTop: '1px solid rgba(59,130,246,0.15)' }}>
             <div style={{ maxWidth: '650px', margin: '0 auto' }}>
               <div style={{ fontSize: '3rem', marginBottom: '1.5rem' }}>
                 <Share2 size={64} style={{ color: '#3b82f6', opacity: 0.8 }} />

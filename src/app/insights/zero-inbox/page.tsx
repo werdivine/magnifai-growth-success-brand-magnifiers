@@ -11,7 +11,7 @@ export default function ZeroInboxPage() {
     return (
         <>
             <Header />
-            <main style={{ paddingTop: '80px', minHeight: '100vh', background: 'var(--bg-primary)' }}>
+            <main style={{ paddingTop: '80px', minHeight: '100vh', background: 'transparent' }}>
                 {/* Article Header */}
                 <section style={{
                     padding: '5rem 2rem 3rem',

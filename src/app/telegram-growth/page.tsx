@@ -66,7 +66,7 @@ export default function TelegramGrowthPage() {
     return (
         <>
             <Header />
-            <main style={{ minHeight: '100vh', background: 'var(--bg-primary)' }}>
+            <main style={{ minHeight: '100vh', background: 'transparent' }}>
 
                 {/* HERO */}
                 <section style={{
@@ -258,7 +258,7 @@ export default function TelegramGrowthPage() {
                         }}>
                             {TESTIMONIALS.map(t => (
                                 <div key={t.name} style={{
-                                    background: 'var(--bg-primary)',
+                                    background: 'transparent',
                                     border: '1px solid var(--glass-border)',
                                     borderRadius: '1.25rem', padding: '1.75rem',
                                     display: 'flex', flexDirection: 'column', gap: '1rem',

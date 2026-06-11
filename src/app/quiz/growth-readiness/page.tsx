@@ -252,7 +252,7 @@ export default function GrowthReadinessQuiz() {
 
 const splashWrap: React.CSSProperties = {
     minHeight: '100vh',
-    background: 'var(--bg-primary)',
+    background: 'transparent',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',

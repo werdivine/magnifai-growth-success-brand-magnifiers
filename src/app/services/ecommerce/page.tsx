@@ -94,7 +94,7 @@ export default function EcommercePage() {
                     </div>
                 </section>
 
-                <section style={{ padding: '6rem 2rem', textAlign: 'center', background: 'var(--bg-primary)', borderTop: '1px solid rgba(16,185,129,0.25)' }}>
+                <section style={{ padding: '6rem 2rem', textAlign: 'center', background: 'transparent', borderTop: '1px solid rgba(16,185,129,0.25)' }}>
                     <div style={{ maxWidth: '580px', margin: '0 auto' }}>
                         <h2 style={{ fontSize: '2.25rem', fontFamily: 'var(--font-playfair)', color: 'var(--foreground)', marginBottom: '1rem' }}>
                             Ready to grow revenue without growing costs?

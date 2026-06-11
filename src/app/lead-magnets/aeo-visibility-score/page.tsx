@@ -30,7 +30,7 @@ export default function AEOVisibilityScore() {
         />
         
         <FadeIn>
-          <section style={{ padding: '8rem 2rem', textAlign: 'center', background: 'linear-gradient(180deg, rgba(8,8,22,1) 0%, rgba(12,13,29,1) 100%)' }}>
+          <section style={{ padding: '8rem 2rem', textAlign: 'center', background: 'transparent' }}>
             <div style={{ maxWidth: '700px', margin: '0 auto' }}>
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1.25rem', borderRadius: '999px', background: 'rgba(59,130,246,0.12)', border: '1px solid rgba(59,130,246,0.3)', color: '#3b82f6', fontWeight: 700, fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.12em', marginBottom: '2rem' }}>
                 <BarChart3 size={16} /> Free Assessment
@@ -59,7 +59,7 @@ export default function AEOVisibilityScore() {
         </FadeIn>
 
         <FadeIn delay={0.2}>
-          <section style={{ padding: '6rem 2rem', background: 'var(--bg-primary)' }}>
+          <section style={{ padding: '6rem 2rem', background: 'transparent' }}>
             <div style={{ maxWidth: '900px', margin: '0 auto' }}>
               <h2 style={{ fontSize: 'clamp(2rem, 4vw, 2.75rem)', fontFamily: 'var(--font-playfair)', fontWeight: 700, color: 'var(--foreground)', marginBottom: '0.75rem', textAlign: 'center' }}>What You Get</h2>
               <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', textAlign: 'center', marginBottom: '3rem' }}>

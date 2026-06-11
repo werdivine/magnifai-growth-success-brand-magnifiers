@@ -26,7 +26,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
     return (
         <>
             <Header />
-            <main style={{ paddingTop: '80px', minHeight: '100vh', background: 'var(--bg-primary)' }}>
+            <main style={{ paddingTop: '80px', minHeight: '100vh', background: 'transparent' }}>
                 {/* Hero */}
                 <section style={{
                     padding: '5rem 2rem 4rem',

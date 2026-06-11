@@ -89,7 +89,7 @@ export default function PricingPage() {
       <Header />
       <main className={styles.pricingPage}>
         <FadeIn>
-          <section style={{ padding: '6rem 2rem', textAlign: 'center', background: 'linear-gradient(180deg, rgba(8,8,22,1) 0%, rgba(12,13,29,1) 100%)' }}>
+          <section style={{ padding: '6rem 2rem', textAlign: 'center', background: 'transparent' }}>
             <div style={{ maxWidth: '700px', margin: '0 auto' }}>
               <h1 style={{ fontSize: 'clamp(3rem, 6vw, 4rem)', fontFamily: 'var(--font-playfair)', fontWeight: 800, color: '#fff', lineHeight: 1.1, marginBottom: '1rem' }}>
                 Transparent Pricing
@@ -102,7 +102,7 @@ export default function PricingPage() {
         </FadeIn>
 
         <FadeIn delay={0.2}>
-          <section style={{ padding: '4rem 2rem', background: 'var(--bg-primary)' }}>
+          <section style={{ padding: '4rem 2rem', background: 'transparent' }}>
             <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1.5rem' }}>
                 {tiers.map((tier, i) => (

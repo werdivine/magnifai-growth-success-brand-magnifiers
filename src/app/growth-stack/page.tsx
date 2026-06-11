@@ -24,7 +24,7 @@ export default function GrowthStackPage() {
     return (
         <>
             <Header />
-            <main style={{ minHeight: '100vh', background: 'var(--bg-primary)' }}>
+            <main style={{ minHeight: '100vh', background: 'transparent' }}>
 
                 {/* AFFILIATE DISCLOSURE */}
                 <div style={{

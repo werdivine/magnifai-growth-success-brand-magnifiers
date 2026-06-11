@@ -59,7 +59,7 @@ export default function CareersPage() {
     return (
         <>
             <Header />
-            <main style={{ paddingTop: '80px', minHeight: '100vh', background: 'var(--bg-primary)' }}>
+            <main style={{ paddingTop: '80px', minHeight: '100vh', background: 'transparent' }}>
                 {/* Hero */}
                 <section style={{
                     padding: '6rem 2rem 5rem', textAlign: 'center',
@@ -96,7 +96,7 @@ export default function CareersPage() {
                         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '1.25rem' }}>
                             {benefits.map(b => (
                                 <div key={b.title} style={{
-                                    background: 'var(--bg-primary)', border: '1px solid var(--glass-border)',
+                                    background: 'transparent', border: '1px solid var(--glass-border)',
                                     borderRadius: '1rem', padding: '1.75rem',
                                 }}>
                                     <div style={{ fontSize: '1.75rem', marginBottom: '0.875rem' }}>{b.icon}</div>

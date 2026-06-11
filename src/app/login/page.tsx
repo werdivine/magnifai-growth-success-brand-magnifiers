@@ -29,7 +29,7 @@ export default function LoginPage() {
             <Header />
             <main style={{
                 paddingTop: '80px', minHeight: '100vh',
-                background: 'var(--bg-primary)',
+                background: 'transparent',
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
                 padding: '5rem 1rem',
             }}>

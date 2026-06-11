@@ -101,7 +101,7 @@ export default function GEOServicePage() {
 
         {/* 1. HERO */}
         <FadeIn>
-          <section className={styles.sectionLight} style={{ background: 'linear-gradient(180deg, rgba(8,8,22,1) 0%, rgba(12,13,29,1) 100%)', borderBottom: '1px solid rgba(139,92,246,0.15)' }}>
+          <section className={styles.sectionLight} style={{ background: 'transparent', borderBottom: '1px solid rgba(139,92,246,0.15)' }}>
             <div className={styles.container} style={{ textAlign: 'center', padding: '8rem 2rem' }}>
               <div style={{
                 display: 'inline-flex',
@@ -168,7 +168,7 @@ export default function GEOServicePage() {
 
         {/* 2. BENEFITS */}
         <FadeIn>
-          <section style={{ padding: '6rem 2rem', background: 'var(--bg-primary)', borderBottom: '1px solid rgba(var(--foreground-rgb), 0.06)' }}>
+          <section style={{ padding: '6rem 2rem', background: 'transparent', borderBottom: '1px solid rgba(var(--foreground-rgb), 0.06)' }}>
             <div className={styles.container}>
               <h2 style={{
                 fontSize: 'clamp(2rem, 4vw, 2.75rem)',
@@ -251,7 +251,7 @@ export default function GEOServicePage() {
 
         {/* 4. SOLUTION / 7-PILLAR */}
         <FadeIn>
-          <section style={{ padding: '6rem 2rem', background: 'var(--bg-primary)', borderBottom: '1px solid rgba(var(--foreground-rgb), 0.06)' }}>
+          <section style={{ padding: '6rem 2rem', background: 'transparent', borderBottom: '1px solid rgba(var(--foreground-rgb), 0.06)' }}>
             <div className={styles.container}>
               <h2 style={{
                 fontSize: 'clamp(2rem, 4vw, 2.75rem)',
@@ -337,7 +337,7 @@ export default function GEOServicePage() {
 
         {/* 6. TESTIMONIALS */}
         <FadeIn>
-          <section style={{ padding: '6rem 2rem', background: 'var(--bg-primary)' }}>
+          <section style={{ padding: '6rem 2rem', background: 'transparent' }}>
             <div className={styles.container}>
               <h2 style={{
                 fontSize: 'clamp(2rem, 4vw, 2.75rem)',
@@ -438,7 +438,7 @@ export default function GEOServicePage() {
         <FadeIn>
           <section style={{
             padding: '7rem 2rem',
-            background: 'linear-gradient(180deg, rgba(8,8,22,1) 0%, rgba(12,13,29,1) 100%)',
+            background: 'transparent',
             textAlign: 'center',
             borderTop: '1px solid rgba(139,92,246,0.15)'
           }}>

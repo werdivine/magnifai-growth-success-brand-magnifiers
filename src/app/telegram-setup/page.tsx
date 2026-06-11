@@ -21,7 +21,7 @@ export default function TelegramSetupPage() {
   return (
     <>
       <Header />
-      <main style={{ minHeight: '100vh', background: 'var(--bg-primary)', paddingTop: '90px' }}>
+      <main style={{ minHeight: '100vh', background: 'transparent', paddingTop: '90px' }}>
         <section style={{ maxWidth: '1100px', margin: '0 auto', padding: '2rem' }}>
           <div style={{ marginBottom: '2rem' }}>
             <p style={{ color: '#22d3ee', fontSize: '0.85rem', fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase' }}>Setup Guide</p>

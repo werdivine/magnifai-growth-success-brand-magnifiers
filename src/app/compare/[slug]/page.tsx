@@ -39,7 +39,7 @@ export default async function ComparisonPage({ params }: { params: Promise<{ slu
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
             <Header />
-            <main style={{ minHeight: '100vh', background: 'var(--bg-primary)' }}>
+            <main style={{ minHeight: '100vh', background: 'transparent' }}>
 
                 {/* BREADCRUMB */}
                 <div style={{ padding: '1.5rem 2rem 0', maxWidth: '1000px', margin: '0 auto' }}>

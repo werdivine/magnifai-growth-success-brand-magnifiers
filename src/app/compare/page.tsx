@@ -32,7 +32,7 @@ export default function ComparePage() {
     return (
         <>
             <Header />
-            <main style={{ minHeight: '100vh', background: 'var(--bg-primary)' }}>
+            <main style={{ minHeight: '100vh', background: 'transparent' }}>
 
                 {/* HERO */}
                 <section style={{

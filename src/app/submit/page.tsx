@@ -33,7 +33,7 @@ export default function SubmitToolPage() {
     return (
         <>
             <Header />
-            <main style={{ paddingTop: '80px', minHeight: '100vh', background: 'var(--bg-primary)' }}>
+            <main style={{ paddingTop: '80px', minHeight: '100vh', background: 'transparent' }}>
                 <section style={{
                     padding: '5rem 2rem 3rem',
                     textAlign: 'center',

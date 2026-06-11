@@ -545,7 +545,7 @@ export default function TelegramDashboard() {
                 }
             `}</style>
 
-            <main style={{ minHeight: '100vh', background: 'var(--bg-primary)', paddingTop: '80px', color: '#f8fafc' }}>
+            <main style={{ minHeight: '100vh', background: 'transparent', paddingTop: '80px', color: '#f8fafc' }}>
                 <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '2.5rem 1.5rem' }}>
 
                     {/* Mode Toggle Banner */}

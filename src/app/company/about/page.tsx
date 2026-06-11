@@ -27,7 +27,7 @@ export default function AboutPage() {
     return (
         <>
             <Header />
-            <main style={{ paddingTop: '80px', minHeight: '100vh', background: 'var(--bg-primary)' }}>
+            <main style={{ paddingTop: '80px', minHeight: '100vh', background: 'transparent' }}>
                 {/* Hero */}
                 <section style={{
                     padding: '6rem 2rem 5rem',
@@ -117,7 +117,7 @@ export default function AboutPage() {
                         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '1.5rem' }}>
                             {values.map(v => (
                                 <div key={v.title} style={{
-                                    background: 'var(--bg-primary)', border: '1px solid var(--glass-border)',
+                                    background: 'transparent', border: '1px solid var(--glass-border)',
                                     borderRadius: '1rem', padding: '2rem',
                                 }}>
                                     <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>{v.icon}</div>
