@@ -515,12 +515,24 @@
     display: flex;
     flex-direction: column;
     gap: 3.5rem;
+    min-width: 0;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
 }
 
 .showcaseRightColumn {
     display: flex;
     flex-direction: column;
     gap: 3.5rem;
+    min-width: 0;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
 }
 
 /* Circular Metrics */

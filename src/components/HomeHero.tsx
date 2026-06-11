@@ -99,13 +99,14 @@ export default function HomeHero({
                             width: '100%',
                             maxWidth: '1200px',
                             margin: '4rem auto 0',
-                            padding: '2.5rem 2rem',
+                            padding: 'clamp(1.5rem, 5vw, 2.5rem) clamp(1rem, 3vw, 2rem)',
                             borderRadius: '24px',
                             display: 'flex',
                             flexDirection: 'column',
                             alignItems: 'center',
                             gap: '1.5rem',
-                            overflow: 'hidden'
+                            overflow: 'hidden',
+                            boxSizing: 'border-box'
                         }}
                     >
                         {/* Background glow orb for the tools band */}
