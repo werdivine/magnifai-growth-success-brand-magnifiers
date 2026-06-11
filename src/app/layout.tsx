@@ -87,7 +87,10 @@ export default function RootLayout({
                     }}
                 />
                 <ThemeProvider>
-                    {children}
+                    <div className="global-fixed-wave"></div>
+                    <main style={{ overflowX: 'hidden', width: '100%', position: 'relative', minHeight: '100vh' }}>
+                        {children}
+                    </main>
                     <WhatsAppChatWidget />
                 </ThemeProvider>
             </body>
